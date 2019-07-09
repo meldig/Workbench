@@ -1,0 +1,109 @@
+Fiche méthodologique n°1 : Création d'un carroyage dans une table Oracle
+========================================================================
+
+** * Eléments à disposition : **
+--------------------------
+
+	* QGIS ;
+	* FME ;
+	* Oracle ;
+	* \batzella.lmcu.fr\modeles3D\2019\2019_haubourdin_le_parc\orthophotos\2019_06_14_haubourdin_le_parc_ortho_3cm_pix_l93.tif ;
+	* O:\Code\schema_geo\FME\insert_lines_shp_into_oracle_table.fmw
+
+** * Procédure : **
+-------------
+
+	1. Création d'une table dans Oracle ;
+	1. Création d'un carroyage dans QGIS ;
+	1. Insertion du carroyage (shape) dans la table Oracle ;
+
+** * Description de la méthode : **
+-----------------------------
+
+** 1. Création d'une table dans Oracle **
+-----------------------------------
+
+	1. Dans SQL Developper, copier-coller la requête suivante dans une feuille de calcul SQL et lancez-le : 
+
+	-- Création de la table
+	CREATE TABLE 
+	    GEO."TA_CARROYAGE"(
+	      "OBJECTID" NUMBER(38,0) NOT NULL ENABLE,
+	        "ETAT" VARCHAR2(50),
+	      "GEOM" MDSYS.SDO_GEOMETRY NOT NULL,
+	    CONSTRAINT "PK_TA_CARROYAGE" PRIMARY KEY ("OBJECTID")
+	    USING INDEX TABLESPACE "INDX_GEO" ENABLE
+	    );
+
+	-- Création des commentaires
+	COMMENT ON COLUMN "GEO"."TA_CARROYAGE"."OBJECTID" IS 'Identifiant des polygones du carroyage';
+	   COMMENT ON COLUMN "GEO"."TA_CARROYAGE"."GEOM" IS 'Géométrie (polygone) de chaque objet du carroyage';
+	   COMMENT ON COLUMN "GEO"."TA_CARROYAGE"."ETAT" IS 'Etat d''avancement du décompte des voitures et des places de parking vacantes par polygone du carroyage';
+	   COMMENT ON TABLE "GEO"."TA_CARROYAGE"  IS 'Table contenant le carroyage servant à compter les voitures et les places de parking vacantes';
+
+	-- Mise à jour de la vue USER_SDO_GEOM_METADATA
+	INSERT INTO USER_SDO_GEOM_METADATA (TABLE_NAME, COLUMN_NAME, DIMINFO, SRID) VALUES
+	(
+	  'TA_CARROYAGE',
+	  'GEOM',
+	    SDO_DIM_ARRAY(
+	      SDO_DIM_ELEMENT('X', 684000, 721000, 0.05),
+	      SDO_DIM_ELEMENT('Y', 7044000, 7079000, 0.05)
+	    ),
+	    2154
+	);
+
+	-- Création de l'index spatial
+	CREATE INDEX TA_CARROYAGE_SIDX ON GEO.TA_CARROYAGE ("GEOM") 
+	   INDEXTYPE IS MDSYS.SPATIAL_INDEX
+	   PARAMETERS('layer_gtype=MULTIPOINT');
+
+	-- Création de la séquence d'autoincrémentation de l'objectid
+	CREATE SEQUENCE GEO.CARROYAGE_pk_seq 
+	    MINVALUE 1 INCREMENT BY 1 START WITH 1;
+
+	-- Création du trigger appelant la séquence d'autoincrémentation
+	CREATE OR REPLACE TRIGGER GEO.CARROYAGE_seq
+	    BEFORE INSERT ON CARROYAGE
+	    FOR EACH ROW
+	BEGIN
+	    SELECT CARROYAGE_pk_seq.nextval
+	    INTO :new.OBJECTID
+	    FROM dual;
+	END;
+
+	1. Une fois la table créée dans Oracle, désactivez sa clé primaire (Objectid) avec la requête suivante :
+
+	ALTER TABLE
+		TA_CARROYAGE
+	DISABLE 
+		PK_TA_CARROYAGE;
+
+** 1. Création d'un carroyage dans QGIS **
+------------------------------------
+
+	1. Ouvrez un projet qgis vierge ;
+	1. Chargez-y l'orthophotographie "" -> Couche / Ajouter une couche / Raster / (Emplacement du dossier : \\batzella.lmcu.fr\modeles3D\2019\2019_haubourdin_le_parc\orthophotos\	Nom du fichier : 2019_06_14_haubourdin_le_parc_ortho_3cm_pix_l93.tif) ;
+	1. Cliquez sur Vecteur / Outils de recherche / Créer une grille
+	1. Paramétrage de la grille : 
+		* Type de grile : polygone
+		* Etendue de la grille : étendue de la couche (2019_06_14_haubourdin_le_parc_ortho_3cm_pix_l93.tif)
+		* Espacement horizontal : 100 m
+		* Espacement vertical : 100 m
+		* Grit CRS : 2154
+		* Enregistrer vers un fichier shape
+	1. Une fois la couche du carroyage créée, supprimez les champs left, top, right et bottom
+	1. Avec la calculatrice de champ, mettez à jour la colonne id et la renommant en "OBJECTID" et en la remplissant avec la fonction $id (incrémentation automatique de 1)
+	1. Toujours dans la calculatrice de champ, rajoutez le champ "Etat" Integer 1,0
+
+** 1. Insertion du carroyage (shape) dans la table Oracle **
+------------------------------------------------------
+
+	1. Faites fonctionner le fichier "insert_lines_shp_into_oracle_table.fmw" en vous assurant que le fichier source est bon, ainsi que votre connexion au schéma et votre nom de table oracle de sortie ;
+	1. Dans Oracle, vérifiez que les lignes sont biens insérées dans la table ;
+	1. Vérifiez qu'il y a bien autant de lignes dans le shape que dans la table Oracle ;
+	1. Réactivez la contrainte de clé primaire de la table Oracle avec l requête suivante :
+		ALTER TABLE
+		TA_CARROYAGE
+	ENABLE 
+		PK_TA_CARROYAGE;
