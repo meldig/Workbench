@@ -21,26 +21,27 @@
 
 1. **Chargement de la couche dans FME**
 
-	![Reader](./images/fusion_polygones_plans_eau/reader.jpg)
-	1. **Objectif :** charger uniquement les objets valides de type Eau ;
-	1. **Reader** ;
-	1. **Clause where :** "CLA_INU" = 325 AND "GEO_ON_VALIDE" = 0 -> La condition sur le champ CLA_INU permet de ne sélectionner que les polygones de type Eau et celle sur le champ GEO_ON_VALIDE les polygones dont la géométrie est valide ;
-	1. **Spatial Column :** GEOM ;
+![Reader](images/fusion_polygones_plans_eau/reader.jpg)
+
+ 1. **Objectif :** charger uniquement les objets valides de type Eau ;
+ 1. **Reader** ;
+ 1. **Clause where :** "CLA_INU" = 325 AND "GEO_ON_VALIDE" = 0 -> La condition sur le champ CLA_INU permet de ne sélectionner que les polygones de type Eau et celle sur le champ GEO_ON_VALIDE les polygones dont la géométrie est valide ;
+ 1. **Spatial Column :** GEOM ;
 
 1. **Création d'un identifiant unique par objet**
 
-	![CRCCalculator](./images/fusion_polygones_plans_eau/CRCCalculator.jpg)
+![CRCCalculator](images/fusion_polygones_plans_eau/CRCCalculator.jpg)
 
-	1. **Objectif :** créer à l'aide d'un algorithme de cryptage un identifiant unique par objet, qui nous servira à distinguer les objets que l'on veut insérer de ceux à mettre à jour et des autres objets intouchés ;
-	1. **Transformer :** CRCCALCULATOR ;
-	1. **Raison de son placement :** obtenir un identifiant unique des objets avant fusion et des objets créés par la fusion (création automatique pour ces derniers dû à l'utilisation d'un agorithme de cryptage) ;
-	1. **CRC Algorithm :** MD5 -> Type de cryptage ;
-	1. **Calculate CRC on :** Coordinates and Selected Attributes -> afin d'avoir un identifiant unique, uniquement créé à partir de leur géométrie, pour les objets issus de la fusion ;
-	1. **CRC Output Attribute :** crc -> nom du nouveau champ contenant les identifiants des objets ;
+ 1. **Objectif :** créer à l'aide d'un algorithme de cryptage un identifiant unique par objet, qui nous servira à distinguer les objets que l'on veut insérer de ceux à mettre à jour et des autres objets intouchés ;
+ 1. **Transformer :** CRCCALCULATOR ;
+ 1. **Raison de son placement :** obtenir un identifiant unique des objets avant fusion et des objets créés par la fusion (création automatique pour ces derniers dû à l'utilisation d'un agorithme de cryptage) ;
+ 1. **CRC Algorithm :** MD5 -> Type de cryptage ;
+ 1. **Calculate CRC on :** Coordinates and Selected Attributes -> afin d'avoir un identifiant unique, uniquement créé à partir de leur géométrie, pour les objets issus de la fusion ;
+ 1. **CRC Output Attribute :** crc -> nom du nouveau champ contenant les identifiants des objets ;
 
 1. **Suppression des espaces entre polygones adjacents**
 
-	![AreaGapAndOverlapCleaner](./images/fusion_polygones_plans_eau/AreaGapAndOverlapCleaner.jpg)
+	![AreaGapAndOverlapCleaner](images/fusion_polygones_plans_eau/AreaGapAndOverlapCleaner.jpg)
 
 	1. **Objectif :** Combler les espaces entre les polygones, s'il y en a, afin de pouvoir les fusionner ;
 	1. **Transformer :** AreaGapAndOverlapCleaner ;
@@ -56,7 +57,7 @@
 
 1. **Fusion des polygones**
 
-	![Dissolver](./images/fusion_polygones_plans_eau/Dissolver.jpg)
+	![Dissolver](images/fusion_polygones_plans_eau/Dissolver.jpg)
 
 	1. **Objectif :** Fusionner les polygones adjacents, afin d'obtenir un seul polygone par plan d'eau (et non un plan d'eau composé de plusieurs polygones et divisé par les limites communales) ;
 	1. **Transformer :** Dissolver ;
@@ -67,7 +68,7 @@
 	1. **Accumulation Mode :** Use Attributes From One Feature (pas d'utilité particulière dans notre cas) ;
 
 1. **Vérification de la validité des géométries créées**
-![GeometryValidator](./images/fusion_polygones_plans_eau/GeometryValidator.jpg)
+![GeometryValidator](images/fusion_polygones_plans_eau/GeometryValidator.jpg)
 
  1. **Objectif :** Vérifier que les géométries produites sont valides ;
  1. **Transformer :** GeometryValidator ;
@@ -81,7 +82,7 @@
 
 1. **Séparation des objets créés des objets ayant servis à la fusion et des objets inchangés**
 
-![ChangeDetector](./images/fusion_polygones_plans_eau/ChangeDetector.jpg)
+![ChangeDetector](images/fusion_polygones_plans_eau/ChangeDetector.jpg)
 
  1. **Objectif :** Différencier les nouveaux polygones issus de la fusion de ceux qui ont servis à la faire et des autres polygones de la table chargée ;
  1. **Transformer :** ChangeDetector ;
@@ -101,7 +102,7 @@
 
 1. **Mise à jour des champs des polygones fusionnés :**
 
-![MAJ_Polygones_fusionnés](./images/fusion_polygones_plans_eau/MAJ_Polygones_fusionnés.jpg)
+![MAJ_Polygones_fusionnés](images/fusion_polygones_plans_eau/MAJ_Polygones_fusionnés.jpg)
 
  1. **Objectif :** Mise à jour attributaire des polygones fusionnés ;
  1. **Transformer :** AttributeManager ;
@@ -113,7 +114,7 @@
 
 1. **Mise à jour de la base Oracle**
 
-![DatabaseUpdater](./images/fusion_polygones_plans_eau/DatabaseUpdater.jpg)
+![DatabaseUpdater](images/fusion_polygones_plans_eau/DatabaseUpdater.jpg)
 
  1. **Objectif :** Mise à jour attributaire des polygones de la base Oracle ayant servi à la fusion, afin de les désactiver ;
  1. **Transformer :** DatabaseUpdater ;
@@ -128,7 +129,7 @@
 
 1. **Insertion des polygones fusionnés dans la base**
 
-![Writer](./images/fusion_polygones_plans_eau/Writer.jpg)
+![Writer](images/fusion_polygones_plans_eau/Writer.jpg)
 
   1. **Objectif :** Insérer uniquement les polygones issus de la fusion dans la table TA_SUR_TOPO_G d'Oracle ;
   1. **Writer** ;
