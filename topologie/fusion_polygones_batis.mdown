@@ -27,7 +27,7 @@
 
 		1. **Chargement de la couche des bâtis dans FME**
 
-		![Reader_TA_SUR_TOPO_G_1](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_1.JPG)
+			![Reader_TA_SUR_TOPO_G_1](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_1.JPG)
 
 			 1. **Objectif :** charger uniquement les objets valides de type Bâti ou Bâti Secondaire ;
 			 1. **Reader** ;
@@ -37,7 +37,7 @@
 
 		1. **Chargement de la couche des communes dans FME**
 
-		![Reader_LM_COMMUNES](images/fusion_polygones_batis/Reader_LM_COMMUNES.JPG)
+			![Reader_LM_COMMUNES](images/fusion_polygones_batis/Reader_LM_COMMUNES.JPG)
 
 			 1. **Objectif :** charger uniquement la commune cible ;
 			 1. **Reader** ;
@@ -49,7 +49,7 @@
 
 		1. **Chargement de la couche des bâtis dans FME**
 
-		![Reader_TA_SUR_TOPO_G_2](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_2.JPG)
+			![Reader_TA_SUR_TOPO_G_2](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_2.JPG)
 
 			 1. **Objectif :** charger uniquement les objets valides de type Bâti ou Bâti Secondaire ;
 			 1. **Reader** ;
@@ -59,7 +59,7 @@
 
 		1. **Chargement de la couche des zones dans FME**
 
-		![Reader_zones](images/fusion_polygones_batis/Reader_zones.JPG)
+			![Reader_zones](images/fusion_polygones_batis/Reader_zones.JPG)
 
 			 1. **Objectif :** charger uniquement la zone cible définie par le photo-interprète ;
 			 1. **Reader** ;
