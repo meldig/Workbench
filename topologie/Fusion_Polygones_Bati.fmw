@@ -16,8 +16,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="7504.91 1974.85"
-#!   DOC_TOP_LEFT="-6423.68 -572.922"
+#!   DOC_EXTENTS="7347.79 2001.26"
+#!   DOC_TOP_LEFT="-7606.72 958.715"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -32,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.1.0.0 (20190530 - Build 19581 - WIN32)"
-#!   LAST_SAVE_DATE="2019-08-26T11:10:54"
+#!   LAST_SAVE_DATE="2019-08-26T16:41:03"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-6486.67 1700.91"
+#!   VIEW_POSITION="-7817.04 3040.21"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="70"
@@ -1117,8 +1117,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="22"
 #!   FEAT_GEOMTYPE="oracle_nil oracle_point oracle_line oracle_area oracle_multipoint oracle_multiline oracle_multipoly oracle_arc oracle_circle oracle_rectangle oracle_collection oracle_surface oracle_solid oracle_multisurface oracle_multisolid"
-#!   POSITION="-6342.9108513307356 822.61594282609497"
-#!   BOUNDING_RECT="-6342.9108513307356 822.61594282609497 582.00106825772946 71"
+#!   POSITION="-7525.9583960918953 2380.667237624757"
+#!   BOUNDING_RECT="-7525.9583960918953 2380.667237624757 582.00106825772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="ORACLE_SPATIAL_1"
@@ -1166,13 +1166,13 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="17"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="84.862353061047457 598.76547448014139"
-#!   BOUNDING_RECT="84.862353061047457 598.76547448014139 628.00106825772946 71"
+#!   POSITION="-1214.2577809974341 2529.9603816673084"
+#!   BOUNDING_RECT="-1214.2577809974341 2529.9603816673084 628.00106825772946 71"
 #!   ORDER="500000000000095"
 #!   COLLAPSED="true"
 #!   KEYWORD="ORACLE_SPATIAL_2"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="OBJECTID" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1239,8 +1239,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="40"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="84.862353061047457 160.71589287321439"
-#!   BOUNDING_RECT="84.862353061047457 160.71589287321439 582.00106825772946 71"
+#!   POSITION="-1214.2577809974341 2121.8679832830076"
+#!   BOUNDING_RECT="-1214.2577809974341 2121.8679832830076 582.00106825772946 71"
 #!   ORDER="500000000000108"
 #!   COLLAPSED="true"
 #!   KEYWORD="ORACLE_SPATIAL_3"
@@ -1312,8 +1312,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="41"
 #!   FEAT_GEOMTYPE="oracle_nil oracle_point oracle_line oracle_area oracle_multipoint oracle_multiline oracle_multipoly oracle_arc oracle_circle oracle_rectangle oracle_collection oracle_surface oracle_solid oracle_multisurface oracle_multisolid"
-#!   POSITION="-6342.9108513307356 1079.899277881668"
-#!   BOUNDING_RECT="-6342.9108513307356 1079.899277881668 553.00106825772946 71"
+#!   POSITION="-7525.9583960918953 2637.9505726803309"
+#!   BOUNDING_RECT="-7525.9583960918953 2637.9505726803309 553.00106825772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="ORACLE_SPATIAL_4"
@@ -1351,7 +1351,7 @@
 #!     <DEFLINE_PARM PARM_NAME="oracle_spatial_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="oracle_sql_encoded" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="oracle_table_settings_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="oracle_where_clause_encoded" PARM_VALUE="&lt;quote&gt;INSEE&lt;quote&gt;&lt;space&gt;=&lt;space&gt;59350"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_where_clause_encoded" PARM_VALUE="&lt;quote&gt;INSEE&lt;quote&gt;&lt;space&gt;=&lt;space&gt;59106"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
@@ -1361,13 +1361,13 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="52"
 #!   FEAT_GEOMTYPE="oracle_nil oracle_point oracle_line oracle_area oracle_multipoint oracle_multiline oracle_multipoly oracle_arc oracle_circle oracle_rectangle oracle_collection oracle_surface oracle_solid oracle_multisurface oracle_multisolid"
-#!   POSITION="-6342.9108513307356 -139.51293401822917"
-#!   BOUNDING_RECT="-6342.9108513307356 -139.51293401822917 582.00106825772946 71"
+#!   POSITION="-7525.9583960918953 1392.1244061646967"
+#!   BOUNDING_RECT="-7525.9583960918953 1392.1244061646967 582.00106825772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="ORACLE_SPATIAL_5"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   HIDDEN_USER_ATTRS=""
 #!   READ_SELECT_ATTRS="true"
 #!   MERGE_FILTER=""
@@ -1410,13 +1410,13 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="53"
 #!   FEAT_GEOMTYPE="oracle_nil oracle_point oracle_line oracle_area oracle_multipoint oracle_multiline oracle_multipoly oracle_arc oracle_circle oracle_rectangle oracle_collection oracle_surface oracle_solid oracle_multisurface oracle_multisolid"
-#!   POSITION="-6342.9108513307356 88.783680614583773"
-#!   BOUNDING_RECT="-6342.9108513307356 88.783680614583773 637.00106825772946 71"
+#!   POSITION="-7525.9583960918953 1620.4210207975093"
+#!   BOUNDING_RECT="-7525.9583960918953 1620.4210207975093 637.00106825772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="ORACLE_SPATIAL_6"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   HIDDEN_USER_ATTRS=""
 #!   READ_SELECT_ATTRS="true"
 #!   MERGE_FILTER=""
@@ -1480,10 +1480,10 @@
 #! <COMMENT
 #!   IDENTIFIER="18"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Chargement des bâtis et bâtis secondaires oracle&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;CLA_INU = 206 ou 806&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;GEO_ON_VALIDE = 0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6386.3140631406304 703.13203132031344"
-#!   TOP_LEFT="-6386.3140631406304 703.13203132031344"
-#!   BOTTOM_RIGHT="-5636.3140631406304 653.13203132031344"
-#!   BOUNDING_RECT="-6386.3140631406304 703.13203132031344 750 50"
+#!   POSITION="-7569.3616079017902 2261.1833261189759"
+#!   TOP_LEFT="-7569.3616079017902 2261.1833261189759"
+#!   BOTTOM_RIGHT="-6819.3616079017902 2211.1833261189759"
+#!   BOUNDING_RECT="-7569.3616079017902 2261.1833261189759 750 50"
 #!   ORDER="500000000000098"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1495,10 +1495,10 @@
 #! <COMMENT
 #!   IDENTIFIER="28"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Création d&apos;un identifiant unique par objet (qui s&apos;incrémentera automatiquement lors d&apos;ajout de données).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-4819.7463773473864 1190.4290209568762"
-#!   TOP_LEFT="-4819.7463773473864 1190.4290209568762"
-#!   BOTTOM_RIGHT="-4097.948105137144 910.42652093187598"
-#!   BOUNDING_RECT="-4819.7463773473864 1190.4290209568762 721.79827221024198 280.00250002500024"
+#!   POSITION="-6123.3308417634562 2744.0159853979485"
+#!   TOP_LEFT="-6123.3308417634562 2744.0159853979485"
+#!   BOTTOM_RIGHT="-5401.5325695532138 2464.0134853729483"
+#!   BOUNDING_RECT="-6123.3308417634562 2744.0159853979485 721.79827221024198 280.00250002500024"
 #!   ORDER="500000000000099"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1510,10 +1510,10 @@
 #! <COMMENT
 #!   IDENTIFIER="29"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Suppression des espaces de 10 cm maximum entre deux deux objets à fusionner ou dont un point seulement est commun.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-4125.0783084442828 128.54222851752331"
-#!   TOP_LEFT="-4125.0783084442828 128.54222851752331"
-#!   BOTTOM_RIGHT="-3375.0783084442828 78.542228517523313"
-#!   BOUNDING_RECT="-4125.0783084442828 128.54222851752331 750 50"
+#!   POSITION="-5272.4112103447296 1758.022809037614"
+#!   TOP_LEFT="-5272.4112103447296 1758.022809037614"
+#!   BOTTOM_RIGHT="-4522.4112103447296 1708.022809037614"
+#!   BOUNDING_RECT="-5272.4112103447296 1758.022809037614 750 50"
 #!   ORDER="500000000000100"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1525,10 +1525,10 @@
 #! <COMMENT
 #!   IDENTIFIER="31"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Fusion des polygones accolés.&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Le plus petit polygone prend le CLA_INU du plus grand.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-3240.9152869104901 72.291666011898258"
-#!   TOP_LEFT="-3240.9152869104901 72.291666011898258"
-#!   BOTTOM_RIGHT="-2510.4417710843782 -151.46027150747693"
-#!   BOUNDING_RECT="-3240.9152869104901 72.291666011898258 730.47351582611191 223.75193751937519"
+#!   POSITION="-4388.2481888109369 1701.7722465319894"
+#!   TOP_LEFT="-4388.2481888109369 1701.7722465319894"
+#!   BOTTOM_RIGHT="-3657.774672984825 1478.0203090126142"
+#!   BOUNDING_RECT="-4388.2481888109369 1701.7722465319894 730.47351582611191 223.75193751937519"
 #!   ORDER="500000000000101"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1540,10 +1540,10 @@
 #! <COMMENT
 #!   IDENTIFIER="32"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Vérification de la validité géométrique des polygones issus de la fusion.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-2392.9256825901616 -154.26741569002991"
-#!   TOP_LEFT="-2392.9256825901616 -154.26741569002991"
-#!   BOTTOM_RIGHT="-1907.1371269268252 -434.26991571503015"
-#!   BOUNDING_RECT="-2392.9256825901616 -154.26741569002991 485.78855566333641 280.00250002500024"
+#!   POSITION="-3567.0445666361438 1475.2131648300608"
+#!   TOP_LEFT="-3567.0445666361438 1475.2131648300608"
+#!   BOTTOM_RIGHT="-3081.2560109728074 1195.2106648050606"
+#!   BOUNDING_RECT="-3567.0445666361438 1475.2131648300608 485.78855566333641 280.00250002500024"
 #!   ORDER="500000000000102"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1555,10 +1555,10 @@
 #! <COMMENT
 #!   IDENTIFIER="33"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Différenciation entre les polygones issus de la fusion et les polygones originels.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1729.1553260714327 1123.8203282032816"
-#!   TOP_LEFT="-1729.1553260714327 1123.8203282032816"
-#!   BOTTOM_RIGHT="-1088.8005705453886 900.0683906839065"
-#!   BOUNDING_RECT="-1729.1553260714327 1123.8203282032816 640.35475552604407 223.75193751937519"
+#!   POSITION="-2898.8098797598245 2681.8716230019445"
+#!   TOP_LEFT="-2898.8098797598245 2681.8716230019445"
+#!   BOTTOM_RIGHT="-2258.4551242337802 2458.1196854825694"
+#!   BOUNDING_RECT="-2898.8098797598245 2681.8716230019445 640.35475552604407 223.75193751937519"
 #!   ORDER="500000000000103"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1570,10 +1570,10 @@
 #! <COMMENT
 #!   IDENTIFIER="34"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Insertion de la date et du nom du créateur des polygones issus de la fusion uniquement.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1068.2102913905976 842.21728995067701"
-#!   TOP_LEFT="-1068.2102913905976 842.21728995067701"
-#!   BOTTOM_RIGHT="-254.71484873578925 618.46535243130188"
-#!   BOUNDING_RECT="-1068.2102913905976 842.21728995067701 813.49544265480836 223.75193751937519"
+#!   POSITION="-2237.8648450789897 2480.6265311859474"
+#!   TOP_LEFT="-2237.8648450789897 2480.6265311859474"
+#!   BOTTOM_RIGHT="-1424.3694024241813 2256.8745936665723"
+#!   BOUNDING_RECT="-2237.8648450789897 2480.6265311859474 813.49544265480836 223.75193751937519"
 #!   ORDER="500000000000104"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1585,10 +1585,10 @@
 #! <COMMENT
 #!   IDENTIFIER="35"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Insertion des données issues de la fusion dans la table TEST_FUSION_BATI du schéma GEO.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="84.862353061047457 855.16728183154828"
-#!   TOP_LEFT="84.862353061047457 855.16728183154828"
-#!   BOTTOM_RIGHT="972.72798124806582 631.41534431217315"
-#!   BOUNDING_RECT="84.862353061047457 855.16728183154828 887.86562818701839 223.75193751937519"
+#!   POSITION="-1214.2577809974341 2786.362189018716"
+#!   TOP_LEFT="-1214.2577809974341 2786.362189018716"
+#!   BOTTOM_RIGHT="-326.39215281041572 2562.6102514993408"
+#!   BOUNDING_RECT="-1214.2577809974341 2786.362189018716 887.86562818701839 223.75193751937519"
 #!   ORDER="500000000000105"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1600,10 +1600,10 @@
 #! <COMMENT
 #!   IDENTIFIER="38"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Désactivation des polygones ayant servi à la fusion : GEO_ON_VALIDE = 1.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="117.68470859311697 -195.19044396793169"
-#!   TOP_LEFT="117.68470859311697 -195.19044396793169"
-#!   BOTTOM_RIGHT="786.09417046551346 -418.94238148730687"
-#!   BOUNDING_RECT="117.68470859311697 -195.19044396793169 668.40946187239649 223.75193751937519"
+#!   POSITION="-1214.2577809974341 1798.5050882254859"
+#!   TOP_LEFT="-1214.2577809974341 1798.5050882254859"
+#!   BOTTOM_RIGHT="-545.84831912503762 1574.7531507061108"
+#!   BOUNDING_RECT="-1214.2577809974341 1798.5050882254859 668.40946187239649 223.75193751937519"
 #!   ORDER="500000000000107"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1615,10 +1615,10 @@
 #! <COMMENT
 #!   IDENTIFIER="42"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Insertion des données issues de la fusion dans la table TA_SUR_TOPO_G du schéma GEO.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="91.796016147678301 416.79484255160003"
-#!   TOP_LEFT="91.796016147678301 416.79484255160003"
-#!   BOTTOM_RIGHT="972.72453496360288 249.29346753784989"
-#!   BOUNDING_RECT="91.796016147678301 416.79484255160003 880.92851881592458 167.50137501375013"
+#!   POSITION="-1214.2577809974341 2400.2685847493399"
+#!   TOP_LEFT="-1214.2577809974341 2400.2685847493399"
+#!   BOTTOM_RIGHT="-333.32926218150953 2232.7672097355899"
+#!   BOUNDING_RECT="-1214.2577809974341 2400.2685847493399 880.92851881592458 167.50137501375013"
 #!   ORDER="500000000000109"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1630,10 +1630,10 @@
 #! <COMMENT
 #!   IDENTIFIER="50"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Chargement de la commune cible.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6386.3140631406304 1288.901777906668"
-#!   TOP_LEFT="-6386.3140631406304 1288.901777906668"
-#!   BOTTOM_RIGHT="-5913.2190544127652 1121.400402892918"
-#!   BOUNDING_RECT="-6386.3140631406304 1288.901777906668 473.09500872786521 167.50137501375013"
+#!   POSITION="-7569.3616079017902 2846.9530727053307"
+#!   TOP_LEFT="-7569.3616079017902 2846.9530727053307"
+#!   BOTTOM_RIGHT="-7096.266599173925 2679.4516976915806"
+#!   BOUNDING_RECT="-7569.3616079017902 2846.9530727053307 473.09500872786521 167.50137501375013"
 #!   ORDER="500000000000115"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1645,10 +1645,10 @@
 #! <COMMENT
 #!   IDENTIFIER="57"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Chargement de la zone cible.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6386.3140631406304 256.07894967838564"
-#!   TOP_LEFT="-6386.3140631406304 256.07894967838564"
-#!   BOTTOM_RIGHT="-5636.3140631406304 206.07894967838564"
-#!   BOUNDING_RECT="-6386.3140631406304 256.07894967838564 750 50"
+#!   POSITION="-7569.3616079017902 1787.7162898613115"
+#!   TOP_LEFT="-7569.3616079017902 1787.7162898613115"
+#!   BOTTOM_RIGHT="-6819.3616079017902 1737.7162898613115"
+#!   BOUNDING_RECT="-7569.3616079017902 1787.7162898613115 750 50"
 #!   ORDER="500000000000116"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1660,10 +1660,10 @@
 #! <COMMENT
 #!   IDENTIFIER="58"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Chargement des bâtis et bâtis secondaires oracle&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;CLA_INU = 206 ou 806&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;GEO_ON_VALIDE = 0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6386.3140631406304 -261.46147999348887"
-#!   TOP_LEFT="-6386.3140631406304 -261.46147999348887"
-#!   BOTTOM_RIGHT="-5636.3140631406304 -311.46147999348887"
-#!   BOUNDING_RECT="-6386.3140631406304 -261.46147999348887 750 50"
+#!   POSITION="-7569.3616079017902 1270.1758601894371"
+#!   TOP_LEFT="-7569.3616079017902 1270.1758601894371"
+#!   BOTTOM_RIGHT="-6819.3616079017902 1220.1758601894371"
+#!   BOUNDING_RECT="-7569.3616079017902 1270.1758601894371 750 50"
 #!   ORDER="500000000000098"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1680,11 +1680,11 @@
 #!   IDENTIFIER="43"
 #!   NAME="Insertion et mise à jour dans les tables oracles"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-37.136578681223114 959.33499017529834"
+#!   TOP_LEFT="-1336.2567127397047 2890.5298973624654"
 #!   ORDER="500000000000110"
 #!   PALETTE_COLOR="Color7"
-#!   BOTTOM_RIGHT="1081.2360107728055 -555.4371019900675"
-#!   BOUNDING_RECT="-37.136578681223114 959.33499017529834 1118.3725894540285 1514.7720921653658"
+#!   BOTTOM_RIGHT="-258.93116074017871 1500.0150001500015"
+#!   BOUNDING_RECT="-1336.2567127397047 2890.5298973624654 1077.3255519995259 1390.5148972124639"
 #!   STICKY="false"
 #!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,1"
 #!   CONTENTS=""
@@ -1694,11 +1694,11 @@
 #!   IDENTIFIER="44"
 #!   NAME="Comblement des espaces entre polygones adjacents + fusion des polygones accolés"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-4190.1460681273475 570.56622153523119"
+#!   TOP_LEFT="-5337.4789700277943 2200.0468020553217"
 #!   ORDER="500000000000111"
 #!   PALETTE_COLOR="Color2"
-#!   BOTTOM_RIGHT="-1872.4145574789086 -471.1108619022699"
-#!   BOUNDING_RECT="-4190.1460681273475 570.56622153523119 2317.7315106484389 1041.6770834375011"
+#!   BOTTOM_RIGHT="-3040.2089735183067 1151.7972322580367"
+#!   BOUNDING_RECT="-5337.4789700277943 2200.0468020553217 2297.2699965094876 1048.2495697972849"
 #!   STICKY="false"
 #!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,1"
 #!   CONTENTS=""
@@ -1708,11 +1708,11 @@
 #!   IDENTIFIER="45"
 #!   NAME="Création automatique d&apos;un identifant / objet"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-4857.5043118103204 1288.901777906668"
+#!   TOP_LEFT="-6161.0887762263901 2842.4887423477403"
 #!   ORDER="500000000000112"
 #!   PALETTE_COLOR="Color9"
-#!   BOTTOM_RIGHT="-4067.565856870217 616.15199485328208"
-#!   BOUNDING_RECT="-4857.5043118103204 1288.901777906668 789.93845494010338 672.74978305338595"
+#!   BOTTOM_RIGHT="-5371.1503212862863 2169.7389592943546"
+#!   BOUNDING_RECT="-6161.0887762263901 2842.4887423477403 789.93845494010338 672.74978305338595"
 #!   STICKY="false"
 #!   COLOUR="0.81568627450980391,0.5607843137254902,0.85882352941176465,1"
 #!   CONTENTS=""
@@ -1722,11 +1722,11 @@
 #!   IDENTIFIER="46"
 #!   NAME="Distinction des polygones à insérer, à mettre à jour ou à créer"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-1761.5503535987741 1228.3108942200531"
+#!   TOP_LEFT="-2940.1335680023444 2786.362189018716"
 #!   ORDER="500000000000113"
 #!   PALETTE_COLOR="Color9"
-#!   BOTTOM_RIGHT="-73.165414193824972 364.58697920312522"
-#!   BOUNDING_RECT="-1761.5503535987741 1228.3108942200531 1688.3849394049491 863.72391501692789"
+#!   BOTTOM_RIGHT="-1383.9424108526798 1727.6958483870553"
+#!   BOUNDING_RECT="-2940.1335680023444 2786.362189018716 1556.1911571496646 1058.6663406316607"
 #!   STICKY="false"
 #!   COLOUR="0.81568627450980391,0.5607843137254902,0.85882352941176465,1"
 #!   CONTENTS=""
@@ -1736,11 +1736,11 @@
 #!   IDENTIFIER="59"
 #!   NAME="Chargement des bâtis et bâtis secondaires par commune"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-6423.6753478645887 1401.9237414596366"
+#!   TOP_LEFT="-7606.7228926257485 2959.975036258299"
 #!   ORDER="500000000000118"
 #!   PALETTE_COLOR="Reader/Writers"
-#!   BOTTOM_RIGHT="-5138.9402782916713 381.94826392708364"
-#!   BOUNDING_RECT="-6423.6753478645887 1401.9237414596366 1284.7350695729174 1019.975477532553"
+#!   BOTTOM_RIGHT="-6321.9878230528311 1939.9995587257461"
+#!   BOUNDING_RECT="-7606.7228926257485 2959.975036258299 1284.7350695729174 1019.975477532553"
 #!   STICKY="false"
 #!   COLOUR="0.83529411764705885,0.71764705882352942,0.58039215686274515,1"
 #!   CONTENTS=""
@@ -1750,11 +1750,11 @@
 #!   IDENTIFIER="60"
 #!   NAME="Chargement des bâtis et bâtis secondaires par zone"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-6419.3350266835996 355.90633684114613"
+#!   TOP_LEFT="-7602.3825714447603 1887.5436770240722"
 #!   ORDER="500000000000119"
 #!   PALETTE_COLOR="Reader/Writers"
-#!   BOTTOM_RIGHT="-5130.2596359296922 -572.92239589062524"
-#!   BOUNDING_RECT="-6419.3350266835996 355.90633684114613 1289.0753907539074 928.82873273177142"
+#!   BOTTOM_RIGHT="-6313.3071806908529 958.71494429230074"
+#!   BOUNDING_RECT="-7602.3825714447603 1887.5436770240722 1289.0753907539074 928.82873273177142"
 #!   STICKY="false"
 #!   COLOUR="0.83529411764705885,0.71764705882352942,0.58039215686274515,1"
 #!   CONTENTS=""
@@ -1766,8 +1766,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="GeometryValidator"
 #!   VERSION="6"
-#!   POSITION="-2392.9256825901616 307.83862259257518"
-#!   BOUNDING_RECT="-2392.9256825901616 307.83862259257518 454 71"
+#!   POSITION="-3567.0445666361438 1937.3192031126662"
+#!   BOUNDING_RECT="-3567.0445666361438 1937.3192031126662 454 71"
 #!   ORDER="500000000000010"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1904,8 +1904,8 @@
 #!   IDENTIFIER="30"
 #!   TYPE="Dissolver"
 #!   VERSION="16"
-#!   POSITION="-3205.2006440497757 368.60311912642942"
-#!   BOUNDING_RECT="-3205.2006440497757 368.60311912642942 448.35263906178886 71"
+#!   POSITION="-4352.5335459502221 1998.0836996465205"
+#!   BOUNDING_RECT="-4352.5335459502221 1998.0836996465205 448.35263906178886 71"
 #!   ORDER="500000000000022"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1950,7 +1950,7 @@
 #!     <XFORM_PARM PARM_NAME="ACCUM_INPUT_ATTRS" PARM_VALUE="Use Attributes From One Feature"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="0.05"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="0.005"/>
 #!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="Ignore"/>
 #!     <XFORM_PARM PARM_NAME="DEAGGREGATE_INPUT" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="DIS_ATTR" PARM_VALUE=""/>
@@ -1970,8 +1970,8 @@
 #!   IDENTIFIER="39"
 #!   TYPE="AttributeManager"
 #!   VERSION="2"
-#!   POSITION="-1068.2102913905976 594.30114412255216"
-#!   BOUNDING_RECT="-1068.2102913905976 594.30114412255216 548.00106825772946 71"
+#!   POSITION="-2237.8648450789897 2232.7103853578219"
+#!   BOUNDING_RECT="-2237.8648450789897 2232.7103853578219 548.00106825772946 71"
 #!   ORDER="500000000000056"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2007,10 +2007,10 @@
 #!   IDENTIFIER="16"
 #!   TYPE="CRCCalculator"
 #!   VERSION="3"
-#!   POSITION="-4819.7463773473864 848.65611989453237"
-#!   BOUNDING_RECT="-4819.7463773473864 848.65611989453237 454 71"
+#!   POSITION="-6123.3308417634562 2402.2430843356046"
+#!   BOUNDING_RECT="-6123.3308417634562 2402.2430843356046 454 71"
 #!   ORDER="500000000000067"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="19581"
 #! >
@@ -2058,8 +2058,8 @@
 #!   IDENTIFIER="24"
 #!   TYPE="ChangeDetector"
 #!   VERSION="3"
-#!   POSITION="-1729.1553260714327 842.21728995067701"
-#!   BOUNDING_RECT="-1729.1553260714327 842.21728995067701 431 71"
+#!   POSITION="-2898.8098797598245 2400.2685847493399"
+#!   BOUNDING_RECT="-2898.8098797598245 2400.2685847493399 431 71"
 #!   ORDER="500000000000079"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2155,8 +2155,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="AreaGapAndOverlapCleaner"
 #!   VERSION="3"
-#!   POSITION="-4125.0783084442828 436.78251147590817"
-#!   BOUNDING_RECT="-4125.0783084442828 436.78251147590817 573.00106825772946 71"
+#!   POSITION="-5272.4112103447296 2066.2630919959993"
+#!   BOUNDING_RECT="-5272.4112103447296 2066.2630919959993 573.00106825772946 71"
 #!   ORDER="500000000000096"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2231,8 +2231,8 @@
 #!   IDENTIFIER="36"
 #!   TYPE="DatabaseUpdater"
 #!   VERSION="0"
-#!   POSITION="117.68470859311697 -51.95984499527539"
-#!   BOUNDING_RECT="117.68470859311697 -51.95984499527539 454 71"
+#!   POSITION="-1214.2577809974341 1941.7356871981424"
+#!   BOUNDING_RECT="-1214.2577809974341 1941.7356871981424 454 71"
 #!   ORDER="500000000000106"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2266,8 +2266,8 @@
 #!   IDENTIFIER="47"
 #!   TYPE="SpatialFilter"
 #!   VERSION="11"
-#!   POSITION="-5633.7368929244858 1028.6561198945324"
-#!   BOUNDING_RECT="-5633.7368929244858 1028.6561198945324 430 71"
+#!   POSITION="-6816.7844376856456 2586.7074146931946"
+#!   BOUNDING_RECT="-6816.7844376856456 2586.7074146931946 430 71"
 #!   ORDER="500000000000114"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2353,8 +2353,8 @@
 #!   IDENTIFIER="54"
 #!   TYPE="SpatialFilter"
 #!   VERSION="11"
-#!   POSITION="-5596.9949229765734 160.48706598177083"
-#!   BOUNDING_RECT="-5596.9949229765734 160.48706598177083 430 71"
+#!   POSITION="-6780.0424677377332 1692.1244061646967"
+#!   BOUNDING_RECT="-6780.0424677377332 1692.1244061646967 430 71"
 #!   ORDER="500000000000114"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2559,7 +2559,7 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="37"
+#!   IDENTIFIER="62"
 #!   SOURCE_NODE="24"
 #!   TARGET_NODE="36"
 #!   SOURCE_PORT_DESC="fo 2 DELETED"
@@ -2567,21 +2567,10 @@
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
-#!   EXTRA_POINTS="-629 214"
+#!   EXTRA_POINTS=""
 #! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
-#! <BREAKPOINT
-#!   FEAT_LINK="37"
-#!   ENABLED="true"
-#!   NAME="ChangeDetector [ChangeDetector] : Deleted -&gt; DatabaseUpdater [DatabaseUpdater] : Input"
-#!   CONDITION=""
-#!   TEST_CLAUSE=""
-#!   BOOL_OP=""
-#!   COMPOSITE_TEST=""
-#!   HITCOUNT=""
-#!   ACTION="BREAK"
-#! />
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! </ATTR_LINKS>
@@ -2620,10 +2609,12 @@ MULTI_READER_GEN_DIRECTIVES{0} INTERACTION_RESULT,<space>=<space><apos>TRUE<apos
 MULTI_READER_TYPE{1} ORACLE_SPATIAL
 MULTI_READER_KEYWORD{1} ORACLE_SPATIAL_4
 MULTI_READER_GEN_DIRECTIVES{1} REMOVE_SCHEMA_QUALIFIER,NO,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CHUNK_SIZE,200,ORACLE_SPATIAL_EXPOSE_FORMAT_ATTRS,,SHOW_SYSTEM_TABLES,NO,PARSE_MAPINFO_SYMBOLOGY,NO,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINY,0,CREATE_FEATURE_TABLES_FROM_DATA,Yes,SERVER_TYPE,ORACLE8i,SEARCH_ENVELOPE_MAXX,0,BEGIN_SQL<opencurly>0<closecurly>,,MAPINFO_SYMBOLOGY_STYLE_COLUMN,,PERSISTENT_CONNECTION,YES,WHERE_CLAUSE_WWJD,,ORACLE_OBJECT_RDR_ADV_PARA,,TABLELIST,GEO.LM_COMMUNES,CLIP_TO_ENVELOPE,NO,USE_SEARCH_ENVELOPE,NO,MAPINFO_SYMBOLOGY_INDEX_COLUMN,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MINX,0,NAMED_CONNECTION,GEO,READ_3D_POLYGON_AS_FACE,NO,INTERACTION,ANYINTERACT,INTERACTION_RESULT,<space>=<space><apos>TRUE<apos>,END_SQL<opencurly>0<closecurly>,,USE_UNIFIED_DATE_ATTRS,YES,_MERGE_SCHEMAS,YES,HANDLE_MULTIPLE_SPATIAL_COLUMNS,NO,WORKSPACE,
-MULTI_READER_TYPE{2} ORACLE_SPATIAL
+MULTI_READER_TYPE{2} NULL
+MULTI_READER_FORMAT{2} ORACLE_SPATIAL
 MULTI_READER_KEYWORD{2} ORACLE_SPATIAL_5
 MULTI_READER_GEN_DIRECTIVES{2} REMOVE_SCHEMA_QUALIFIER,NO,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CHUNK_SIZE,200,ORACLE_SPATIAL_EXPOSE_FORMAT_ATTRS,,SHOW_SYSTEM_TABLES,NO,PARSE_MAPINFO_SYMBOLOGY,NO,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINY,0,CREATE_FEATURE_TABLES_FROM_DATA,Yes,SERVER_TYPE,ORACLE8i,SEARCH_ENVELOPE_MAXX,0,BEGIN_SQL<opencurly>0<closecurly>,,MAPINFO_SYMBOLOGY_STYLE_COLUMN,,PERSISTENT_CONNECTION,YES,WHERE_CLAUSE_WWJD,<lt>quote<gt>CLA_INU<lt>quote<gt><lt>space<gt>IN<lt>openparen<gt>206<lt>comma<gt><lt>space<gt>806<lt>closeparen<gt><lt>space<gt>AND<lt>space<gt><lt>quote<gt>GEO_ON_VALIDE<lt>quote<gt><lt>space<gt>=<lt>space<gt>0,ORACLE_OBJECT_RDR_ADV_PARA,,TABLELIST,GEO.TA_SUR_TOPO_G,CLIP_TO_ENVELOPE,NO,USE_SEARCH_ENVELOPE,NO,MAPINFO_SYMBOLOGY_INDEX_COLUMN,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MINX,0,NAMED_CONNECTION,GEO,READ_3D_POLYGON_AS_FACE,NO,INTERACTION,ANYINTERACT,INTERACTION_RESULT,<space>=<space><apos>TRUE<apos>,END_SQL<opencurly>0<closecurly>,,USE_UNIFIED_DATE_ATTRS,YES,_MERGE_SCHEMAS,YES,HANDLE_MULTIPLE_SPATIAL_COLUMNS,NO,WORKSPACE,
-MULTI_READER_TYPE{3} ORACLE_SPATIAL
+MULTI_READER_TYPE{3} NULL
+MULTI_READER_FORMAT{3} ORACLE_SPATIAL
 MULTI_READER_KEYWORD{3} ORACLE_SPATIAL_6
 MULTI_READER_GEN_DIRECTIVES{3} REMOVE_SCHEMA_QUALIFIER,NO,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CHUNK_SIZE,200,ORACLE_SPATIAL_EXPOSE_FORMAT_ATTRS,,SHOW_SYSTEM_TABLES,NO,PARSE_MAPINFO_SYMBOLOGY,NO,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINY,0,CREATE_FEATURE_TABLES_FROM_DATA,Yes,SERVER_TYPE,ORACLE8i,SEARCH_ENVELOPE_MAXX,0,BEGIN_SQL<opencurly>0<closecurly>,,MAPINFO_SYMBOLOGY_STYLE_COLUMN,,PERSISTENT_CONNECTION,YES,WHERE_CLAUSE_WWJD,,ORACLE_OBJECT_RDR_ADV_PARA,,TABLELIST,GEO.ZONE_FUSION_BATI,CLIP_TO_ENVELOPE,NO,USE_SEARCH_ENVELOPE,NO,MAPINFO_SYMBOLOGY_INDEX_COLUMN,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MINX,0,NAMED_CONNECTION,GEO,READ_3D_POLYGON_AS_FACE,NO,INTERACTION,ANYINTERACT,INTERACTION_RESULT,<space>=<space><apos>TRUE<apos>,END_SQL<opencurly>0<closecurly>,,USE_UNIFIED_DATE_ATTRS,YES,_MERGE_SCHEMAS,YES,HANDLE_MULTIPLE_SPATIAL_COLUMNS,NO,WORKSPACE,
 WRITER_TYPE MULTI_WRITER
@@ -3605,11 +3596,11 @@ MACRO WORKSPACE_NAME Fusion_Polygones_Bati
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ORACLE_SPATIAL ORACLE_SPATIAL_1::GEO.TA_SUR_TOPO_G multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_SPATIAL_1) TO FME_GENERIC ::GEO.TA_SUR_TOPO_G ALIAS_GEOMETRY    ROUTE ORACLE_SPATIAL ORACLE_SPATIAL_4::GEO.LM_COMMUNES multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_SPATIAL_4) TO FME_GENERIC ::GEO.LM_COMMUNES ALIAS_GEOMETRY    ROUTE ORACLE_SPATIAL ORACLE_SPATIAL_5::GEO.TA_SUR_TOPO_G multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_SPATIAL_5) TO FME_GENERIC ::GEO.TA_SUR_TOPO_G ALIAS_GEOMETRY    ROUTE ORACLE_SPATIAL ORACLE_SPATIAL_6::GEO.ZONE_FUSION_BATI multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_SPATIAL_6) TO FME_GENERIC ::GEO.ZONE_FUSION_BATI ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ORACLE_SPATIAL ORACLE_SPATIAL_1::GEO.TA_SUR_TOPO_G multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_SPATIAL_1) TO FME_GENERIC ::GEO.TA_SUR_TOPO_G ALIAS_GEOMETRY    ROUTE ORACLE_SPATIAL ORACLE_SPATIAL_4::GEO.LM_COMMUNES multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_SPATIAL_4) TO FME_GENERIC ::GEO.LM_COMMUNES ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 ORACLE_SPATIAL_1_MERGE_DEF ORACLE_SPATIAL_1::GEO.TA_SUR_TOPO_G EXACT GEO.TA_SUR_TOPO_G DEFLINE oracle_geom_column,GEOM,oracle_where_clause_encoded,<lt>quote<gt>CLA_INU<lt>quote<gt><lt>space<gt>IN<lt>openparen<gt>206<lt>comma<gt><lt>space<gt>806<lt>closeparen<gt><lt>space<gt>AND<lt>space<gt><lt>quote<gt>GEO_ON_VALIDE<lt>quote<gt><lt>space<gt>=<lt>space<gt>0,oracle_envelope_min_x,,oracle_envelope_min_y,,oracle_envelope_max_x,,oracle_envelope_max_y,,oracle_mapinfo_symbology_style_column,,OBJECTID,number<openparen>38<comma>0<closeparen>,CLA_INU,number<openparen>8<comma>0<closeparen>,GEO_REF,varchar2<openparen>13<closeparen>,GEO_INSEE,char<openparen>3<closeparen>,GEO_DV,date,GEO_DF,date,GEO_ON_VALIDE,number<openparen>1<comma>0<closeparen>,GEO_TEXTE,varchar2<openparen>2048<closeparen>,GEO_TYPE,char<openparen>1<closeparen>,GEO_NMN,varchar2<openparen>20<closeparen>,GEO_DS,date,GEO_NMS,varchar2<openparen>20<closeparen>,GEO_DM,date
-ORACLE_SPATIAL_4_MERGE_DEF ORACLE_SPATIAL_4::GEO.LM_COMMUNES EXACT GEO.LM_COMMUNES DEFLINE oracle_geom_column,GEOM,oracle_where_clause_encoded,<lt>quote<gt>INSEE<lt>quote<gt><lt>space<gt>=<lt>space<gt>59350,oracle_envelope_min_x,,oracle_envelope_min_y,,oracle_envelope_max_x,,oracle_envelope_max_y,,oracle_mapinfo_symbology_style_column,,OBJECTID,number<openparen>38<comma>0<closeparen>,INSEE,number,NOM,varchar2<openparen>30<closeparen>,CODE_POSTAL,number<openparen>5<comma>0<closeparen>,UT,varchar2<openparen>50<closeparen>,TERRITOIRE,varchar2<openparen>50<closeparen>,SURFACE,number,PERIMETRE,number,CCODTER,number,NUMCOM,char<openparen>3<closeparen>,NOM_MINUS,varchar2<openparen>50<closeparen>,CCODTER_ENM,varchar2<openparen>4<closeparen>,CCODTER_ENM2,varchar2<openparen>4<closeparen>
-ORACLE_SPATIAL_5_MERGE_DEF ORACLE_SPATIAL_5::GEO.TA_SUR_TOPO_G EXACT GEO.TA_SUR_TOPO_G DEFLINE oracle_envelope_min_x,,oracle_envelope_min_y,,oracle_envelope_max_x,,oracle_envelope_max_y,,oracle_mapinfo_symbology_style_column,,OBJECTID,number<openparen>38<comma>0<closeparen>,CLA_INU,number<openparen>8<comma>0<closeparen>,GEO_REF,varchar2<openparen>13<closeparen>,GEO_INSEE,char<openparen>3<closeparen>,GEO_DV,date,GEO_DF,date,GEO_ON_VALIDE,number<openparen>1<comma>0<closeparen>,GEO_TEXTE,varchar2<openparen>2048<closeparen>,GEO_TYPE,char<openparen>1<closeparen>,GEO_NMN,varchar2<openparen>20<closeparen>,GEO_DS,date,GEO_NMS,varchar2<openparen>20<closeparen>,GEO_DM,date
-ORACLE_SPATIAL_6_MERGE_DEF ORACLE_SPATIAL_6::GEO.ZONE_FUSION_BATI EXACT GEO.ZONE_FUSION_BATI DEFLINE oracle_envelope_min_x,,oracle_envelope_min_y,,oracle_envelope_max_x,,oracle_envelope_max_y,,oracle_mapinfo_symbology_style_column,,OBJECTID,number<openparen>38<comma>0<closeparen>,GEO_DS,date,GEO_NMS,varchar2<openparen>20<closeparen>
+ORACLE_SPATIAL_4_MERGE_DEF ORACLE_SPATIAL_4::GEO.LM_COMMUNES EXACT GEO.LM_COMMUNES DEFLINE oracle_geom_column,GEOM,oracle_where_clause_encoded,<lt>quote<gt>INSEE<lt>quote<gt><lt>space<gt>=<lt>space<gt>59106,oracle_envelope_min_x,,oracle_envelope_min_y,,oracle_envelope_max_x,,oracle_envelope_max_y,,oracle_mapinfo_symbology_style_column,,OBJECTID,number<openparen>38<comma>0<closeparen>,INSEE,number,NOM,varchar2<openparen>30<closeparen>,CODE_POSTAL,number<openparen>5<comma>0<closeparen>,UT,varchar2<openparen>50<closeparen>,TERRITOIRE,varchar2<openparen>50<closeparen>,SURFACE,number,PERIMETRE,number,CCODTER,number,NUMCOM,char<openparen>3<closeparen>,NOM_MINUS,varchar2<openparen>50<closeparen>,CCODTER_ENM,varchar2<openparen>4<closeparen>,CCODTER_ENM2,varchar2<openparen>4<closeparen>
+ORACLE_SPATIAL_5_MERGE_DEF ORACLE_SPATIAL_5::GEO.TA_SUR_TOPO_G EXACT GEO.TA_SUR_TOPO_G
+ORACLE_SPATIAL_6_MERGE_DEF ORACLE_SPATIAL_6::GEO.ZONE_FUSION_BATI EXACT GEO.ZONE_FUSION_BATI
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "GEO.TA_SUR_TOPO_G (ORACLE_SPATIAL_5) Splitter"    INPUT FEATURE_TYPE GEO.TA_SUR_TOPO_G      multi_reader_keyword $(DATASET_KEYWORD_ORACLE_SPATIAL_5)    OUTPUT FEATURE_TYPE GEO.TA_SUR_TOPO_G_ORACLE_SPATIAL_5
@@ -3634,7 +3625,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "CRCCalculator OUTPUT Splitter"   INPUT 
 # -------------------------------------------------------------------------
 FACTORY_DEF * SliverRemovingFactory    FACTORY_NAME AreaGapAndOverlapCleaner    GROUP_BY {  }    FLUSH_WHEN_GROUPS_CHANGE No    INPUT  FEATURE_TYPE CRCCalculator_OUTPUT_0_TtdtKZfh/JY=    ALGORITHM_VERSION 2    REPAIR PriorityAttribute    PRIORITY_ATTR OBJECTID    CLEANING_TOLERANCE 0.1    FILL_LARGE_GAPS No    DEAGGREGATE_INPUT YES    CONNECT_Z_MODE IGNORE_Z    MISSING_VAL_MODE COMPUTE_NANS    COMPUTE_MEASURES_MODE CONTINUOUS    OUTPUT REPAIRED FEATURE_TYPE AreaGapAndOverlapCleaner_REPAIRED
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} PolygonDissolveFactory    FACTORY_NAME Dissolver    INPUT  FEATURE_TYPE AreaGapAndOverlapCleaner_REPAIRED    FLUSH_WHEN_GROUPS_CHANGE No    DEAGGREGATE_INPUT Yes    MODE COMPLETE    CONNECT_Z_MODE IGNORE_Z    CLEANING_TOLERANCE 0.05    ACCUM_INPUT_ATTRS One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    OUTPUT_REMNANTS    OUTPUT POLYGON FEATURE_TYPE Dissolver_AREA
+FACTORY_DEF {*} PolygonDissolveFactory    FACTORY_NAME Dissolver    INPUT  FEATURE_TYPE AreaGapAndOverlapCleaner_REPAIRED    FLUSH_WHEN_GROUPS_CHANGE No    DEAGGREGATE_INPUT Yes    MODE COMPLETE    CONNECT_Z_MODE IGNORE_Z    CLEANING_TOLERANCE 0.005    ACCUM_INPUT_ATTRS One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    OUTPUT_REMNANTS    OUTPUT POLYGON FEATURE_TYPE Dissolver_AREA
 # -------------------------------------------------------------------------
 FACTORY_DEF * GeometryValidationFactory    FACTORY_NAME GeometryValidator    INPUT  FEATURE_TYPE Dissolver_AREA    ISSUE_ATTR_NAME "_issues"    REPAIR_MODE    VALIDATION_ISSUE TYPE_REPAIR CONNECT_Z_MODE]IGNORE_Z]ARC_ENDPOINT_TOLERANCE_MODE]Auto]ARC_ENDPOINT_TOLERANCE]<Unused>     VALIDATION_ISSUE SURFACE_ORIENTATION      VALIDATION_ISSUE NULL_REMOVAL      VALIDATION_ISSUE SELF_INTERSECTING CHECK_HOLE_TOUCHING_POLYGON]No]CONNECT_Z_MODE_SI]IGNORE_Z]SELF_INTERSECTION_TOLERANCE]Automatic    REJECT_INVALID Yes    OUTPUT VALID FEATURE_TYPE GeometryValidator_PASSED
 # -------------------------------------------------------------------------
@@ -3657,7 +3648,5 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-ORACLE_SPATIAL_2_DEF GEO.TEST_FUSION_BATI   oracle_drop_table            ""   oracle_truncate_table        ""   oracle_table_writer_mode     ""   oracle_update_key_columns    ""   oracle_create_table          ""   oracle_default_contains_measures ""   oracle_default_geom_column   ""   oracle_force_geom_updates    ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   oracle_model                 object   oracle_create_indices        no   oracle_srid                  2154   oracle_geom_column           GEOM   OBJECTID                     number(38,0)   CLA_INU                      number(8,0)   GEO_REF                      varchar2(13)   GEO_INSEE                    char(3)   GEO_DV                       date   GEO_DF                       date   GEO_ON_VALIDE                number(1,0)   GEO_TEXTE                    varchar2(2048)   GEO_TYPE                     char(1)   GEO_NMN                      varchar2(20)   GEO_DS                       date   GEO_NMS                      varchar2(20)   GEO_DM                       date
 # -------------------------------------------------------------------------
 ORACLE_SPATIAL_3_DEF GEO.TA_SUR_TOPO_G   oracle_drop_table            ""   oracle_truncate_table        ""   oracle_table_writer_mode     ""   oracle_update_key_columns    ""   oracle_create_table          ""   oracle_default_contains_measures ""   oracle_default_geom_column   ""   oracle_force_geom_updates    ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   oracle_model                 object   oracle_create_indices        no   oracle_srid                  2154   oracle_geom_column           GEOM   OBJECTID                     number(38,0)   CLA_INU                      number(8,0)   GEO_REF                      varchar2(13)   GEO_INSEE                    char(3)   GEO_DV                       date   GEO_DF                       date   GEO_ON_VALIDE                number(1,0)   GEO_TEXTE                    varchar2(2048)   GEO_TYPE                     char(1)   GEO_NMN                      varchar2(20)   GEO_DS                       date   GEO_NMS                      varchar2(20)   GEO_DM                       date
