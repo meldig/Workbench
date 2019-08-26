@@ -29,11 +29,11 @@
 
 		![Reader_TA_SUR_TOPO_G_1](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_1.JPG)
 
-			 1. **Objectif :** charger uniquement les objets valides de type Bâti ou Bâti Secondaire ;
-			 1. **Reader** ;
-			 1. **Table :** TA_SUR_TOPO_G ;
-			 1. **Clause where :** "CLA_INU" IN(206, 806) AND "GEO_ON_VALIDE" = 0 -> La condition sur le champ CLA_INU permet de ne sélectionner que les polygones de type Bâti et Bâti Secondaire et celle sur le champ GEO_ON_VALIDE les polygones dont la géométrie est valide ;
-			 1. **Spatial Column :** GEOM ;
+			 1.**Objectif :** charger uniquement les objets valides de type Bâti ou Bâti Secondaire ;
+			 1.**Reader** ;
+			 1.**Table :** TA_SUR_TOPO_G ;
+			 1.**Clause where :** "CLA_INU" IN(206, 806) AND "GEO_ON_VALIDE" = 0 -> La condition sur le champ CLA_INU permet de ne sélectionner que les polygones de type Bâti et Bâti Secondaire et celle sur le champ GEO_ON_VALIDE les polygones dont la géométrie est valide ;
+			 1.**Spatial Column :** GEOM ;
 
 		1. **Chargement de la couche des communes dans FME**
 
