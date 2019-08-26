@@ -17,6 +17,8 @@
 1. Mise à jour des données attributaires des objets ayant servis à la fusion ;
 1. Insertion des objets issus de la fusion dans la base ;
 
+![Workbench_complet](images/fusion_polygones_batis/Workbench_complet)
+
 ## Explications du processus de fusion :
 
 1. **Sélection des Bâtis et Bâtis secondaires** ;
@@ -25,7 +27,7 @@
 
 		1. **Chargement de la couche des bâtis dans FME**
 
-		![Reader]()
+		![Reader_TA_SUR_TOPO_G_1](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_1)
 
 			 1. **Objectif :** charger uniquement les objets valides de type Bâti ou Bâti Secondaire ;
 			 1. **Reader** ;
@@ -35,7 +37,7 @@
 
 		1. **Chargement de la couche des communes dans FME**
 
-		![Reader]()
+		![Reader_LM_COMMUNES](images/fusion_polygones_batis/Reader_LM_COMMUNES)
 
 			 1. **Objectif :** charger uniquement la commune cible ;
 			 1. **Reader** ;
@@ -43,25 +45,11 @@
 			 1. **Clause where :** "INSEE" = "..." -> La condition sur le champ INSEE permet de ne sélectionner que le polygone correspondant à la commune cible ;
 			 1. **Spatial Column :** GEOM ;
 
-		 1. **Sélection de tous les Bâtis et Bâtis Secondaires contenus dans la commune cible**
-
-		![CRCCalculator]()
-
-			 1. **Objectif :** Sélectionner uniquement les bâtis ou bâtis secondaires présents à l'intérieur de la commune cible ;
-			 1. **Transformer :** SpatialFilter ;
-			 1. **Group By Mode :** Process At End (Blocking);
-			 1. **Filter Type :** Multiple Filters -> le transformer attend le chargement de toutes les données avant de les filtrer ;
-			 1. **Pass Criteria :** Pass Against One Filter -> les données candidates sont filtrées par rapport à une et une seule donnée filtre (commune) ;
-			 1. **Support Mode :** Support Aggregates -> tous types de géométries sont acceptés en entrée ;
-			 1. **Spatial Predicates To Test :** "Filter Intersects Candidate" "Filter Contains Candidate" -> sélection de tous les bâtis vérifiant cette condition ;
-			1. **Use Bouding Box :** No -> Utilisation des véritables coordonnées des données candidates (bâtis/bâtis secondaires) ;
-			1. **Curve Boundary Rule :** Default Rule ;
-
 	1. Sélection par zone :
 
 		1. **Chargement de la couche des bâtis dans FME**
 
-		![Reader]()
+		![Reader_TA_SUR_TOPO_G_2](images/fusion_polygones_batis/Reader_TA_SUR_TOPO_G_2)
 
 			 1. **Objectif :** charger uniquement les objets valides de type Bâti ou Bâti Secondaire ;
 			 1. **Reader** ;
@@ -71,7 +59,7 @@
 
 		1. **Chargement de la couche des zones dans FME**
 
-		![Reader]()
+		![Reader_zones](images/fusion_polygones_batis/Reader_zones)
 
 			 1. **Objectif :** charger uniquement la zone cible définie par le photo-interprète ;
 			 1. **Reader** ;
@@ -79,23 +67,23 @@
 			 1. **Clause where :** "OBJECTID" = ... -> La condition sur le champ OBJECTID permet de ne sélectionner que le polygone correspondant à la zone cible ;
 			 1. **Spatial Column :** GEOM ;
 
-		1. **Sélection de tous les Bâtis et Bâtis Secondaires contenus dans la zone cible**
+1. **Sélection de tous les Bâtis et Bâtis Secondaires contenus dans la zone cible**
 
-		![CRCCalculator]()
+![SpatialFilter](images/fusion_polygones_batis/SpatialFilter)
 
-		 1. **Objectif :** Sélectionner uniquement les bâtis ou bâtis secondaires présents à l'intérieur de la zone cible ;
-		 1. **Transformer :** SpatialFilter ;
-		 1. **Group By Mode :** Process At End (Blocking);
-		 1. **Filter Type :** Multiple Filters -> le transformer attend le chargement de toutes les données avant de les filtrer ;
-		 1. **Pass Criteria :** Pass Against One Filter -> les données candidates sont filtrées par rapport à une et une seule donnée filtre (zone) ;
-		 1. **Support Mode :** Support Aggregates -> tous types de géométries sont acceptés en entrée ;
-		 1. **Spatial Predicates To Test :** "Filter Intersects Candidate" "Filter Contains Candidate" -> sélection de tous les bâtis vérifiant cette condition ;
-		1. **Use Bouding Box :** No -> Utilisation des véritables coordonnées des données candidates (bâtis/bâtis secondaires) ;
-		1. **Curve Boundary Rule :** Default Rule ;
+ 1. **Objectif :** Sélectionner uniquement les bâtis ou bâtis secondaires présents à l'intérieur de la zone cible ;
+ 1. **Transformer :** SpatialFilter ;
+ 1. **Group By Mode :** Process At End (Blocking);
+ 1. **Filter Type :** Multiple Filters -> le transformer attend le chargement de toutes les données avant de les filtrer ;
+ 1. **Pass Criteria :** Pass Against One Filter -> les données candidates sont filtrées par rapport à une et une seule donnée filtre (zone / commune) ;
+ 1. **Support Mode :** Support Aggregates -> tous types de géométries sont acceptés en entrée ;
+ 1. **Spatial Predicates To Test :** "Filter Intersects Candidate" "Filter Contains Candidate" -> sélection de tous les bâtis vérifiant cette condition ;
+1. **Use Bouding Box :** No -> Utilisation des véritables coordonnées des données candidates (bâtis/bâtis secondaires) ;
+1. **Curve Boundary Rule :** Default Rule ;
 
 1. **Création d'un identifiant unique par Bâtis et Bâtis secondaires**
 
-![CRCCalculator]()
+![CRCCalculator](images/fusion_polygones_batis/CRCCalculator)
 
  1. **Objectif :** créer à l'aide d'un algorithme de cryptage un identifiant unique par objet, qui nous servira à distinguer les objets que l'on veut insérer de ceux à mettre à jour et des autres objets intouchés ;
  1. **Transformer :** CRCCALCULATOR ;
@@ -106,7 +94,7 @@
 
 1. **Suppression des espaces entre polygones adjacents**
 
-	![AreaGapAndOverlapCleaner]()
+	![AreaGapAndOverlapCleaner](images/fusion_polygones_batis/AreaGapAndOverlapCleaner)
 
 	1. **Objectif :** Combler les espaces entre les polygones, s'il y en a, afin de pouvoir les fusionner ;
 	1. **Transformer :** AreaGapAndOverlapCleaner ;
@@ -122,7 +110,7 @@
 
 1. **Fusion des polygones**
 
-	![Dissolver]()
+	![Dissolver](images/fusion_polygones_batis/Dissolver)
 
 	1. **Objectif :** Fusionner les polygones adjacents, afin d'obtenir un seul polygone (et non deux polygones accolés) ;
 	1. **Transformer :** Dissolver ;
@@ -133,7 +121,7 @@
 	1. **Accumulation Mode :** Use Attributes From One Feature (conserve les attributs du plus grand polygone uniquement) ;
 
 1. **Vérification de la validité des géométries créées**
-![GeometryValidator]()
+![GeometryValidator](images/fusion_polygones_batis/GeometryValidator)
 
  1. **Objectif :** Vérifier que les géométries produites sont valides ;
  1. **Transformer :** GeometryValidator ;
@@ -147,7 +135,7 @@
 
 1. **Séparation des objets créés des objets ayant servis à la fusion et des objets inchangés**
 
-![ChangeDetector]()
+![ChangeDetector](images/fusion_polygones_batis/ChangeDetector)
 
  1. **Objectif :** Différencier les nouveaux polygones issus de la fusion de ceux qui ont servis à la faire et des autres polygones de la table chargée ;
  1. **Transformer :** ChangeDetector ;
@@ -167,7 +155,7 @@
 
 1. **Mise à jour des champs des polygones fusionnés :**
 
-![MAJ_Polygones_fusionnés]()
+![AttributManager](images/fusion_polygones_batis/AttributManager)
 
  1. **Objectif :** Mise à jour attributaire des polygones fusionnés ;
  1. **Transformer :** AttributeManager ;
@@ -176,24 +164,26 @@
   * GEO_NMS : 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion** -> Exemple : bjacq ;
   * GEO_DS : DateTime(local) -> insertion de la date du jour de création de la donnée ;
 
-1. **Mise à jour de la base Oracle**
+1. **Insertion des polygones fusionnés dans la table de comparaison**
 
-![DatabaseUpdater]()
+![Writer_TEST_FUSION_BATI](images/fusion_polygones_batis/Writer_TEST_FUSION_BATI)
 
- 1. **Objectif :** Mise à jour attributaire des polygones de la base Oracle ayant servi à la fusion, afin de les désactiver ;
- 1. **Transformer :** DatabaseUpdater ;
- 1. **Database To Update :**
-  * Format : Oracle Spatial Object ;
-  * Connexion : GEO (CUDL) ;
- 1. **Parameters :**
-  * Table : GEO.TA_SUR_TOPO_G ;
-  * Condition : Match Column(s) ;
-  * Match On : OBJECTID (de la base) = OBJECTID (des données à MAJ) ;
-  * Columns to Update : GEO_ON_VALIDE = 1 | GEO_DM = DateTime(local) | GEO_NMN = 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion**-> la mise à jour des champs GEO_DM et GEO_NMN permet de sélectionner tous les polygones ayant servi à la fusion, une fois celle-ci effectuée ;
+  1. **Objectif :** Insérer uniquement les polygones issus de la fusion dans la table TEST_FUSION_BATI d'Oracle ;
+  1. **Writer** ;
+  1. **General :**
+   * Table Name : TEST_FUSION_BATI ;
+   * Table Qualifier : GEO (CUDL) ;
+   * Writer : GEO [ORACLE_SPATIAL] - 2 ;
+  1. **Table - General :**
+   * Feature Operation : Insert ;
+   * Table Handling : Use Existing ;
+  1. **Table - Spatial :**
+   * Spatial Column : GEOM ;
+   * Spatial SRID : 2154 ;
 
 1. **Insertion des polygones fusionnés dans la base**
 
-![Writer]()
+![Writer_TA_SUR_TOPO_G](images/fusion_polygones_batis/Writer_TA_SUR_TOPO_G)
 
   1. **Objectif :** Insérer uniquement les polygones issus de la fusion dans la table TA_SUR_TOPO_G d'Oracle ;
   1. **Writer** ;
@@ -208,22 +198,20 @@
    * Spatial Column : GEOM ;
    * Spatial SRID : 2154 ;
 
-1. **Insertion des polygones fusionnés dans la table de comparaison**
+1. **Mise à jour de la base Oracle**
 
-![Writer]()
+![DatabaseUpdater](images/fusion_polygones_batis/DatabaseUpdater)
 
-  1. **Objectif :** Insérer uniquement les polygones issus de la fusion dans la table TEST_FUSION_BATI d'Oracle ;
-  1. **Writer** ;
-  1. **General :**
-   * Table Name : TEST_FUSION_BATI ;
-   * Table Qualifier : GEO (CUDL) ;
-   * Writer : GEO [ORACLE_SPATIAL] - 2 ;
-  1. **Table - General :**
-   * Feature Operation : Insert ;
-   * Table Handling : Use Existing ;
-  1. **Table - Spatial :**
-   * Spatial Column : GEOM ;
-   * Spatial SRID : 2154 ;
+ 1. **Objectif :** Mise à jour attributaire des polygones de la base Oracle ayant servi à la fusion, afin de les désactiver ;
+ 1. **Transformer :** DatabaseUpdater ;
+ 1. **Database To Update :**
+  * Format : Oracle Spatial Object ;
+  * Connexion : GEO (CUDL) ;
+ 1. **Parameters :**
+  * Table : GEO.TA_SUR_TOPO_G ;
+  * Condition : Match Column(s) ;
+  * Match On : OBJECTID (de la base) = OBJECTID (des données à MAJ) ;
+  * Columns to Update : GEO_ON_VALIDE = 1 | GEO_DM = DateTime(local) | GEO_NMN = 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion**-> la mise à jour des champs GEO_DM et GEO_NMN permet de sélectionner tous les polygones ayant servi à la fusion, une fois celle-ci effectuée ;
 
 ## Après la fusion - Visualisation des données dans SQL Developper:
 
