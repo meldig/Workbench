@@ -151,7 +151,7 @@
 		* Lenient Geometry Matching : Yes ;
 		* Check Coordinate Systems : No ;
 		* Vector Tolerance : 0 ;
-	 1. **Advanced Output Options : **
+	 1. **Advanced Output Options :**
 		* Unchanged Output Ports : Output Original ;
 
 1. **Mise à jour des champs des polygones fusionnés :**
