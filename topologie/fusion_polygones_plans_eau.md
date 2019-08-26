@@ -21,23 +21,23 @@
 
 1. **Chargement de la couche dans FME**
 
-![Reader](images/fusion_polygones_plans_eau/reader.JPG)
+	![Reader](images/fusion_polygones_plans_eau/reader.JPG)
 
- 1. **Objectif :** charger uniquement les objets valides de type Eau ;
- 1. **Reader** ;
- 1. **Clause where :** "CLA_INU" = 325 AND "GEO_ON_VALIDE" = 0 -> La condition sur le champ CLA_INU permet de ne sélectionner que les polygones de type Eau et celle sur le champ GEO_ON_VALIDE les polygones dont la géométrie est valide ;
- 1. **Spatial Column :** GEOM ;
+	 1. **Objectif :** charger uniquement les objets valides de type Eau ;
+	 1. **Reader** ;
+	 1. **Clause where :** "CLA_INU" = 325 AND "GEO_ON_VALIDE" = 0 -> La condition sur le champ CLA_INU permet de ne sélectionner que les polygones de type Eau et celle sur le champ GEO_ON_VALIDE les polygones dont la géométrie est valide ;
+	 1. **Spatial Column :** GEOM ;
 
 1. **Création d'un identifiant unique par objet**
 
-![CRCCalculator](images/fusion_polygones_plans_eau/CRCCalculator.JPG)
+	![CRCCalculator](images/fusion_polygones_plans_eau/CRCCalculator.JPG)
 
- 1. **Objectif :** créer à l'aide d'un algorithme de cryptage un identifiant unique par objet, qui nous servira à distinguer les objets que l'on veut insérer de ceux à mettre à jour et des autres objets intouchés ;
- 1. **Transformer :** CRCCALCULATOR ;
- 1. **Raison de son placement :** obtenir un identifiant unique des objets avant fusion et des objets créés par la fusion (création automatique pour ces derniers dû à l'utilisation d'un agorithme de cryptage) ;
- 1. **CRC Algorithm :** MD5 -> Type de cryptage ;
- 1. **Calculate CRC on :** Coordinates and Selected Attributes -> afin d'avoir un identifiant unique, uniquement créé à partir de leur géométrie, pour les objets issus de la fusion ;
- 1. **CRC Output Attribute :** crc -> nom du nouveau champ contenant les identifiants des objets ;
+	1. **Objectif :** créer à l'aide d'un algorithme de cryptage un identifiant unique par objet, qui nous servira à distinguer les objets que l'on veut insérer de ceux à mettre à jour et des autres objets intouchés ;
+	1. **Transformer :** CRCCALCULATOR ;
+	1. **Raison de son placement :** obtenir un identifiant unique des objets avant fusion et des objets créés par la fusion (création automatique pour ces derniers dû à l'utilisation d'un agorithme de cryptage) ;
+	1. **CRC Algorithm :** MD5 -> Type de cryptage ;
+	1. **Calculate CRC on :** Coordinates and Selected Attributes -> afin d'avoir un identifiant unique, uniquement créé à partir de leur géométrie, pour les objets issus de la fusion ;
+	1. **CRC Output Attribute :** crc -> nom du nouveau champ contenant les identifiants des objets ;
 
 1. **Suppression des espaces entre polygones adjacents**
 
@@ -68,81 +68,81 @@
 	1. **Accumulation Mode :** Use Attributes From One Feature (pas d'utilité particulière dans notre cas) ;
 
 1. **Vérification de la validité des géométries créées**
-![GeometryValidator](images/fusion_polygones_plans_eau/GeometryValidator.JPG)
+	![GeometryValidator](images/fusion_polygones_plans_eau/GeometryValidator.JPG)
 
- 1. **Objectif :** Vérifier que les géométries produites sont valides ;
- 1. **Transformer :** GeometryValidator ;
- 1. **Paramètres :** 	
-	* Degenerate or Corrupt Geometries + Edit - Connect Z mode : Ignore ET Segment EndPoint Accuracy Mode : Auto ;
-	* Surface Orientation ;
-	* Contains Null Geometry Parts -> Vérifie qu'il n'y a pas de géométrie nulle ;
-	* Self-Intersections in 2D + Edit - Check Self-Touching Polygon : No (afin de ne pas combler les trous des donuts dont les bords intérieurs touchent les bords extérieurs du polygone) ET Connect Z mode : Ignore;
-	* Tolerance : Automatic ;
- 1. **Attempt Repair :** Yes -> Les réparations sont visualisables dans l'aperçu de FME. Il faudra donc d'abord visualiser les réparations effectuées afin d'évaluer leur pertinence, pour ensuite les insérer dans la base ou un shape. Le chaînage actuel ne sauvegarde pas les données réparées ;
+	 1. **Objectif :** Vérifier que les géométries produites sont valides ;
+	 1. **Transformer :** GeometryValidator ;
+	 1. **Paramètres :** 	
+		* Degenerate or Corrupt Geometries + Edit - Connect Z mode : Ignore ET Segment EndPoint Accuracy Mode : Auto ;
+		* Surface Orientation ;
+		* Contains Null Geometry Parts -> Vérifie qu'il n'y a pas de géométrie nulle ;
+		* Self-Intersections in 2D + Edit - Check Self-Touching Polygon : No (afin de ne pas combler les trous des donuts dont les bords intérieurs touchent les bords extérieurs du polygone) ET Connect Z mode : Ignore;
+		* Tolerance : Automatic ;
+	 1. **Attempt Repair :** Yes -> Les réparations sont visualisables dans l'aperçu de FME. Il faudra donc d'abord visualiser les réparations effectuées afin d'évaluer leur pertinence, pour ensuite les insérer dans la base ou un shape. Le chaînage actuel ne sauvegarde pas les données réparées ;
 
 1. **Séparation des objets créés des objets ayant servis à la fusion et des objets inchangés**
 
-![ChangeDetector](images/fusion_polygones_plans_eau/ChangeDetector.JPG)
+	![ChangeDetector](images/fusion_polygones_plans_eau/ChangeDetector.JPG)
 
- 1. **Objectif :** Différencier les nouveaux polygones issus de la fusion de ceux qui ont servis à la faire et des autres polygones de la table chargée ;
- 1. **Transformer :** ChangeDetector ;
- 1. **Check Attributes :**
-  *  Attribute Matching Strategy : Match Selected Attributes
-  * Selected Attributes : crc ;
- 1. **Attribute Comparisons :**
-  * Differentiate Empty, Missing, and NULL Attributes : No ;  
-  * Check Attribute Types and Encodings : No ;
- 1. **Check Geometry :**
-  * Match Geometry : 2D ;
-  * Lenient Geometry Matching : Yes ;
-  * Check Coordinate Systems : No ;
-  * Vector Tolerance : 0 ;
- 1. **Advanced Output Options : **
-  * Unchanged Output Ports : Output Original ;
+	1. **Objectif :** Différencier les nouveaux polygones issus de la fusion de ceux qui ont servis à la faire et des autres polygones de la table chargée ;
+	1. **Transformer :** ChangeDetector ;
+	1. **Check Attributes :**
+		*  Attribute Matching Strategy : Match Selected Attributes
+		* Selected Attributes : crc ;
+	1. **Attribute Comparisons :**
+		* Differentiate Empty, Missing, and NULL Attributes : No ;  
+		* Check Attribute Types and Encodings : No ;
+	1. **Check Geometry :**
+		* Match Geometry : 2D ;
+		* Lenient Geometry Matching : Yes ;
+		* Check Coordinate Systems : No ;
+		* Vector Tolerance : 0 ;
+	1. **Advanced Output Options :**
+		* Unchanged Output Ports : Output Original ;
 
 1. **Mise à jour des champs des polygones fusionnés :**
 
-![MAJ_Polygones_fusionnés](images/fusion_polygones_plans_eau/MAJ_Polygones_fusionnés.JPG)
+	![MAJ_Polygones_fusionnés](images/fusion_polygones_plans_eau/MAJ_Polygones_fusionnés.JPG)
 
- 1. **Objectif :** Mise à jour attributaire des polygones fusionnés ;
- 1. **Transformer :** AttributeManager ;
- 1. **Parameters :**
-  * CLA_INU = 325 ;
-  * GEO_ON_VALIDE = 0 ;
-  * GEO_NMS : 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion** -> Exemple : bjacq ;
-  * GEO_DS : DateTime(local) -> insérer la date du jour de création de la donnée ;
+	1. **Objectif :** Mise à jour attributaire des polygones fusionnés ;
+	1. **Transformer :** AttributeManager ;
+	1. **Parameters :**
+		* CLA_INU = 325 ;
+		* GEO_ON_VALIDE = 0 ;
+		* GEO_NMS : 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion** -> Exemple : bjacq ;
+		* GEO_DS : DateTime(local) -> insérer la date du jour de création de la donnée ;
 
 1. **Mise à jour de la base Oracle**
 
-![DatabaseUpdater](images/fusion_polygones_plans_eau/DatabaseUpdater.JPG)
+	![DatabaseUpdater](images/fusion_polygones_plans_eau/DatabaseUpdater.JPG)
 
- 1. **Objectif :** Mise à jour attributaire des polygones de la base Oracle ayant servi à la fusion, afin de les désactiver ;
- 1. **Transformer :** DatabaseUpdater ;
- 1. **Database To Update :**
-  * Format : Oracle Spatial Object ;
-  * Connexion : GEO (CUDL) ;
- 1. **Parameters :**
-  * Table : GEO.TA_SUR_TOPO_G ;
-  * Condition : Match Column(s) ;
-  * Match On : OBJECTID (de la base) = OBJECTID (des données à MAJ) | CLA_INU = 325 ;
-  * Columns to Update : GEO_ON_VALIDE = 1 | GEO_DM = DateTime(local) | GEO_NMN = 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion**-> la mise à jour des champs GEO_DM et GEO_NMN permet de sélectionner tous les polygones ayant servi à la fusion, une fois celle-ci effectuée ;
+	1. **Objectif :** Mise à jour attributaire des polygones de la base Oracle ayant servi à la fusion, afin de les désactiver ;
+	1. **Transformer :** DatabaseUpdater ;
+	1. **Database To Update :**
+		* Format : Oracle Spatial Object ;
+		* Connexion : GEO (CUDL) ;
+	1. **Parameters :**
+		* Table : GEO.TA_SUR_TOPO_G ;
+		* Condition : Match Column(s) ;
+		* Match On : OBJECTID (de la base) = OBJECTID (des données à MAJ) | CLA_INU = 325 ;
+		* Columns to Update : GEO_ON_VALIDE = 1 | GEO_DM = DateTime(local) | GEO_NMN = 'nom_de_la_personne_utilisant_le_workbench' **A rentrer à la main AVANT la fusion**-> la mise à jour des champs GEO_DM et GEO_NMN permet de sélectionner tous les polygones ayant servi à la fusion, une fois celle-ci effectuée ;
 
 1. **Insertion des polygones fusionnés dans la base**
 
-![Writer](images/fusion_polygones_plans_eau/Writer.JPG)
+	![Writer](images/fusion_polygones_plans_eau/Writer.JPG)
 
-  1. **Objectif :** Insérer uniquement les polygones issus de la fusion dans la table TA_SUR_TOPO_G d'Oracle ;
-  1. **Writer** ;
-  1. **General :**
-   * Table Name : TA_SUR_TOPO_G ;
-   * Table Qualifier : GEO (CUDL) ;
-   * Writer : GEO [ORACLE_SPATIAL] - 2 ;
-  1. **Table - General :**
-   * Feature Operation : Insert ;
-   * Table Handling : Use Existing ;
-  1. **Table - Spatial :**
-   * Spatial Column : GEOM ;
-   * Spatial SRID : 2154 ;
+	1. **Objectif :** Insérer uniquement les polygones issus de la fusion dans la table TA_SUR_TOPO_G d'Oracle ;
+	1. **Writer** ;
+	1. **General :**
+		* Table Name : TA_SUR_TOPO_G ;
+		* Table Qualifier : GEO (CUDL) ;
+		* Writer : GEO [ORACLE_SPATIAL] - 2 ;
+	1. **Table - General :**
+		* Feature Operation : Insert ;
+		* Table Handling : Use Existing ;
+	1. **Table - Spatial :**
+		* Spatial Column : GEOM ;
+		* Spatial SRID : 2154 ;
 
 ## Après la fusion - Visualisation des données dans SQL Developper:
 
