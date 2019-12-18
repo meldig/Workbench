@@ -1,0 +1,1849 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        "C:\Program Files (x86)\FME_32b\fme.exe" "C:\Users\bjacq\Documents\Projets\Intersection Bati Lidar\insertion_diff_bati_carto_lidar_dans_oracle.fmw"
+#              --SourceDataset_ESRISHAPE_7 "C:\Users\bjacq\Documents\Projets\Intersection Bati Lidar\donnees\v_fin\differences\differences_avec_objectid_plan_gestion\ta_bati_carto_single_uniquement_objectid.shp"
+#              --SourceDataset_ESRISHAPE_8 "C:\Users\bjacq\Documents\Projets\Intersection Bati Lidar\donnees\v_fin\differences\ta_bati_lidar_uniquement.shp"
+#              --DestDataset_ORACLE_SPATIAL_7 "GEO"
+#              --DestDataset_ORACLE_SPATIAL_8 "GEO"
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="2170.12 1881.76"
+#!   DOC_TOP_LEFT="-3520.14 -1932.01"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="19581"
+#!   FME_DOCUMENT_GUID="7214b9b2-5874-47ba-add0-f2d3a0ec9025"
+#!   FME_DOCUMENT_PRIORGUID="204b58fb-33e0-4d01-941d-ae10f35ea769,c0b093eb-7580-48ff-9efb-b4f313a4de30,f6e5d507-63de-43c2-a727-d3dbedff122d,2cc55364-bf2c-4d9b-a180-bd1b308bf9fa,fcaa4c95-83ea-4686-8476-1861c8c6086a,454dc37e-cbb5-4fef-8c8b-1c3f9b221be2,eff59cf7-f776-43c8-afb9-f6c214dd7737,195c8142-9947-489d-8786-d892c4ee7c49,744db4aa-6ff5-4de6-bfcc-0d3009538d81,b323922d-1eba-4fdd-83fc-bfaa873aa447,3cfe5c1d-0f19-47c0-a8f9-7c7da1a52692,2e5933a1-6482-4513-9c83-0859b749399b,6957d2a3-933f-4db4-bfe5-136fde17a42c,f96c8205-97c5-40a9-94a5-1ecd669805b6,66664b58-17bb-41da-88f6-124e7b64135e,5da48361-0920-44d4-8bf7-fdd5b1b234f4"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2019.1.0.0 (20190530 - Build 19581 - WIN32)"
+#!   LAST_SAVE_DATE="2019-12-18T10:12:44"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-4018.79 112.501"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="ESRISHAPE"
+#!   DATASET="$(SourceDataset_ESRISHAPE_7)"
+#!   KEYWORD="ESRISHAPE_3"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_rotation double fme_secondary_axis double fme_sweep_angle double SHAPE_GEOMETRY char(50) fme_color char(50) multi_reader_keyword char(50) fme_basename char(50) fme_dataset char(50) multi_reader_id long shape_geometry_error{} char(254) fme_type char(50) fme_text_size double fme_geometry char(50) shape_measures char(254) fme_text_string char(50) fme_feature_type char(50) fme_primary_axis double fme_fill_color char(50) multi_reader_type char(50) fme_start_angle double multi_reader_full_id long"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="19581"
+#!   COORDSYS="EPSG:2154"
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shape_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="ESRISHAPE"
+#!   DATASET="$(SourceDataset_ESRISHAPE_8)"
+#!   KEYWORD="ESRISHAPE_4"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_rotation double fme_secondary_axis double fme_sweep_angle double SHAPE_GEOMETRY char(50) fme_color char(50) multi_reader_keyword char(50) fme_basename char(50) fme_dataset char(50) multi_reader_id long shape_geometry_error{} char(254) fme_type char(50) fme_text_size double fme_geometry char(50) shape_measures char(254) fme_text_string char(50) fme_feature_type char(50) fme_primary_axis double fme_fill_color char(50) multi_reader_type char(50) fme_start_angle double multi_reader_full_id long"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="19581"
+#!   COORDSYS="EPSG:2154"
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shape_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="ORACLE_SPATIAL"
+#!   DATASET="$(DestDataset_ORACLE_SPATIAL_7)"
+#!   KEYWORD="ORACLE_SPATIAL_4"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="128"
+#!   ATTR_CASE="UPPER_FIRST_ALPHA"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="oracle_drop_table &quot;&quot; oracle_truncate_table &quot;&quot; oracle_table_writer_mode &quot;&quot; oracle_update_key_columns &quot;&quot; oracle_create_table &quot;&quot; oracle_default_contains_measures &quot;&quot; oracle_default_geom_column &quot;&quot; oracle_force_geom_updates &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES oracle_model object oracle_create_indices $(CREATE_SPATIAL_INDEX) oracle_params &quot;$(_ORACLE_SPATIAL_CreationParams)&quot; oracle_srid &quot;$(_ORACLE_SPATIAL_SRID)&quot; oracle_levels $(INDEX_LEVELS) oracle_numtiles $(NUMBER_OF_TILES) oracle_min_x $(SPATIAL_INDEX_MINX) oracle_min_y $(SPATIAL_INDEX_MINY) oracle_min_z $(SPATIAL_INDEX_MINZ) oracle_min_m $(SPATIAL_INDEX_MINM) oracle_max_x $(SPATIAL_INDEX_MAXX) oracle_max_y $(SPATIAL_INDEX_MAXY) oracle_max_z $(SPATIAL_INDEX_MAXZ) oracle_max_m $(SPATIAL_INDEX_MAXM) oracle_x_tol $(_ORACLE_SPATIAL_Tolx) oracle_y_tol $(_ORACLE_SPATIAL_Toly) oracle_z_tol $(_ORACLE_SPATIAL_Tolz) oracle_m_tol $(_ORACLE_SPATIAL_Tolm) oracle_dim $(DIMENSION) oracle_contains_measures $(_ORACLE_SPATIAL_Measures) oracle_geom_column &quot;$(GEOMETRY_COLUMN)&quot; oracle_force_index_creation $(_ORACLE_SPATIAL_ForceIndexCreation) oracle_index_name &quot;$(_ORACLE_SPATIAL_SpatialIndexName)&quot; oracle_sql_encoded &quot;$(_ORACLE_SPATIAL_CustomSQL)&quot; oracle_sequenced_cols &quot;$(_ORACLE_SPATIAL_SequencedColumns)&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type char(50) oracle_srid char(50) geomedia_text_string char(50) geomedia_orient_i float geomedia_rtf_text_string char(50) geomedia_rotation float oracle_rotation float fme_fill_color char(50) oracle_structured_geom char(50) fme_sweep_angle float oracle_orientation float fme_start_angle float fme_secondary_axis float geomedia_orient_j float geomedia_text_font_size integer oracle_type char(50) oracle_radius float fme_text_size float fme_geometry char(50) fme_text_string char(50) oracle_secondary_radius float fme_rotation float oracle_orient_i float geomedia_text_font char(50) geomedia_justification integer oracle_primary_radius float oracle_sweep_angle float fme_basename char(50) oracle_orient_k float geomedia_orient_k float oracle_sdo_point.z float oracle_sdo_point.y float oracle_orient_j float fme_primary_axis float fme_color char(50) fme_type char(50) geomedia_type char(50) oracle_sdo_point.x float fme_dataset char(50) fme_db_operation char(8) oracle_start_angle float"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group,mie_pack%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group oracle_params%oracle_dim%oracle_contains_measures%oracle_ords_group% Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_params Additional CREATE TABLE Clause(s)&quot; &quot;&quot; &quot;GUI WHOLE_LINE ACTIVECHOICE_LOOKUP oracle_dim Yes,3,++oracle_ords_group+FME_DISCLOSURE_OPEN,++oracle_ordz_group+FME_DISCLOSURE_OPEN%No,2,oracle_ordz_group Contains Z Ordinate&quot; 2 &quot;GUI WHOLE_LINE ACTIVECHOICE oracle_contains_measures Yes,++oracle_ords_group+FME_DISCLOSURE_OPEN,++oracle_ordm_group+FME_DISCLOSURE_OPEN%No,oracle_ordm_group Contains Measures&quot; No &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ords_group oracle_ordx_group%oracle_ordy_group%oracle_ordz_group%oracle_ordm_group Extents and Tolerances&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordx_group oracle_min_x%oracle_max_x%oracle_x_tol X Ordinate&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_x Minimum X Ordinate&quot; -180 &quot;GUI WHOLE_LINE FLOAT oracle_max_x Maximum X Ordinate&quot; 180 &quot;GUI WHOLE_LINE FLOAT oracle_x_tol Comparison Tolerance For X Ordinate&quot; 0.05 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordy_group oracle_min_y%oracle_max_y%oracle_y_tol Y Ordinate&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_y Minimum Y Ordinate&quot; -90 &quot;GUI WHOLE_LINE FLOAT oracle_max_y Maximum Y Ordinate&quot; 90 &quot;GUI WHOLE_LINE FLOAT oracle_y_tol Comparison Tolerance For Y Ordinate&quot; 0.05 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordz_group oracle_min_z%oracle_max_z%oracle_z_tol Z Ordinate&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_z Minimum Z Ordinate&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_max_z Maximum Z Ordinate&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_z_tol Comparison Tolerance For Z Ordinate&quot; 0.05 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordm_group oracle_min_m%oracle_max_m%oracle_m_tol Measures&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_m Minimum Measure Value&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_max_m Maximum Measure Value&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_m_tol Comparison Tolerance For Measures&quot; 0.05 &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group oracle_geom_column%oracle_srid%oracle_spatial_index_group Spatial&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_geom_column Spatial Column&quot; GEOM &quot;GUI OPTIONAL WHOLE_LINE INTEGER oracle_srid Spatial SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_spatial_index_group FME_DISCLOSURE_CLOSED%oracle_create_indices%oracle_force_index_creation%oracle_index_name%oracle_levels%oracle_numtiles Spatial Index&quot; &quot;&quot; &quot;GUI WHOLE_LINE ACTIVECHOICE oracle_create_indices yes%no,oracle_force_index_creation,oracle_index_name,oracle_levels,oracle_numtiles Create Spatial Index&quot; no &quot;GUI WHOLE_LINE CHOICE oracle_force_index_creation Yes%No Drop Existing Index&quot; No &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_index_name Spatial Index Name&quot; &quot;&quot; &quot;GUI WHOLE_LINE INTEGER oracle_levels Quadtree Levels (0 For R-Tree)&quot; 0 &quot;GUI WHOLE_LINE INTEGER oracle_numtiles Hybrid Index Numtiles (0 For Fixed Index)&quot; 8 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_advanced_group oracle_sequenced_cols%oracle_sql_encoded Advanced&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_sequenced_cols Sequenced Table Columns&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT_EDIT_SQL_CFG oracle_sql_encoded MODE,SQL SQL Statement (Overrides Feature Operation)&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="BTree Bitmap PrimaryKey Unique"
+#!   ATTR_NAME_INVALID_CHARS=".%&lt;&gt;|: []()?*&apos;&amp;+-/}{\\&quot;"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="DATABASE"
+#!   GENERATE_FME_BUILD_NUM="19581"
+#!   COORDSYS="EPSG:2154"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ORACLE_SPATIAL_OUT_START_TRANSACTION ORACLE_SPATIAL_OUT_CHUNK_SIZE ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL ORACLE_SPATIAL_OUT_BEGIN_SQL{0} ORACLE_SPATIAL_OUT_END_SQL{0} ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="ORACLE_SPATIAL"
+#!   DATASET="$(DestDataset_ORACLE_SPATIAL_8)"
+#!   KEYWORD="ORACLE_SPATIAL_5"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="128"
+#!   ATTR_CASE="UPPER_FIRST_ALPHA"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="oracle_drop_table &quot;&quot; oracle_truncate_table &quot;&quot; oracle_table_writer_mode &quot;&quot; oracle_update_key_columns &quot;&quot; oracle_create_table &quot;&quot; oracle_default_contains_measures &quot;&quot; oracle_default_geom_column &quot;&quot; oracle_force_geom_updates &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES oracle_model object oracle_create_indices $(CREATE_SPATIAL_INDEX) oracle_params &quot;$(_ORACLE_SPATIAL_CreationParams)&quot; oracle_srid &quot;$(_ORACLE_SPATIAL_SRID)&quot; oracle_levels $(INDEX_LEVELS) oracle_numtiles $(NUMBER_OF_TILES) oracle_min_x $(SPATIAL_INDEX_MINX) oracle_min_y $(SPATIAL_INDEX_MINY) oracle_min_z $(SPATIAL_INDEX_MINZ) oracle_min_m $(SPATIAL_INDEX_MINM) oracle_max_x $(SPATIAL_INDEX_MAXX) oracle_max_y $(SPATIAL_INDEX_MAXY) oracle_max_z $(SPATIAL_INDEX_MAXZ) oracle_max_m $(SPATIAL_INDEX_MAXM) oracle_x_tol $(_ORACLE_SPATIAL_Tolx) oracle_y_tol $(_ORACLE_SPATIAL_Toly) oracle_z_tol $(_ORACLE_SPATIAL_Tolz) oracle_m_tol $(_ORACLE_SPATIAL_Tolm) oracle_dim $(DIMENSION) oracle_contains_measures $(_ORACLE_SPATIAL_Measures) oracle_geom_column &quot;$(GEOMETRY_COLUMN)&quot; oracle_force_index_creation $(_ORACLE_SPATIAL_ForceIndexCreation) oracle_index_name &quot;$(_ORACLE_SPATIAL_SpatialIndexName)&quot; oracle_sql_encoded &quot;$(_ORACLE_SPATIAL_CustomSQL)&quot; oracle_sequenced_cols &quot;$(_ORACLE_SPATIAL_SequencedColumns)&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type char(50) oracle_srid char(50) geomedia_text_string char(50) geomedia_orient_i float geomedia_rtf_text_string char(50) geomedia_rotation float oracle_rotation float fme_fill_color char(50) oracle_structured_geom char(50) fme_sweep_angle float oracle_orientation float fme_start_angle float fme_secondary_axis float geomedia_orient_j float geomedia_text_font_size integer oracle_type char(50) oracle_radius float fme_text_size float fme_geometry char(50) fme_text_string char(50) oracle_secondary_radius float fme_rotation float oracle_orient_i float geomedia_text_font char(50) geomedia_justification integer oracle_primary_radius float oracle_sweep_angle float fme_basename char(50) oracle_orient_k float geomedia_orient_k float oracle_sdo_point.z float oracle_sdo_point.y float oracle_orient_j float fme_primary_axis float fme_color char(50) fme_type char(50) geomedia_type char(50) oracle_sdo_point.x float fme_dataset char(50) fme_db_operation char(8) oracle_start_angle float"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group,mie_pack%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group oracle_params%oracle_dim%oracle_contains_measures%oracle_ords_group% Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_params Additional CREATE TABLE Clause(s)&quot; &quot;&quot; &quot;GUI WHOLE_LINE ACTIVECHOICE_LOOKUP oracle_dim Yes,3,++oracle_ords_group+FME_DISCLOSURE_OPEN,++oracle_ordz_group+FME_DISCLOSURE_OPEN%No,2,oracle_ordz_group Contains Z Ordinate&quot; 2 &quot;GUI WHOLE_LINE ACTIVECHOICE oracle_contains_measures Yes,++oracle_ords_group+FME_DISCLOSURE_OPEN,++oracle_ordm_group+FME_DISCLOSURE_OPEN%No,oracle_ordm_group Contains Measures&quot; No &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ords_group oracle_ordx_group%oracle_ordy_group%oracle_ordz_group%oracle_ordm_group Extents and Tolerances&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordx_group oracle_min_x%oracle_max_x%oracle_x_tol X Ordinate&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_x Minimum X Ordinate&quot; -180 &quot;GUI WHOLE_LINE FLOAT oracle_max_x Maximum X Ordinate&quot; 180 &quot;GUI WHOLE_LINE FLOAT oracle_x_tol Comparison Tolerance For X Ordinate&quot; 0.05 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordy_group oracle_min_y%oracle_max_y%oracle_y_tol Y Ordinate&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_y Minimum Y Ordinate&quot; -90 &quot;GUI WHOLE_LINE FLOAT oracle_max_y Maximum Y Ordinate&quot; 90 &quot;GUI WHOLE_LINE FLOAT oracle_y_tol Comparison Tolerance For Y Ordinate&quot; 0.05 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordz_group oracle_min_z%oracle_max_z%oracle_z_tol Z Ordinate&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_z Minimum Z Ordinate&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_max_z Maximum Z Ordinate&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_z_tol Comparison Tolerance For Z Ordinate&quot; 0.05 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_ordm_group oracle_min_m%oracle_max_m%oracle_m_tol Measures&quot; &quot;&quot; &quot;GUI WHOLE_LINE FLOAT oracle_min_m Minimum Measure Value&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_max_m Maximum Measure Value&quot; &quot; 0&quot; &quot;GUI WHOLE_LINE FLOAT oracle_m_tol Comparison Tolerance For Measures&quot; 0.05 &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group oracle_geom_column%oracle_srid%oracle_spatial_index_group Spatial&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_geom_column Spatial Column&quot; GEOM &quot;GUI OPTIONAL WHOLE_LINE INTEGER oracle_srid Spatial SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_spatial_index_group FME_DISCLOSURE_CLOSED%oracle_create_indices%oracle_force_index_creation%oracle_index_name%oracle_levels%oracle_numtiles Spatial Index&quot; &quot;&quot; &quot;GUI WHOLE_LINE ACTIVECHOICE oracle_create_indices yes%no,oracle_force_index_creation,oracle_index_name,oracle_levels,oracle_numtiles Create Spatial Index&quot; no &quot;GUI WHOLE_LINE CHOICE oracle_force_index_creation Yes%No Drop Existing Index&quot; No &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_index_name Spatial Index Name&quot; &quot;&quot; &quot;GUI WHOLE_LINE INTEGER oracle_levels Quadtree Levels (0 For R-Tree)&quot; 0 &quot;GUI WHOLE_LINE INTEGER oracle_numtiles Hybrid Index Numtiles (0 For Fixed Index)&quot; 8 &quot;GUI OPTIONAL DISCLOSUREGROUP oracle_advanced_group oracle_sequenced_cols%oracle_sql_encoded Advanced&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT oracle_sequenced_cols Sequenced Table Columns&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT_EDIT_SQL_CFG oracle_sql_encoded MODE,SQL SQL Statement (Overrides Feature Operation)&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="BTree Bitmap PrimaryKey Unique"
+#!   ATTR_NAME_INVALID_CHARS=".%&lt;&gt;|: []()?*&apos;&amp;+-/}{\\&quot;"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="DATABASE"
+#!   GENERATE_FME_BUILD_NUM="19581"
+#!   COORDSYS="EPSG:2154"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ORACLE_SPATIAL_OUT_START_TRANSACTION ORACLE_SPATIAL_OUT_CHUNK_SIZE ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL ORACLE_SPATIAL_OUT_BEGIN_SQL{0} ORACLE_SPATIAL_OUT_END_SQL{0} ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varchar2(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="raw(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="raw(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="nchar(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="nvarchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="clob"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="nclob"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xmltype"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="binary_double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="binary_float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamptz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamptz(width)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestampltz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestampltz(width)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamp(width)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(10,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(19,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_first_feature"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_multiline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_multipoly"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_circle"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_rectangle"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_rectangle"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_point_cloud"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_multisolid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_multisurface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ORACLE_SPATIAL"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="ta_bati_carto_single_uniquement_objectid"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="12"
+#!   FEAT_GEOMTYPE="shape_polygon"
+#!   POSITION="-3428.135236093502 -1197.5096250962506"
+#!   BOUNDING_RECT="-3428.135236093502 -1197.5096250962506 1088.8775370224171 71"
+#!   ORDER="500000000000010"
+#!   COLLAPSED="false"
+#!   KEYWORD="ESRISHAPE_3"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FID_CARTO" ATTR_TYPE="number(11,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="ta_bati_lidar_uniquement"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="14"
+#!   FEAT_GEOMTYPE="shape_polygon"
+#!   POSITION="-3420.1582815828151 -178.74943749437489"
+#!   BOUNDING_RECT="-3420.1582815828151 -178.74943749437489 739.62697451679287 71"
+#!   ORDER="500000000000018"
+#!   COLLAPSED="true"
+#!   KEYWORD="ESRISHAPE_4"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="TEMP_DIFF_CARTO_LIDAR"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="GEO"
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="16"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="-2365.5531255312544 -178.74943749437489"
+#!   BOUNDING_RECT="-2365.5531255312544 -178.74943749437489 754.00106825772946 71"
+#!   ORDER="500000000000026"
+#!   COLLAPSED="false"
+#!   KEYWORD="ORACLE_SPATIAL_4"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="OBJECTID" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FID_LIBELLE" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID_CARTO" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_secondary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_start_angle" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_rotation" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{8}.oracle_primary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{8}.oracle_rotation" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_sweep_angle" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{8}.oracle_secondary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_primary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_spatial_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="USE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_update_geometry" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_contains_measures" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_create_indices" PARM_VALUE="no"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_dim" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_force_index_creation" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_geom_column" PARM_VALUE="GEOM"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_index_name" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_levels" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_m_tol" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_m" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_x" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_y" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_z" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_m" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_x" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_y" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_z" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_numtiles" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordm_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ords_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordx_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordy_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordz_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_params" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_sequenced_cols" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_spatial_index_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_sql_encoded" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_srid" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_x_tol" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_y_tol" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_z_tol" PARM_VALUE="&lt;Unused&gt;"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="TA_DIFF_CARTO_LIDAR"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="GEO"
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="18"
+#!   FEAT_GEOMTYPE="oracle_nil oracle_point oracle_line oracle_area oracle_multipoint oracle_multiline oracle_multipoly oracle_arc oracle_circle oracle_rectangle oracle_collection oracle_surface oracle_solid oracle_multisurface oracle_multisolid"
+#!   POSITION="-2145.0145683927308 -1197.5096250962506"
+#!   BOUNDING_RECT="-2145.0145683927308 -1197.5096250962506 703.00106825772946 71"
+#!   ORDER="500000000000022"
+#!   COLLAPSED="false"
+#!   KEYWORD="ORACLE_SPATIAL_5"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="OBJECTID" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FID_LIBELLE" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID_CARTO" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_secondary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_start_angle" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_rotation" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{8}.oracle_primary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{8}.oracle_rotation" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_sweep_angle" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{8}.oracle_secondary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_geomattr{7}.oracle_primary_radius" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="MATCH_COLUMNS"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_spatial_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_update_geometry" PARM_VALUE="YES"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_contains_measures" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_create_indices" PARM_VALUE="no"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_dim" PARM_VALUE="2"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_force_index_creation" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_geom_column" PARM_VALUE="GEOM"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_index_name" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_levels" PARM_VALUE="0"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_m_tol" PARM_VALUE="0.05"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_m" PARM_VALUE=" 0"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_x" PARM_VALUE="180"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_y" PARM_VALUE="90"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_max_z" PARM_VALUE=" 0"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_m" PARM_VALUE=" 0"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_x" PARM_VALUE="-180"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_y" PARM_VALUE="-90"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_min_z" PARM_VALUE=" 0"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_numtiles" PARM_VALUE="8"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordm_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ords_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordx_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordy_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_ordz_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_params" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_sequenced_cols" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_spatial_index_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_sql_encoded" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_srid" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_x_tol" PARM_VALUE="0.05"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_y_tol" PARM_VALUE="0.05"/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_z_tol" PARM_VALUE="0.05"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET 
+#!   NAME="ESRISHAPE_3"
+#!   OVERRIDE="-ESRISHAPE_3_DATASET"
+#!   DATASET="ESRISHAPE_3/ta_bati_carto_single_uniquement_objectid.shp"
+#! />
+#! <DATASET 
+#!   NAME="ESRISHAPE_4"
+#!   OVERRIDE="-ESRISHAPE_4_DATASET"
+#!   DATASET="ESRISHAPE_4/ta_bati_lidar_uniquement.shp"
+#! />
+#! </READER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE_7 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)donnees\v_fin\differences\differences_avec_objectid_plan_gestion\ta_bati_carto_single_uniquement_objectid.shp"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE_8 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)donnees\v_fin\differences\ta_bati_lidar_uniquement.shp"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED DestDataset_ORACLE_SPATIAL_7 FMT:ORACLE_SPATIAL%FAMILY:Oracle Connection:"
+#!   DEFAULT_VALUE="GEO"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED DestDataset_ORACLE_SPATIAL_8 FMT:ORACLE_SPATIAL%FAMILY:Oracle Connection:"
+#!   DEFAULT_VALUE="GEO"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="7"
+#!   NAME="Insertion des différences de bâti du LiDAR par rapport au Plan de Gestion dans TEMP_DIFF_CARTO_LIDAR "
+#!   DESCRIPTION=""
+#!   TOP_LEFT="-3512.1582815828151 -50.249437494374888"
+#!   ORDER="500000000000020"
+#!   PALETTE_COLOR="Color1"
+#!   BOTTOM_RIGHT="-1350.0135001350013 -937.50937509375092"
+#!   BOUNDING_RECT="-3512.1582815828151 -50.249437494374888 2162.1447814478138 887.25993759937603"
+#!   STICKY="true"
+#!   COLOUR="0.59999999999999998,0.80000000000000004,0.80000000000000004,1"
+#!   CONTENTS="14 16 17 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="8"
+#!   NAME="Insertion des différences de bâti du Plan de Gestion par rapport au LiDAR dans TA_DIFF_CARTO_LIDAR"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="-3520.135236093502 -1069.0096250962506"
+#!   ORDER="500000000000023"
+#!   PALETTE_COLOR="Color2"
+#!   BOTTOM_RIGHT="-1350.0135001350013 -1932.0096250962506"
+#!   BOUNDING_RECT="-3520.135236093502 -1069.0096250962506 2170.1217359585007 862.99999999999989"
+#!   STICKY="true"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,1"
+#!   CONTENTS="18 19 12 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="17"
+#!   SOURCE_NODE="14"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! <ATTR_LINK
+#!   IDENTIFIER="65555"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 37
+GUI IGNORE SourceDataset_ESRISHAPE_3,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_3,ESRISHAPE_IN_ENCODING_ESRISHAPE_3,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_ADVANCED_ESRISHAPE_3,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3,SourceDataset_ESRISHAPE_4,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_4,ESRISHAPE_IN_ENCODING_ESRISHAPE_4,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_ADVANCED_ESRISHAPE_4,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4,DestDataset_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_FME_CONNECTION_GROUP_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_ORACLE_OBJECT_WRT_ADV_PARA_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_4,ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_4,DestDataset_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_FME_CONNECTION_GROUP_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_ORACLE_OBJECT_WRT_ADV_PARA_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_5,ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_5
+DEFAULT_MACRO SourceDataset_ESRISHAPE_7 $(FME_MF_DIR)donnees\v_fin\differences\differences_avec_objectid_plan_gestion\ta_bati_carto_single_uniquement_objectid.shp
+GUI MULTIFILE SourceDataset_ESRISHAPE_7 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO SourceDataset_ESRISHAPE_8 $(FME_MF_DIR)donnees\v_fin\differences\ta_bati_lidar_uniquement.shp
+GUI MULTIFILE SourceDataset_ESRISHAPE_8 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO DestDataset_ORACLE_SPATIAL_7 GEO
+GUI NAMED_DB_CONNECTION_ENCODED DestDataset_ORACLE_SPATIAL_7 FMT:ORACLE_SPATIAL%FAMILY:Oracle Connection:
+DEFAULT_MACRO DestDataset_ORACLE_SPATIAL_8 GEO
+GUI NAMED_DB_CONNECTION_ENCODED DestDataset_ORACLE_SPATIAL_8 FMT:ORACLE_SPATIAL%FAMILY:Oracle Connection:
+INCLUDE [ if {{$(SourceDataset_ESRISHAPE_7)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE_7' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_ESRISHAPE_8)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE_8' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_ORACLE_SPATIAL_7)} == {}} { puts_real {Parameter 'DestDataset_ORACLE_SPATIAL_7' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_ORACLE_SPATIAL_8)} == {}} { puts_real {Parameter 'DestDataset_ORACLE_SPATIAL_8' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} ESRISHAPE
+MULTI_READER_KEYWORD{0} ESRISHAPE_3
+MULTI_READER_GEN_DIRECTIVES{0} GEOMETRY,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINY,0,TRIM_PRECEDING_SPACES,yes,SEARCH_ENVELOPE_MAXX,0,MEASURES_AS_Z,no,UPPER_CASE_ATTR_NAMES,No,REPORT_BAD_GEOMETRY,no,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MAXY,0,DISSOLVE_HOLES,no,ADVANCED,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,EXPOSE_ATTRS_GROUP,,CLIP_TO_ENVELOPE,NO,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MINX,0,_MERGE_SCHEMAS,YES,USE_SEARCH_ENVELOPE,NO
+MULTI_READER_TYPE{1} ESRISHAPE
+MULTI_READER_KEYWORD{1} ESRISHAPE_4
+MULTI_READER_GEN_DIRECTIVES{1} GEOMETRY,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINY,0,TRIM_PRECEDING_SPACES,yes,SEARCH_ENVELOPE_MAXX,0,MEASURES_AS_Z,no,UPPER_CASE_ATTR_NAMES,No,REPORT_BAD_GEOMETRY,no,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MAXY,0,DISSOLVE_HOLES,no,ADVANCED,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,EXPOSE_ATTRS_GROUP,,CLIP_TO_ENVELOPE,NO,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MINX,0,_MERGE_SCHEMAS,YES,USE_SEARCH_ENVELOPE,NO
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} ORACLE_SPATIAL
+MULTI_WRITER_KEYWORD{0} ORACLE_SPATIAL_4
+MULTI_WRITER_TYPE{1} ORACLE_SPATIAL
+MULTI_WRITER_KEYWORD{1} ORACLE_SPATIAL_5
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ESRISHAPE_3"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_3
+# ============================================================================
+# The following GUI line prompts for the source shapefiles
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_ESRISHAPE_3 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_3
+DEFAULT_MACRO SourceDataset_ESRISHAPE_3 $(SourceDataset_ESRISHAPE_7)
+GUI MULTIFILE SourceDataset_ESRISHAPE_3 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+# =====================================================================
+# Provide some control over what attributes have the user-selected
+# encoding applied. Normally all attributes are updated after being
+# read, but the following lines exclude from this treatment all
+# attributes whose names start with fme_ or shape_.
+ESRISHAPE_3_UNENCODED_ATTR_PREFIX fme_ shape_
+#Added default value for dissolve holes so that default for DI is consistent with workbench
+DEFAULT_MACRO ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3 no
+ESRISHAPE_3_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3)"
+DEFAULT_MACRO ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_3 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_3 ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES%ESRISHAPE_IN_ENCODING_ESRISHAPE_3%ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
+# ============================================================================
+# Determines whether the attribute names should be uppercased, or whether they
+# should stay as specified in the shapefile. Once the mapping file/workspace
+# has been generated, the value for this keyword should not be changed.
+DEFAULT_MACRO ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_3 No
+ESRISHAPE_3_UPPER_CASE_ATTR_NAMES "$(ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_3)"
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for reading the shapefile, overrides dbf file LDID or .cpg
+# file if present.
+DEFAULT_MACRO ESRISHAPE_IN_ENCODING_ESRISHAPE_3 fme-source-encoding
+ESRISHAPE_3_ENCODING "$(ESRISHAPE_IN_ENCODING_ESRISHAPE_3)"
+GUI STRING_OR_ENCODING ESRISHAPE_IN_ENCODING_ESRISHAPE_3 fme-source-encoding%* Character Encoding
+# ============================================================================
+# Determines whether numeric attributes should be interpreted as binary or as
+# bound number fields (ActualDBFrepresentation)
+DEFAULT_MACRO ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_ESRISHAPE_3 STANDARD_TYPES
+ESRISHAPE_3_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_ESRISHAPE_3)"
+#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
+DEFAULT_MACRO ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_3 
+ESRISHAPE_3_EXPOSE_ATTRS_GROUP "$(ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_3)"
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3 NO
+ESRISHAPE_3_USE_SEARCH_ENVELOPE "$(ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3)"
+GUI ACTIVEDISCLOSUREGROUP ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3 ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3%ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3%ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3%ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3%ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3%ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3%ESRISHAPE_IN_SEARCH_METHOD%ESRISHAPE_IN_SEARCH_METHOD_FILTER%ESRISHAPE_IN_SEARCH_ORDER%ESRISHAPE_IN_SEARCH_FEATURE%ESRISHAPE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3 0
+ESRISHAPE_3_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3 Minimum X:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3 0
+ESRISHAPE_3_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3 Minimum Y:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3 0
+ESRISHAPE_3_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3 Maximum X:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3 0
+ESRISHAPE_3_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3 Maximum Y:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3 <Unused>, 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3 
+ESRISHAPE_3_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3)"
+GUI OPTIONAL COORDSYS ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3 Search Envelope Coordinate System:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3 <Unused>,NO 
+DEFAULT_MACRO ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3 NO
+ESRISHAPE_3_CLIP_TO_ENVELOPE "$(ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3 YES%NO Clip to Search Envelope
+DEFAULT_MACRO ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_3 yes
+ESRISHAPE_3_CHECK_NUMERIC_FIELDS "$(ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_3)"
+DEFAULT_MACRO ESRISHAPE_IN_ADVANCED_ESRISHAPE_3 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_ADVANCED_ESRISHAPE_3 ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3%ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3 Advanced
+DEFAULT_MACRO ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3 yes
+ESRISHAPE_3_TRIM_PRECEDING_SPACES "$(ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3)"
+GUI CHOICE ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3 yes%no Trim Preceding Spaces
+DEFAULT_MACRO ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3 ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3%ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3%ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3%ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3 Geometry
+# ============================================================================
+# Option to use simple donut geometry creation, which is faster than the
+# original creation method, but less meticulous at detecting and correcting
+# geometric anomalies (i.e.holeswithinholes)
+DEFAULT_MACRO ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3 simple
+ESRISHAPE_3_SIMPLE_DONUT_GEOMETRY "$(ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3)"
+GUI LOOKUP_CHOICE ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3 "\"Orientation Only\",simple"%"\"Orientation and Spatial Relationship\",complex" Donut Geometry Detection
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3 no
+ESRISHAPE_3_MEASURES_AS_Z "$(ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3)"
+GUI CHOICE ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3 yes%no Treat Measures as Elevation
+# ============================================================================
+# The following keyword sets whether the reader dissolves holes in donuts.
+ESRISHAPE_3_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3)"
+GUI CHOICE ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3 yes%no Dissolve Adjacent Holes
+# ============================================================================
+# The following keyword sets whether bad geometry should be reported via
+# the shape_geometry_error{} list attribute.
+DEFAULT_MACRO ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3 no
+ESRISHAPE_3_REPORT_BAD_GEOMETRY "$(ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3)"
+GUI CHOICE ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3 yes%no Report Geometry Anomalies
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3 
+ESRISHAPE_3_NETWORK_AUTHENTICATION "$(ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3)"
+GUI OPTIONAL AUTHENTICATOR ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_3 ALL
+ESRISHAPE_3_ATTRIBUTE_READING "$(ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_3)"
+# ============================================================================ 
+ESRISHAPE_3_GENERATE_FME_BUILD_NUM 19581
+ESRISHAPE_3_DATASET "$(SourceDataset_ESRISHAPE_3)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ESRISHAPE_4"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_4
+# ============================================================================
+# The following GUI line prompts for the source shapefiles
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_ESRISHAPE_4 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_4
+DEFAULT_MACRO SourceDataset_ESRISHAPE_4 $(SourceDataset_ESRISHAPE_8)
+GUI MULTIFILE SourceDataset_ESRISHAPE_4 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+# =====================================================================
+# Provide some control over what attributes have the user-selected
+# encoding applied. Normally all attributes are updated after being
+# read, but the following lines exclude from this treatment all
+# attributes whose names start with fme_ or shape_.
+ESRISHAPE_4_UNENCODED_ATTR_PREFIX fme_ shape_
+#Added default value for dissolve holes so that default for DI is consistent with workbench
+DEFAULT_MACRO ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4 no
+ESRISHAPE_4_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4)"
+DEFAULT_MACRO ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_4 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_4 ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES%ESRISHAPE_IN_ENCODING_ESRISHAPE_4%ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
+# ============================================================================
+# Determines whether the attribute names should be uppercased, or whether they
+# should stay as specified in the shapefile. Once the mapping file/workspace
+# has been generated, the value for this keyword should not be changed.
+DEFAULT_MACRO ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_4 No
+ESRISHAPE_4_UPPER_CASE_ATTR_NAMES "$(ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_4)"
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for reading the shapefile, overrides dbf file LDID or .cpg
+# file if present.
+DEFAULT_MACRO ESRISHAPE_IN_ENCODING_ESRISHAPE_4 fme-source-encoding
+ESRISHAPE_4_ENCODING "$(ESRISHAPE_IN_ENCODING_ESRISHAPE_4)"
+GUI STRING_OR_ENCODING ESRISHAPE_IN_ENCODING_ESRISHAPE_4 fme-source-encoding%* Character Encoding
+# ============================================================================
+# Determines whether numeric attributes should be interpreted as binary or as
+# bound number fields (ActualDBFrepresentation)
+DEFAULT_MACRO ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_ESRISHAPE_4 STANDARD_TYPES
+ESRISHAPE_4_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_ESRISHAPE_4)"
+#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
+DEFAULT_MACRO ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_4 
+ESRISHAPE_4_EXPOSE_ATTRS_GROUP "$(ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_4)"
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4 NO
+ESRISHAPE_4_USE_SEARCH_ENVELOPE "$(ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4)"
+GUI ACTIVEDISCLOSUREGROUP ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4 ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4%ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4%ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4%ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4%ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4%ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4%ESRISHAPE_IN_SEARCH_METHOD%ESRISHAPE_IN_SEARCH_METHOD_FILTER%ESRISHAPE_IN_SEARCH_ORDER%ESRISHAPE_IN_SEARCH_FEATURE%ESRISHAPE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4 0
+ESRISHAPE_4_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4 Minimum X:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4 0
+ESRISHAPE_4_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4 Minimum Y:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4 0
+ESRISHAPE_4_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4 Maximum X:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4 0
+ESRISHAPE_4_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4 Maximum Y:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4 <Unused>, 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4 
+ESRISHAPE_4_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4)"
+GUI OPTIONAL COORDSYS ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4 Search Envelope Coordinate System:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4 <Unused>,NO 
+DEFAULT_MACRO ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4 NO
+ESRISHAPE_4_CLIP_TO_ENVELOPE "$(ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4 YES%NO Clip to Search Envelope
+DEFAULT_MACRO ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_4 yes
+ESRISHAPE_4_CHECK_NUMERIC_FIELDS "$(ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_4)"
+DEFAULT_MACRO ESRISHAPE_IN_ADVANCED_ESRISHAPE_4 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_ADVANCED_ESRISHAPE_4 ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4%ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4 Advanced
+DEFAULT_MACRO ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4 yes
+ESRISHAPE_4_TRIM_PRECEDING_SPACES "$(ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4)"
+GUI CHOICE ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4 yes%no Trim Preceding Spaces
+DEFAULT_MACRO ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4 ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4%ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4%ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4%ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4 Geometry
+# ============================================================================
+# Option to use simple donut geometry creation, which is faster than the
+# original creation method, but less meticulous at detecting and correcting
+# geometric anomalies (i.e.holeswithinholes)
+DEFAULT_MACRO ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4 simple
+ESRISHAPE_4_SIMPLE_DONUT_GEOMETRY "$(ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4)"
+GUI LOOKUP_CHOICE ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4 "\"Orientation Only\",simple"%"\"Orientation and Spatial Relationship\",complex" Donut Geometry Detection
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4 no
+ESRISHAPE_4_MEASURES_AS_Z "$(ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4)"
+GUI CHOICE ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4 yes%no Treat Measures as Elevation
+# ============================================================================
+# The following keyword sets whether the reader dissolves holes in donuts.
+ESRISHAPE_4_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4)"
+GUI CHOICE ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4 yes%no Dissolve Adjacent Holes
+# ============================================================================
+# The following keyword sets whether bad geometry should be reported via
+# the shape_geometry_error{} list attribute.
+DEFAULT_MACRO ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4 no
+ESRISHAPE_4_REPORT_BAD_GEOMETRY "$(ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4)"
+GUI CHOICE ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4 yes%no Report Geometry Anomalies
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4 
+ESRISHAPE_4_NETWORK_AUTHENTICATION "$(ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4)"
+GUI OPTIONAL AUTHENTICATOR ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_4 ALL
+ESRISHAPE_4_ATTRIBUTE_READING "$(ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_4)"
+# ============================================================================ 
+ESRISHAPE_4_GENERATE_FME_BUILD_NUM 19581
+ESRISHAPE_4_DATASET "$(SourceDataset_ESRISHAPE_4)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ORACLE_SPATIAL_4"
+#! END_WB_HEADER
+#! START_DEST_HEADER ORACLE_SPATIAL ORACLE_SPATIAL_4
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_ORACLE_SPATIAL_4 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER ORACLE_SPATIAL ORACLE_SPATIAL_4
+DEFAULT_MACRO DestDataset_ORACLE_SPATIAL_4 $(DestDataset_ORACLE_SPATIAL_7)
+GUI NAMED_DB_CONNECTION_ENCODED DestDataset_ORACLE_SPATIAL_4 FMT:ORACLE_SPATIAL Connection:
+DEFAULT_MACRO _ORACLE_SPATIAL_Tolx_ORACLE_SPATIAL_4 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_Toly_ORACLE_SPATIAL_4 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_Tolz_ORACLE_SPATIAL_4 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_Tolm_ORACLE_SPATIAL_4 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_CreationParams_ORACLE_SPATIAL_4
+DEFAULT_MACRO _ORACLE_SPATIAL_SRID_ORACLE_SPATIAL_4
+DEFAULT_MACRO _ORACLE_SPATIAL_SpatialIndexName_ORACLE_SPATIAL_4
+DEFAULT_MACRO _ORACLE_SPATIAL_ForceIndexCreation_ORACLE_SPATIAL_4 No
+DEFAULT_MACRO _ORACLE_SPATIAL_UpdateGeometry_ORACLE_SPATIAL_4 Yes
+DEFAULT_MACRO _ORACLE_SPATIAL_Measures_ORACLE_SPATIAL_4 No
+DEFAULT_MACRO _ORACLE_SPATIAL_CustomSQL_ORACLE_SPATIAL_4
+DEFAULT_MACRO _ORACLE_SPATIAL_SequencedColumns_ORACLE_SPATIAL_4
+ORACLE_SPATIAL_4_SERVER_TYPE ORACLE8i
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_FME_CONNECTION_GROUP_ORACLE_SPATIAL_4 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_SPATIAL_OUT_FME_CONNECTION_GROUP_ORACLE_SPATIAL_4 ORACLE_SPATIAL_OUT_NAMED_CONNECTION%ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_4 Database Connection
+# ==============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_4 
+ORACLE_SPATIAL_4_WORKSPACE "$(ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_4)"
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_4 YES
+ORACLE_SPATIAL_4_PERSISTENT_CONNECTION "$(ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_4)"
+GUI OPTIONAL CHECKBOX ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_4 YES%NO Persistent Connection
+# ============================================================================
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_DIMENSION_ORACLE_SPATIAL_4 2
+ORACLE_SPATIAL_4_DIMENSION "$(ORACLE_SPATIAL_OUT_DIMENSION_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_CONTAINS_MEASURES_ORACLE_SPATIAL_4 NO
+ORACLE_SPATIAL_4_CONTAINS_MEASURES "$(ORACLE_SPATIAL_OUT_CONTAINS_MEASURES_ORACLE_SPATIAL_4)"
+# cannot use LOOKUP_GLOBAL here because it assumes any parameter set to 0 in the destination
+# parameters are parameters that was not set and prevent user from performing translations
+# in UT
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINX_ORACLE_SPATIAL_4 -180
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MINX "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINX_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINY_ORACLE_SPATIAL_4 -90
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MINY "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINY_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINZ_ORACLE_SPATIAL_4  0
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MINZ "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINZ_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINM_ORACLE_SPATIAL_4  0
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MINM "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINM_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXX_ORACLE_SPATIAL_4 180
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MAXX "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXX_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXY_ORACLE_SPATIAL_4 90
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MAXY "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXY_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXZ_ORACLE_SPATIAL_4  0
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MAXZ "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXZ_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXM_ORACLE_SPATIAL_4  0
+ORACLE_SPATIAL_4_SPATIAL_INDEX_MAXM "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXM_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_GEOMETRY_COLUMN_ORACLE_SPATIAL_4 GEOM
+ORACLE_SPATIAL_4_GEOMETRY_COLUMN "$(ORACLE_SPATIAL_OUT_GEOMETRY_COLUMN_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_CREATE_SPATIAL_INDEX_ORACLE_SPATIAL_4 no
+ORACLE_SPATIAL_4_CREATE_SPATIAL_INDEX "$(ORACLE_SPATIAL_OUT_CREATE_SPATIAL_INDEX_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_INDEX_LEVELS_ORACLE_SPATIAL_4 0
+ORACLE_SPATIAL_4_INDEX_LEVELS "$(ORACLE_SPATIAL_OUT_INDEX_LEVELS_ORACLE_SPATIAL_4)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_NUMBER_OF_TILES_ORACLE_SPATIAL_4 8
+ORACLE_SPATIAL_4_NUMBER_OF_TILES "$(ORACLE_SPATIAL_OUT_NUMBER_OF_TILES_ORACLE_SPATIAL_4)"
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_ORACLE_OBJECT_WRT_ADV_PARA_ORACLE_SPATIAL_4 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_SPATIAL_OUT_ORACLE_OBJECT_WRT_ADV_PARA_ORACLE_SPATIAL_4 ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_4%ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_4 Advanced
+# ============================================================================
+# The following option specifies which feature number the writer should actually
+# start writing features to the database on. This should normally be zero, but
+# can be changed if a previous translation is interrupted.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_4 0
+ORACLE_SPATIAL_4_START_TRANSACTION "$(ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_4)"
+GUI INTEGER ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_4 Transaction to Start Writing at:
+# ============================================================================
+# The following specifies how many features will be written to the database in
+# on each bulk write.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_4 200
+ORACLE_SPATIAL_4_CHUNK_SIZE "$(ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_4)"
+GUI INTEGER ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_4 Bulk Write Size:
+# ============================================================================
+# The following specifies how many features will be written to the database in
+# each transaction.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_4 1000
+ORACLE_SPATIAL_4_TRANSACTION_INTERVAL "$(ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_4)"
+GUI INTEGER ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_4 Features Per Transaction
+# ============================================================================
+# The following specifies an SQL command to execute before opening the first
+# ORACLE table.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_4 
+ORACLE_SPATIAL_4_BEGIN_SQL{0} "$(ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_4)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_4 MODE,SQL;FORMAT,ORACLE_SPATIAL SQL To Run Before Write
+# ============================================================================
+# The following specifies an SQL command to execute after closing all the
+# ORACLE tables.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_4 
+ORACLE_SPATIAL_4_END_SQL{0} "$(ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_4)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_4 MODE,SQL;FORMAT,ORACLE_SPATIAL SQL To Run After Write
+# ==============================================================================
+# The following specifies whether rows written to the writer's tables have
+# to adhere strictly to the destination feature type. When 'No' or 'Warn',
+# character columns are truncated to fit and other conversion problems end up
+# inserting NULL values; if STRICT_ATTR_CONVERSION is 'Yes', rows containing
+# such problems will be logged and not written to the tables.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_4 No
+ORACLE_SPATIAL_4_STRICT_ATTR_CONVERSION "$(ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_4)"
+GUI OPTIONAL CHOICE ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_4 Yes%No%Warn Enforce Strict Attribute Conversion:
+# ============================================================================
+# The following specifies whether to maintain multiple geometries or not.
+# If set to YES, the Multiple Geometries will be read into an aggregate
+# If NO, the default behavior of selecting one geometry will occur
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_4 NO
+ORACLE_SPATIAL_4_HANDLE_MULTIPLE_SPATIAL_COLUMNS "$(ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_4)"
+GUI CHOICE ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_4 YES%NO Handle Multiple Spatial Columns:
+# ============================================================================ 
+ORACLE_SPATIAL_4_GENERATE_FME_BUILD_NUM 19581
+# ==============================================================================
+# The following specifies the name of the Oracle Workspace that we should go
+# to when writing tables. Redefining just the GUI line as we can't bring up the
+# Oracle workspace picker in non-Settings box contexts.
+GUI OPTIONAL TEXT ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_4 Oracle Workspace:
+ORACLE_SPATIAL_4_DATASET "$(DestDataset_ORACLE_SPATIAL_4)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ORACLE_SPATIAL_5"
+#! END_WB_HEADER
+#! START_DEST_HEADER ORACLE_SPATIAL ORACLE_SPATIAL_5
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_ORACLE_SPATIAL_5 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER ORACLE_SPATIAL ORACLE_SPATIAL_5
+DEFAULT_MACRO DestDataset_ORACLE_SPATIAL_5 $(DestDataset_ORACLE_SPATIAL_8)
+GUI NAMED_DB_CONNECTION_ENCODED DestDataset_ORACLE_SPATIAL_5 FMT:ORACLE_SPATIAL Connection:
+DEFAULT_MACRO _ORACLE_SPATIAL_Tolx_ORACLE_SPATIAL_5 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_Toly_ORACLE_SPATIAL_5 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_Tolz_ORACLE_SPATIAL_5 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_Tolm_ORACLE_SPATIAL_5 0.05
+DEFAULT_MACRO _ORACLE_SPATIAL_CreationParams_ORACLE_SPATIAL_5
+DEFAULT_MACRO _ORACLE_SPATIAL_SRID_ORACLE_SPATIAL_5
+DEFAULT_MACRO _ORACLE_SPATIAL_SpatialIndexName_ORACLE_SPATIAL_5
+DEFAULT_MACRO _ORACLE_SPATIAL_ForceIndexCreation_ORACLE_SPATIAL_5 No
+DEFAULT_MACRO _ORACLE_SPATIAL_UpdateGeometry_ORACLE_SPATIAL_5 Yes
+DEFAULT_MACRO _ORACLE_SPATIAL_Measures_ORACLE_SPATIAL_5 No
+DEFAULT_MACRO _ORACLE_SPATIAL_CustomSQL_ORACLE_SPATIAL_5
+DEFAULT_MACRO _ORACLE_SPATIAL_SequencedColumns_ORACLE_SPATIAL_5
+ORACLE_SPATIAL_5_SERVER_TYPE ORACLE8i
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_FME_CONNECTION_GROUP_ORACLE_SPATIAL_5 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_SPATIAL_OUT_FME_CONNECTION_GROUP_ORACLE_SPATIAL_5 ORACLE_SPATIAL_OUT_NAMED_CONNECTION%ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_5 Database Connection
+# ==============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_5 
+ORACLE_SPATIAL_5_WORKSPACE "$(ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_5)"
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_5 YES
+ORACLE_SPATIAL_5_PERSISTENT_CONNECTION "$(ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_5)"
+GUI OPTIONAL CHECKBOX ORACLE_SPATIAL_OUT_PERSISTENT_CONNECTION_ORACLE_SPATIAL_5 YES%NO Persistent Connection
+# ============================================================================
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_DIMENSION_ORACLE_SPATIAL_5 2
+ORACLE_SPATIAL_5_DIMENSION "$(ORACLE_SPATIAL_OUT_DIMENSION_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_CONTAINS_MEASURES_ORACLE_SPATIAL_5 NO
+ORACLE_SPATIAL_5_CONTAINS_MEASURES "$(ORACLE_SPATIAL_OUT_CONTAINS_MEASURES_ORACLE_SPATIAL_5)"
+# cannot use LOOKUP_GLOBAL here because it assumes any parameter set to 0 in the destination
+# parameters are parameters that was not set and prevent user from performing translations
+# in UT
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINX_ORACLE_SPATIAL_5 -180
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MINX "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINX_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINY_ORACLE_SPATIAL_5 -90
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MINY "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINY_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINZ_ORACLE_SPATIAL_5  0
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MINZ "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINZ_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINM_ORACLE_SPATIAL_5  0
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MINM "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MINM_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXX_ORACLE_SPATIAL_5 180
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MAXX "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXX_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXY_ORACLE_SPATIAL_5 90
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MAXY "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXY_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXZ_ORACLE_SPATIAL_5  0
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MAXZ "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXZ_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXM_ORACLE_SPATIAL_5  0
+ORACLE_SPATIAL_5_SPATIAL_INDEX_MAXM "$(ORACLE_SPATIAL_OUT_SPATIAL_INDEX_MAXM_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_GEOMETRY_COLUMN_ORACLE_SPATIAL_5 GEOM
+ORACLE_SPATIAL_5_GEOMETRY_COLUMN "$(ORACLE_SPATIAL_OUT_GEOMETRY_COLUMN_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_CREATE_SPATIAL_INDEX_ORACLE_SPATIAL_5 no
+ORACLE_SPATIAL_5_CREATE_SPATIAL_INDEX "$(ORACLE_SPATIAL_OUT_CREATE_SPATIAL_INDEX_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_INDEX_LEVELS_ORACLE_SPATIAL_5 0
+ORACLE_SPATIAL_5_INDEX_LEVELS "$(ORACLE_SPATIAL_OUT_INDEX_LEVELS_ORACLE_SPATIAL_5)"
+# ============================================================================
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_NUMBER_OF_TILES_ORACLE_SPATIAL_5 8
+ORACLE_SPATIAL_5_NUMBER_OF_TILES "$(ORACLE_SPATIAL_OUT_NUMBER_OF_TILES_ORACLE_SPATIAL_5)"
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_ORACLE_OBJECT_WRT_ADV_PARA_ORACLE_SPATIAL_5 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_SPATIAL_OUT_ORACLE_OBJECT_WRT_ADV_PARA_ORACLE_SPATIAL_5 ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_5%ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_5 Advanced
+# ============================================================================
+# The following option specifies which feature number the writer should actually
+# start writing features to the database on. This should normally be zero, but
+# can be changed if a previous translation is interrupted.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_5 0
+ORACLE_SPATIAL_5_START_TRANSACTION "$(ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_5)"
+GUI INTEGER ORACLE_SPATIAL_OUT_START_TRANSACTION_ORACLE_SPATIAL_5 Transaction to Start Writing at:
+# ============================================================================
+# The following specifies how many features will be written to the database in
+# on each bulk write.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_5 200
+ORACLE_SPATIAL_5_CHUNK_SIZE "$(ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_5)"
+GUI INTEGER ORACLE_SPATIAL_OUT_CHUNK_SIZE_ORACLE_SPATIAL_5 Bulk Write Size:
+# ============================================================================
+# The following specifies how many features will be written to the database in
+# each transaction.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_5 1000
+ORACLE_SPATIAL_5_TRANSACTION_INTERVAL "$(ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_5)"
+GUI INTEGER ORACLE_SPATIAL_OUT_TRANSACTION_INTERVAL_ORACLE_SPATIAL_5 Features Per Transaction
+# ============================================================================
+# The following specifies an SQL command to execute before opening the first
+# ORACLE table.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_5 
+ORACLE_SPATIAL_5_BEGIN_SQL{0} "$(ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_5)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_SPATIAL_OUT_BEGIN_SQL{0}_ORACLE_SPATIAL_5 MODE,SQL;FORMAT,ORACLE_SPATIAL SQL To Run Before Write
+# ============================================================================
+# The following specifies an SQL command to execute after closing all the
+# ORACLE tables.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_5 
+ORACLE_SPATIAL_5_END_SQL{0} "$(ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_5)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_SPATIAL_OUT_END_SQL{0}_ORACLE_SPATIAL_5 MODE,SQL;FORMAT,ORACLE_SPATIAL SQL To Run After Write
+# ==============================================================================
+# The following specifies whether rows written to the writer's tables have
+# to adhere strictly to the destination feature type. When 'No' or 'Warn',
+# character columns are truncated to fit and other conversion problems end up
+# inserting NULL values; if STRICT_ATTR_CONVERSION is 'Yes', rows containing
+# such problems will be logged and not written to the tables.
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_5 No
+ORACLE_SPATIAL_5_STRICT_ATTR_CONVERSION "$(ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_5)"
+GUI OPTIONAL CHOICE ORACLE_SPATIAL_OUT_STRICT_ATTR_CONVERSION_ORACLE_SPATIAL_5 Yes%No%Warn Enforce Strict Attribute Conversion:
+# ============================================================================
+# The following specifies whether to maintain multiple geometries or not.
+# If set to YES, the Multiple Geometries will be read into an aggregate
+# If NO, the default behavior of selecting one geometry will occur
+DEFAULT_MACRO ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_5 NO
+ORACLE_SPATIAL_5_HANDLE_MULTIPLE_SPATIAL_COLUMNS "$(ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_5)"
+GUI CHOICE ORACLE_SPATIAL_OUT_HANDLE_MULTIPLE_SPATIAL_COLUMNS_ORACLE_SPATIAL_5 YES%NO Handle Multiple Spatial Columns:
+# ============================================================================ 
+ORACLE_SPATIAL_5_GENERATE_FME_BUILD_NUM 19581
+# ==============================================================================
+# The following specifies the name of the Oracle Workspace that we should go
+# to when writing tables. Redefining just the GUI line as we can't bring up the
+# Oracle workspace picker in non-Settings box contexts.
+GUI OPTIONAL TEXT ORACLE_SPATIAL_OUT_WORKSPACE_ORACLE_SPATIAL_5 Oracle Workspace:
+ORACLE_SPATIAL_5_DATASET "$(DestDataset_ORACLE_SPATIAL_5)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)insertion_diff_bati_carto_lidar_dans_oracle.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_3 ESRISHAPE_3
+DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_4 ESRISHAPE_4
+DEFAULT_MACRO DATASET_KEYWORD_ORACLE_SPATIAL_4 ORACLE_SPATIAL_4
+DEFAULT_MACRO DATASET_KEYWORD_ORACLE_SPATIAL_5 ORACLE_SPATIAL_5
+# -------------------------------------------------------------------------
+
+ESRISHAPE_3_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+ESRISHAPE_4_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+ESRISHAPE_3_COORDINATE_SYSTEM EPSG:2154
+ESRISHAPE_4_COORDINATE_SYSTEM EPSG:2154
+ORACLE_SPATIAL_4_COORDINATE_SYSTEM EPSG:2154
+ORACLE_SPATIAL_5_COORDINATE_SYSTEM EPSG:2154
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME insertion_diff_bati_carto_lidar_dans_oracle
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+ESRISHAPE_3_DEF ta_bati_carto_single_uniquement_objectid   SHAPE_GEOMETRY               shape_polygon   FID_CARTO                    number(11,0)
+# -------------------------------------------------------------------------
+ESRISHAPE_4_DEF ta_bati_lidar_uniquement   SHAPE_GEOMETRY               shape_polygon
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ESRISHAPE ESRISHAPE_3::ta_bati_carto_single_uniquement_objectid multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_3) TO FME_GENERIC ::ta_bati_carto_single_uniquement_objectid ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_4::ta_bati_lidar_uniquement multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_4) TO FME_GENERIC ::ta_bati_lidar_uniquement ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+ESRISHAPE_3_MERGE_DEF ESRISHAPE_3::ta_bati_carto_single_uniquement_objectid EXACT ta_bati_carto_single_uniquement_objectid
+ESRISHAPE_4_MERGE_DEF ESRISHAPE_4::ta_bati_lidar_uniquement EXACT ta_bati_lidar_uniquement
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "ta_bati_carto_single_uniquement_objectid (ESRISHAPE_3) Splitter"    INPUT FEATURE_TYPE ta_bati_carto_single_uniquement_objectid    OUTPUT FEATURE_TYPE ta_bati_carto_single_uniquement_objectid_ESRISHAPE_3
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "ta_bati_lidar_uniquement (ESRISHAPE_4) Splitter"    INPUT FEATURE_TYPE ta_bati_lidar_uniquement    OUTPUT FEATURE_TYPE ta_bati_lidar_uniquement_ESRISHAPE_4
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC ta_bati_lidar_uniquement_ESRISHAPE_4 TO ORACLE_SPATIAL __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>GEO.TEMP_DIFF_CARTO_LIDAR<closeparen> COORDINATE_SYSTEM EPSG:2154 GEOMETRY    ROUTE FME_GENERIC ta_bati_carto_single_uniquement_objectid_ESRISHAPE_3 TO ORACLE_SPATIAL __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>ID_CARTO<comma>FID_CARTO<closeparen>,multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>GEO.TA_DIFF_CARTO_LIDAR<closeparen> COORDINATE_SYSTEM EPSG:2154 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+ORACLE_SPATIAL_4_DEF GEO.TEMP_DIFF_CARTO_LIDAR   oracle_drop_table            ""   oracle_truncate_table        ""   oracle_table_writer_mode     ""   oracle_update_key_columns    ""   oracle_create_table          ""   oracle_default_contains_measures ""   oracle_default_geom_column   ""   oracle_force_geom_updates    ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   oracle_model                 object   oracle_create_indices        no   oracle_geom_column           GEOM   OBJECTID                     number(38,0)   FID_LIBELLE                  number(38,0)   ID_CARTO                     number(38,0)   fme_geomattr{7}.oracle_secondary_radius float   fme_geomattr{7}.oracle_start_angle float   fme_geomattr{7}.oracle_rotation float   fme_geomattr{8}.oracle_primary_radius float   fme_geomattr{8}.oracle_rotation float   fme_geomattr{7}.oracle_sweep_angle float   fme_geomattr{8}.oracle_secondary_radius float   fme_geomattr{7}.oracle_primary_radius float
+# -------------------------------------------------------------------------
+ORACLE_SPATIAL_5_DEF GEO.TA_DIFF_CARTO_LIDAR   oracle_drop_table            ""   oracle_truncate_table        ""   oracle_table_writer_mode     ""   oracle_update_key_columns    ""   oracle_create_table          ""   oracle_default_contains_measures ""   oracle_default_geom_column   ""   oracle_force_geom_updates    ""   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_COLUMNS   fme_update_geometry          YES   oracle_model                 object   oracle_create_indices        no   oracle_levels                0   oracle_numtiles              8   oracle_min_x                 -180   oracle_min_y                 -90   oracle_min_z                 " 0"   oracle_min_m                 " 0"   oracle_max_x                 180   oracle_max_y                 90   oracle_max_z                 " 0"   oracle_max_m                 " 0"   oracle_x_tol                 0.05   oracle_y_tol                 0.05   oracle_z_tol                 0.05   oracle_m_tol                 0.05   oracle_dim                   2   oracle_contains_measures     No   oracle_geom_column           GEOM   oracle_force_index_creation  No   OBJECTID                     number(38,0)   FID_LIBELLE                  number(38,0)   ID_CARTO                     number(38,0)   fme_geomattr{7}.oracle_secondary_radius float   fme_geomattr{7}.oracle_start_angle float   fme_geomattr{7}.oracle_rotation float   fme_geomattr{8}.oracle_primary_radius float   fme_geomattr{8}.oracle_rotation float   fme_geomattr{7}.oracle_sweep_angle float   fme_geomattr{8}.oracle_secondary_radius float   fme_geomattr{7}.oracle_primary_radius float
