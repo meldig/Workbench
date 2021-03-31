@@ -2,14 +2,14 @@
 
 Dans le cadre de la refonte du projet GESTIONGEO la chaine FME utilisée pour intégrer en base les éléments d'un dossier a été mise à jour. Deux autres chaines ont été écrites pour mieux gérer les dossiers.
 
-## Traitement gestion_fme2020_deplacement_recol_ic.fmw.
+## Traitement gestion_fme2020_integration_recol_ic.fmw.
 
 Ce traitement fme est une mise à jour de la chaine __*acad_recV13_20161026.fmw*__ développé initialement pour le projet *gestiongeo* fonctionnant avec dynmap. Cette chaine fme peut être utilisée par l'intermédiaire de GTF.
 
 
 ### Objectif de la chaine de traitement.
 
-L'objectif de la chaine, est d'insérer en base les éléments topographiques contenus dans le fichier *autocad* d'un dossier. Ce traitement va réaliser plusieurs actions.
+L'objectif de la chaine, est d'insérer en base les éléments topographiques contenus dans le fichier *AutoCad* d'un dossier. Ce traitement va réaliser plusieurs actions.
 
 
 #### Si le dossier est un récolement.
@@ -22,9 +22,9 @@ L'objectif de la chaine, est d'insérer en base les éléments topographiques co
 	* __GEO.TA_POINT_TOPO_GPS__.
 4. Calculer l'enveloppe concave des éléments.
 5. Mise à jour ou insertion de la géométrie du dossier dans la table G_GESTIONGEO.TA_GG_GEO.
-6. Mise à jour de la table G_GESTIONGEO.TA_GG_DOSSIER: colonne ETAT_ID.
+6. Mise à jour de la table __G_GESTIONGEO.TA_GG_DOSSIER__: colonne ETAT_ID.
 7. Gestion des fichiers attachés au dossier:
-	* Mise à jour de la table G_GESTIONGEO.TA_GG_URL_FILE.
+	* Mise à jour de la table __G_GESTIONGEO.TA_GG_URL_FILE__.
 	* Déplacement des fichiers situés dans le même répertoire que le fichier *autocad* intégré dans la base dans le répertoire du dossier situé dans *Appli_GG*.
 
 
@@ -53,7 +53,7 @@ Pour utiliser, la chaine il est nécessaire:
 #### Paramètres nécessaires pour lancer le traitement
 
 1. Numéro de dossier: Le numéro de dossier est obtenu suite à la création d'un dossier avec *QGIS*.
-2. Fichier à intégrer: ajouter le fichier *autocad* lié au dossier.
+2. Fichier à intégrer: ajouter le fichier *AutoCad* lié au dossier.
 3. Préciser si le dossier est un *Recolement* ou une *Investigation complémentaire*.
 4. Préciser le système de projection du fichier *autocad* .
 
@@ -70,7 +70,7 @@ Ce traitement *FME* permet de déplacer une fois le dossier créé et ses élém
 Ce traitement permet de:
 
 1. Déplacer un fichier attaché à un dossier dans son répertoire dossier sur *Appli_GG*.
-2. Mettre à jour la table G_GESTIONGEO.TA_GG_URL_FILE.
+2. Mettre à jour la table __G_GESTIONGEO.TA_GG_URL_FILE__.
 
 
 ### Utiliser la chaine Ajout de fichier dans le répertoire d'un dossier de APPLI_GG.
@@ -107,7 +107,7 @@ Ce traitement permet:
 	* GEO.TA_LIG_TOPO_GPS.
 	* GEO.TA_POINT_TOPO_GPS.
 	* G_GESTIONGEO.TA_GG_DOSSIER.
-		* La contrainte de clé primaire __ON CASCADE__ présente sur la colonne ID_DOS de la table G_GESTIONGEO.TA_GG_DOSSIER supprimera les enregistrement du dossier présents dans les tables:
+		* La contrainte de clé primaire __ON CASCADE__ présente sur la colonne ID_DOS de la table __G_GESTIONGEO.TA_GG_DOSSIER__ supprimera les enregistrement du dossier présents dans les tables:
 			* G_GESTIONGE.TA_GG_GEO.
 			* G_GESTIONGEO.TA_GG_URL_FILE.
 2. Supprime le répertoire du dossier présent sur *Appli_GG*.
