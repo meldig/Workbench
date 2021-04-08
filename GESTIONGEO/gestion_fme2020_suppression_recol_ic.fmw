@@ -11,14 +11,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="7368.19 2193.86"
+#!   DOC_EXTENTS="7031.91 2193.86"
 #!   DOC_TOP_LEFT="-2155.37 -2564.83"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="20820"
-#!   FME_DOCUMENT_GUID="2e55188a-5fc1-4531-9c9f-eef8e4505dce"
-#!   FME_DOCUMENT_PRIORGUID="3a469852-cbb7-4cef-8f70-4b656fcab328,ee49a590-3837-474c-a5ba-fda680afc863,81fa3fc3-ef82-4c43-a7d6-cb1926e5bb9c,42e32186-a8d9-462b-9507-1bcbee5e4c45,ccf15bef-d50c-41ea-b561-ce3c11a9fe9e,d494d865-afca-4ccd-a272-ddb7f954f8c3,441a51c9-195f-4be3-9517-20a1706429f6,0a1cb06b-8898-4a69-9780-e7b6e32e2e25,5b91ad6a-6290-4880-97c9-7b9f7cac51ac,35cb3292-2222-4e03-92a9-ef29c5e4fcbc,5d6bde9f-aaea-491f-8e47-1b45b58f9d4c,f89ce6b5-d1c8-44fd-bae2-cdc592b835c6"
+#!   FME_DOCUMENT_GUID="35a5da81-ee0c-4dd6-95de-f564fbb477ef"
+#!   FME_DOCUMENT_PRIORGUID="3a469852-cbb7-4cef-8f70-4b656fcab328,ee49a590-3837-474c-a5ba-fda680afc863,81fa3fc3-ef82-4c43-a7d6-cb1926e5bb9c,42e32186-a8d9-462b-9507-1bcbee5e4c45,ccf15bef-d50c-41ea-b561-ce3c11a9fe9e,d494d865-afca-4ccd-a272-ddb7f954f8c3,441a51c9-195f-4be3-9517-20a1706429f6,0a1cb06b-8898-4a69-9780-e7b6e32e2e25,5b91ad6a-6290-4880-97c9-7b9f7cac51ac,35cb3292-2222-4e03-92a9-ef29c5e4fcbc,5d6bde9f-aaea-491f-8e47-1b45b58f9d4c,f89ce6b5-d1c8-44fd-bae2-cdc592b835c6,2e55188a-5fc1-4531-9c9f-eef8e4505dce"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.2.3.0 (20210129 - Build 20820 - WIN64)"
-#!   LAST_SAVE_DATE="2021-03-08T16:33:14"
+#!   LAST_SAVE_DATE="2021-04-08T09:27:26"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,10 +46,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-2522.35 -169.645"
+#!   VIEW_POSITION="1661.02 -71.3322"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="70"
+#!   ZOOM_SCALE="92"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -68,13 +68,8 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI IGNORE OPTIONAL DIRNAME_OR_ATTR REPERTOIRE_RECOL REPERTOIRE RECOL:"
-#!   DEFAULT_VALUE="\\volt\infogeo\UF_Acquisition\test_gestiongeo\RECOL"
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI IGNORE OPTIONAL DIRNAME_SRC_OR_ATTR REPERTOIRE_IC REPERTOIRE IC:"
-#!   DEFAULT_VALUE="\\volt\infogeo\UF_Acquisition\test_gestiongeo\IC"
+#!   GUI_LINE="GUI IGNORE OPTIONAL DIRNAME_OR_ATTR REPERTOIRE REPERTOIRE:"
+#!   DEFAULT_VALUE="\\volt\infogeo\Donnees\Interne\gestiongeo"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -200,27 +195,12 @@
 #!   ANCHORED_NODE="23"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="36"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;tester la valeur pour orienter la creation du chemin du dossier à supprimer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2448.49316636707 -1327.5828187237271"
-#!   TOP_LEFT="2448.49316636707 -1327.5828187237271"
-#!   BOTTOM_RIGHT="3073.9990414258205 -1513.8343812393523"
-#!   BOUNDING_RECT="2448.49316636707 -1327.5828187237271 625.50587505875046 186.25156251562515"
-#!   ORDER="500000000000015"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="30"
-#! />
-#! <COMMENT
 #!   IDENTIFIER="37"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creation du chemin du dossier à supprimer si le dossier est un RECOL&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3264.3861506753301 -1180.3330062256025"
-#!   TOP_LEFT="3264.3861506753301 -1180.3330062256025"
-#!   BOTTOM_RIGHT="3964.8927757415818 -1322.8341312368525"
-#!   BOUNDING_RECT="3264.3861506753301 -1180.3330062256025 700.50662506625167 142.50112501125011"
+#!   POSITION="3063.9765378835491 -1496.2329043550185"
+#!   TOP_LEFT="3063.9765378835491 -1496.2329043550185"
+#!   BOTTOM_RIGHT="3764.4831629498008 -1638.7340293662687"
+#!   BOUNDING_RECT="3063.9765378835491 -1496.2329043550185 700.50662506625167 142.50112501125011"
 #!   ORDER="500000000000016"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -228,21 +208,6 @@
 #!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="27"
-#! />
-#! <COMMENT
-#!   IDENTIFIER="38"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creation du chemin du dossier à supprimer si le dossier est un IC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3283.1363381772048 -1682.6824299107182"
-#!   TOP_LEFT="3283.1363381772048 -1682.6824299107182"
-#!   BOTTOM_RIGHT="3946.1425882397061 -1868.9339924263434"
-#!   BOUNDING_RECT="3283.1363381772048 -1682.6824299107182 663.00625006250129 186.25156251562515"
-#!   ORDER="500000000000017"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="33"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="40"
@@ -262,10 +227,10 @@
 #! <COMMENT
 #!   IDENTIFIER="44"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression du dossier du fichier sur APPLI_GG a l&apos;aide d&apos;une commande DOS RMDIR&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="4271.9842092037943 -1581.8638137708811"
-#!   TOP_LEFT="4271.9842092037943 -1581.8638137708811"
-#!   BOTTOM_RIGHT="5212.8180856276649 -1680.6145012777561"
-#!   BOUNDING_RECT="4271.9842092037943 -1581.8638137708811 940.83387642387061 98.750687506875067"
+#!   POSITION="3935.7036724853851 -1551.2928558873894"
+#!   TOP_LEFT="3935.7036724853851 -1551.2928558873894"
+#!   BOTTOM_RIGHT="4876.5375489092557 -1650.0435433942644"
+#!   BOUNDING_RECT="3935.7036724853851 -1551.2928558873894 940.83387642387061 98.750687506875067"
 #!   ORDER="500000000000022"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -600,8 +565,8 @@
 #!   IDENTIFIER="27"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="3387.6335437742609 -1451.5850687462275"
-#!   BOUNDING_RECT="3387.6335437742609 -1451.5850687462275 454 71"
+#!   POSITION="3204.2077964733094 -1709.7398242068257"
+#!   BOUNDING_RECT="3204.2077964733094 -1709.7398242068257 454 71"
 #!   ORDER="500000000000013"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -616,7 +581,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; chemin_dossier SET_TO $(REPERTOIRE_RECOL)&lt;backslash&gt;&lt;at&gt;Value&lt;openparen&gt;ID_DOS&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; chemin_dossier SET_TO $(REPERTOIRE)&lt;backslash&gt;&lt;at&gt;Value&lt;openparen&gt;ID_DOS&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -624,70 +589,6 @@
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="30"
-#!   TYPE="Tester"
-#!   VERSION="3"
-#!   POSITION="2555.2438538739448 -1623.9606580276329"
-#!   BOUNDING_RECT="2555.2438538739448 -1623.9606580276329 454 71"
-#!   ORDER="500000000000014"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ID_DOS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="FAM_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="ID_DOS" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="FAM_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FAM_ID&lt;closeparen&gt; = 1"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
-#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="33"
-#!   TYPE="AttributeCreator"
-#!   VERSION="9"
-#!   POSITION="3387.6335437742609 -1952.8124656855634"
-#!   BOUNDING_RECT="3387.6335437742609 -1952.8124656855634 454 71"
-#!   ORDER="500000000000013"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="chemin_dossier" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ID_DOS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="FAM_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; chemin_dossier SET_TO $(REPERTOIRE_IC)&lt;backslash&gt;&lt;dollar&gt;ID_DOS"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="39"
@@ -728,8 +629,8 @@
 #!   IDENTIFIER="46"
 #!   TYPE="SystemCaller"
 #!   VERSION="3"
-#!   POSITION="4540.9746132859555 -1803.1153762865063"
-#!   BOUNDING_RECT="4540.9746132859555 -1803.1153762865063 454 71"
+#!   POSITION="4204.6940765675463 -1772.5444184030146"
+#!   BOUNDING_RECT="4204.6940765675463 -1772.5444184030146 454 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -811,36 +712,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="32"
-#!   SOURCE_NODE="30"
-#!   TARGET_NODE="27"
-#!   SOURCE_PORT_DESC="fo 0 PASSED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="48"
-#!   SOURCE_NODE="33"
-#!   TARGET_NODE="46"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="42"
 #!   SOURCE_NODE="39"
 #!   TARGET_NODE="2"
@@ -903,7 +774,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="31"
 #!   SOURCE_NODE="2"
-#!   TARGET_NODE="30"
+#!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 1 INITIATOR"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -918,7 +789,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="17"
 #!   SOURCE_NODE="5"
-#!   TARGET_NODE="30"
+#!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 1 INITIATOR"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -933,7 +804,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="18"
 #!   SOURCE_NODE="6"
-#!   TARGET_NODE="30"
+#!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 1 INITIATOR"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -948,23 +819,8 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="19"
 #!   SOURCE_NODE="7"
-#!   TARGET_NODE="30"
+#!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 1 INITIATOR"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="34"
-#!   SOURCE_NODE="30"
-#!   TARGET_NODE="33"
-#!   SOURCE_PORT_DESC="fo 1 FAILED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -1004,10 +860,8 @@
 FME_PYTHON_VERSION 37
 DEFAULT_MACRO ID_DOS 
 GUI OPTIONAL RANGE_SLIDER ID_DOS "RANGE:[,]" NUMERO DOSSIER:
-DEFAULT_MACRO REPERTOIRE_RECOL \\volt\infogeo\UF_Acquisition\test_gestiongeo\RECOL
-GUI IGNORE OPTIONAL DIRNAME REPERTOIRE_RECOL REPERTOIRE RECOL:
-DEFAULT_MACRO REPERTOIRE_IC \\volt\infogeo\UF_Acquisition\test_gestiongeo\IC
-GUI IGNORE OPTIONAL DIRNAME_SRC REPERTOIRE_IC REPERTOIRE IC:
+DEFAULT_MACRO REPERTOIRE \\volt\infogeo\Donnees\Interne\gestiongeo
+GUI IGNORE OPTIONAL DIRNAME REPERTOIRE REPERTOIRE:
 DEFAULT_MACRO INSTANCE_DEVELOPPEMENT_MULTIT MULTIT
 GUI IGNORE OPTIONAL TEXT INSTANCE_DEVELOPPEMENT_MULTIT INSTANCE DEVELOPPEMENT MULTIT:
 DEFAULT_MACRO INSTANCE_DEVELOPPEMENT_CUDLT CUDLT
@@ -1101,13 +955,9 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor RESULT Transformer Output N
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE SQLExecutor_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_2_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_3_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_4_INITIATOR    TEST "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FAM_ID<closeparen>,Tester)" = 1 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE SQLExecutor_3_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_4_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_2_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_INITIATOR    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "chemin_dossier" "SET_TO" "$(REPERTOIRE$encode)<backslash><at>Value<openparen>ID_DOS<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_FAILED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "chemin_dossier" "SET_TO" "$(REPERTOIRE_IC$encode)<backslash><dollar>ID_DOS" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "chemin_dossier" "SET_TO" "$(REPERTOIRE_RECOL$encode)<backslash><at>Value<openparen>ID_DOS<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME SystemCaller    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    OUTPUT FEATURE_TYPE SystemCaller_OUTPUT         @System(LOG_PREFIX,SystemCaller,ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,RMDIR<space><at>Value<openparen>chemin_dossier<closeparen><space><solidus>S<space><solidus>Q,SystemCaller)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME SystemCaller    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE SystemCaller_OUTPUT         @System(LOG_PREFIX,SystemCaller,ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,RMDIR<space><at>Value<openparen>chemin_dossier<closeparen><space><solidus>S<space><solidus>Q,SystemCaller)")
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SystemCaller OUTPUT Transformer Output Nuker"   INPUT FEATURE_TYPE SystemCaller_OUTPUT
 # -------------------------------------------------------------------------
 
