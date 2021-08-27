@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
-#    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\Users\rjault\Documents\05-CODE\Workbench\GESTIONGEO\gestion_fme2020_suppression_recol_ic.fmw
-#              --ID_DOS ""
+#    Ligne de commande pour exécuter le projet :
+#        "C:\Program Files\FME 2020.2.2 x64\fme.exe" C:\Users\rjault\Documents\05-CODE\Workbench\GESTIONGEO\gestion_fme2020_suppression_recol_ic.fmw
+#              --ID_DOS "46417"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="20820"
-#!   FME_DOCUMENT_GUID="35a5da81-ee0c-4dd6-95de-f564fbb477ef"
-#!   FME_DOCUMENT_PRIORGUID="3a469852-cbb7-4cef-8f70-4b656fcab328,ee49a590-3837-474c-a5ba-fda680afc863,81fa3fc3-ef82-4c43-a7d6-cb1926e5bb9c,42e32186-a8d9-462b-9507-1bcbee5e4c45,ccf15bef-d50c-41ea-b561-ce3c11a9fe9e,d494d865-afca-4ccd-a272-ddb7f954f8c3,441a51c9-195f-4be3-9517-20a1706429f6,0a1cb06b-8898-4a69-9780-e7b6e32e2e25,5b91ad6a-6290-4880-97c9-7b9f7cac51ac,35cb3292-2222-4e03-92a9-ef29c5e4fcbc,5d6bde9f-aaea-491f-8e47-1b45b58f9d4c,f89ce6b5-d1c8-44fd-bae2-cdc592b835c6,2e55188a-5fc1-4531-9c9f-eef8e4505dce"
+#!   FME_BUILD_NUM="20817"
+#!   FME_DOCUMENT_GUID="fb5129fd-a141-4ceb-8c6a-f179a496c7d3"
+#!   FME_DOCUMENT_PRIORGUID="3a469852-cbb7-4cef-8f70-4b656fcab328,ee49a590-3837-474c-a5ba-fda680afc863,81fa3fc3-ef82-4c43-a7d6-cb1926e5bb9c,42e32186-a8d9-462b-9507-1bcbee5e4c45,ccf15bef-d50c-41ea-b561-ce3c11a9fe9e,d494d865-afca-4ccd-a272-ddb7f954f8c3,441a51c9-195f-4be3-9517-20a1706429f6,0a1cb06b-8898-4a69-9780-e7b6e32e2e25,5b91ad6a-6290-4880-97c9-7b9f7cac51ac,35cb3292-2222-4e03-92a9-ef29c5e4fcbc,5d6bde9f-aaea-491f-8e47-1b45b58f9d4c,f89ce6b5-d1c8-44fd-bae2-cdc592b835c6,2e55188a-5fc1-4531-9c9f-eef8e4505dce,35a5da81-ee0c-4dd6-95de-f564fbb477ef,ee389f66-0a42-43be-a444-8f0797b77107"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2020.2.3.0 (20210129 - Build 20820 - WIN64)"
-#!   LAST_SAVE_DATE="2021-04-08T09:27:26"
+#!   LAST_SAVE_BUILD="FME(R) 2020.2.2.0 (20210111 - Build 20817 - WIN64)"
+#!   LAST_SAVE_DATE="2021-08-27T17:17:22"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,10 +46,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="1661.02 -71.3322"
+#!   VIEW_POSITION="-796.883 -52.0839"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="92"
+#!   ZOOM_SCALE="40"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -64,7 +64,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL RANGE_SLIDER_OR_ATTR ID_DOS &quot;RANGE:[,]&quot; NUMERO DOSSIER:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="46417"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -93,12 +93,12 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR MDP_DEVELOPPEMENT_G_GESTIONGEO_MAJ MDP DEVELOPPEMENT G_GESTION_GEO_MAJ:"
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT MDP_DEVELOPPEMENT_G_GESTIONGEO_MAJ MDP DEVELOPPEMENT G_GESTION_GEO_MAJ:"
 #!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR MDP_DEVELOPPEMENT_GEO MDP DEVELLOPEMENT GEO:"
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT MDP_DEVELOPPEMENT_GEO MDP DEVELLOPEMENT GEO:"
 #!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
@@ -254,7 +254,7 @@
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
+#!   LAST_PARM_EDIT="20817"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -281,9 +281,9 @@
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Username:,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Include&lt;space&gt;System&lt;space&gt;Tables,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Password:,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Remove&lt;space&gt;Table&lt;space&gt;Qualifier"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_DEVELOPPEMENT_G_GESTIONGEO_MAJ)"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
@@ -330,7 +330,7 @@
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
+#!   LAST_PARM_EDIT="20817"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -357,9 +357,9 @@
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Username:,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Include&lt;space&gt;System&lt;space&gt;Tables,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Password:,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Remove&lt;space&gt;Table&lt;space&gt;Qualifier"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_DEVELOPPEMENT_GEO)"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
@@ -381,7 +381,7 @@
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
+#!   LAST_PARM_EDIT="20817"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -408,9 +408,9 @@
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Username:,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Include&lt;space&gt;System&lt;space&gt;Tables,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Password:,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Remove&lt;space&gt;Table&lt;space&gt;Qualifier"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_DEVELOPPEMENT_GEO)"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
@@ -432,7 +432,7 @@
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
+#!   LAST_PARM_EDIT="20817"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -459,9 +459,9 @@
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Username:,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Include&lt;space&gt;System&lt;space&gt;Tables,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Password:,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Remove&lt;space&gt;Table&lt;space&gt;Qualifier"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_DEVELOPPEMENT_GEO)"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
@@ -483,7 +483,7 @@
 #!   ORDER="500000000000009"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="20820"
+#!   LAST_PARM_EDIT="20817"
 #! >
 #!     <OUTPUT_FEAT NAME="JOINED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -510,7 +510,7 @@
 #!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_DEVELOPPEMENT_MULTIT)"/>
 #!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_NONSPATIAL"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_NONSPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,ORACLE_NONSPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_NONSPATIAL&lt;space&gt;Username:,ORACLE_NONSPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Include&lt;space&gt;System&lt;space&gt;Tables,ORACLE_NONSPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_SERVER_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_NONSPATIAL&lt;space&gt;Password:,ORACLE_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Remove&lt;space&gt;Table&lt;space&gt;Qualifier"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_NONSPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_NONSPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_NONSPATIAL_SERVER_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_NONSPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_NONSPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
 #!     <XFORM_PARM PARM_NAME="JOINED_ATTRIBUTE_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="JOINED_LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="JOIN_GROUP" PARM_VALUE=""/>
@@ -520,7 +520,7 @@
 #!     <XFORM_PARM PARM_NAME="MATCH_RULE_DISPLAY" PARM_VALUE="Match All (1:M)"/>
 #!     <XFORM_PARM PARM_NAME="OPTIMIZE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_PASSWORD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_PASSWORD" PARM_VALUE="$(MDP_DEVELOPPEMENT_G_GESTIONGEO_MAJ)"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
@@ -858,7 +858,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-DEFAULT_MACRO ID_DOS 
+DEFAULT_MACRO ID_DOS 46417
 GUI OPTIONAL RANGE_SLIDER ID_DOS "RANGE:[,]" NUMERO DOSSIER:
 DEFAULT_MACRO REPERTOIRE \\volt\infogeo\Donnees\Interne\gestiongeo
 GUI IGNORE OPTIONAL DIRNAME REPERTOIRE REPERTOIRE:
@@ -922,40 +922,40 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TA
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Creator_CREATED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "ID_DOS" "SET_TO" "$(ID_DOS$encode)" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
-MACRO DatabaseJoiner_DIRECTIVES PERSISTENT_CONNECTION YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)" SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes CREATE_FEATURE_TABLES_FROM_DATA Yes SERVER_TYPE ORACLE8i REMOVE_SCHEMA_QUALIFIER NO
+MACRO DatabaseJoiner_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SHOW_SYSTEM_TABLES NO CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PASSWORD "$(MDP_DEVELOPPEMENT_G_GESTIONGEO_MAJ)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES PERSISTENT_CONNECTION YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)"
 INCLUDE [    if { {MATCH_ALL} == {MATCH_ALL} } {       puts {MACRO DatabaseJoiner_ONE_FEATURE_PER_JOIN NO};    } else {       puts {MACRO DatabaseJoiner_ONE_FEATURE_PER_JOIN YES};    } ]
 FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    READER_TYPE             ORACLE_NONSPATIAL    READER_DATASET          "$(INSTANCE_DEVELOPPEMENT_MULTIT$encode)"    TABLE_ID                "G_GESTIONGEO.TA_GG_DOSSIER"    READER_PARAMS           $(DatabaseJoiner_DIRECTIVES)    JOIN_KEYS               ID_DOS<space>ID_DOS    ADDED_FIELDS            FAM_ID    COMBINE_ATTRIBUTES      PREFER_ORIGINAL    MATCH_RULE              MATCH_ALL    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT JOINED FEATURE_TYPE DatabaseJoiner_JOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE DatabaseJoiner_JOINED    TEST "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FAM_ID<closeparen>,Tester_2)" = 1 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_2_FAILED
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_2 PASSED Splitter"   INPUT FEATURE_TYPE Tester_2_PASSED   OUTPUT FEATURE_TYPE Tester_2_PASSED_0_f2TGGhc/g74=   OUTPUT FEATURE_TYPE Tester_2_PASSED_1_4bBqa4ASLBM=   OUTPUT FEATURE_TYPE Tester_2_PASSED_2_KE82FPOzMms=   OUTPUT FEATURE_TYPE Tester_2_PASSED_3_I/9ZKt0FQ3U=
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_3_DIRECTIVES PERSISTENT_CONNECTION YES USER_NAME "$(UTILISATEUR_GEO)" SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes CREATE_FEATURE_TABLES_FROM_DATA Yes SERVER_TYPE ORACLE8i REMOVE_SCHEMA_QUALIFIER NO
+MACRO SQLExecutor_3_DIRECTIVES REMOVE_SCHEMA_QUALIFIER NO PASSWORD "$(MDP_DEVELOPPEMENT_GEO)" CREATE_FEATURE_TABLES_FROM_DATA Yes USER_NAME "$(UTILISATEUR_GEO)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SERVER_TYPE ORACLE8i SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES PERSISTENT_CONNECTION YES
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_3    INPUT  FEATURE_TYPE Tester_2_PASSED_3_I/9ZKt0FQ3U=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<lf>GEO.TA_LIG_TOPO_GPS<lf>WHERE<lf>GEO_REF<space>=<space><apos>REC_$(ID_DOS$encode)<apos>,SQLExecutor_3)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_DEVELOPPEMENT_CUDLT$encode),SQLExecutor_3)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_3_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_3_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_3)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_3_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_3_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_RESULT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_4_DIRECTIVES PERSISTENT_CONNECTION YES USER_NAME "$(UTILISATEUR_GEO)" SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes CREATE_FEATURE_TABLES_FROM_DATA Yes SERVER_TYPE ORACLE8i REMOVE_SCHEMA_QUALIFIER NO
+MACRO SQLExecutor_4_DIRECTIVES REMOVE_SCHEMA_QUALIFIER NO PASSWORD "$(MDP_DEVELOPPEMENT_GEO)" CREATE_FEATURE_TABLES_FROM_DATA Yes USER_NAME "$(UTILISATEUR_GEO)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SERVER_TYPE ORACLE8i SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES PERSISTENT_CONNECTION YES
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_4    INPUT  FEATURE_TYPE Tester_2_PASSED_2_KE82FPOzMms=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<space><lf>GEO.PTTOPO<lf>WHERE<lf>ID_DOS<space>=<space>$(ID_DOS$encode),SQLExecutor_4)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_DEVELOPPEMENT_CUDLT$encode),SQLExecutor_4)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_4_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_4_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_4)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_4_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_4_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_4 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_4_RESULT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_4_<Rejected> INPUT FEATURE_TYPE SQLExecutor_4_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_4<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_4_<Rejected> INPUT FEATURE_TYPE SQLExecutor_4_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_4<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_2_DIRECTIVES PERSISTENT_CONNECTION YES USER_NAME "$(UTILISATEUR_GEO)" SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes CREATE_FEATURE_TABLES_FROM_DATA Yes SERVER_TYPE ORACLE8i REMOVE_SCHEMA_QUALIFIER NO
+MACRO SQLExecutor_2_DIRECTIVES REMOVE_SCHEMA_QUALIFIER NO PASSWORD "$(MDP_DEVELOPPEMENT_GEO)" CREATE_FEATURE_TABLES_FROM_DATA Yes USER_NAME "$(UTILISATEUR_GEO)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SERVER_TYPE ORACLE8i SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES PERSISTENT_CONNECTION YES
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE Tester_2_PASSED_1_4bBqa4ASLBM=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<lf>GEO.TA_POINT_TOPO_GPS<lf>WHERE<lf>GEO_REF<space>=<space><apos>REC_$(ID_DOS$encode)<apos>,SQLExecutor_2)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_DEVELOPPEMENT_CUDLT$encode),SQLExecutor_2)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_2_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_2)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_2_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_2_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_RESULT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_2_<Rejected> INPUT FEATURE_TYPE SQLExecutor_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_2_<Rejected> INPUT FEATURE_TYPE SQLExecutor_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_2<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_DIRECTIVES PERSISTENT_CONNECTION YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)" SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes CREATE_FEATURE_TABLES_FROM_DATA Yes SERVER_TYPE ORACLE8i REMOVE_SCHEMA_QUALIFIER NO
+MACRO SQLExecutor_DIRECTIVES REMOVE_SCHEMA_QUALIFIER NO PASSWORD "$(MDP_DEVELOPPEMENT_G_GESTIONGEO_MAJ)" CREATE_FEATURE_TABLES_FROM_DATA Yes USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SERVER_TYPE ORACLE8i SHOW_SYSTEM_TABLES NO USE_UNIFIED_DATE_ATTRS YES PERSISTENT_CONNECTION YES
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Tester_2_PASSED_0_f2TGGhc/g74=    INPUT  FEATURE_TYPE Tester_2_FAILED    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<space><lf>G_GESTIONGEO.TA_GG_DOSSIER<lf>WHERE<lf>ID_DOS<space>=<space>$(ID_DOS$encode),SQLExecutor)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_DEVELOPPEMENT_MULTIT$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_RESULT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE SQLExecutor_3_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_4_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_2_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_INITIATOR    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "chemin_dossier" "SET_TO" "$(REPERTOIRE$encode)<backslash><at>Value<openparen>ID_DOS<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE SQLExecutor_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_2_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_3_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_4_INITIATOR    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "chemin_dossier" "SET_TO" "$(REPERTOIRE$encode)<backslash><at>Value<openparen>ID_DOS<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME SystemCaller    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE SystemCaller_OUTPUT         @System(LOG_PREFIX,SystemCaller,ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,RMDIR<space><at>Value<openparen>chemin_dossier<closeparen><space><solidus>S<space><solidus>Q,SystemCaller)")
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SystemCaller OUTPUT Transformer Output Nuker"   INPUT FEATURE_TYPE SystemCaller_OUTPUT
