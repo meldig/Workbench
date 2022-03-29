@@ -1,0 +1,2602 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Ligne de commande pour exécuter le projet :
+#        "C:\Program Files\FME 2020.2.2 x64\fme.exe" C:\Users\rjault\Documents\11_DEVELOPPEMENT\FME\derniere_version\github\gestion_fme2020_suppression_recol_ic.fmw
+#              --NUMERO_DOSSIER ""
+#              --TYPE_SUPPRESSION ""
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="17545.8 3420.67"
+#!   DOC_TOP_LEFT="-2050.33 -4524.38"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="20817"
+#!   FME_DOCUMENT_GUID="f2be4772-0bd0-4364-97ff-99265bb2b93c"
+#!   FME_DOCUMENT_PRIORGUID="3a469852-cbb7-4cef-8f70-4b656fcab328,ee49a590-3837-474c-a5ba-fda680afc863,81fa3fc3-ef82-4c43-a7d6-cb1926e5bb9c,42e32186-a8d9-462b-9507-1bcbee5e4c45,ccf15bef-d50c-41ea-b561-ce3c11a9fe9e,d494d865-afca-4ccd-a272-ddb7f954f8c3,441a51c9-195f-4be3-9517-20a1706429f6,0a1cb06b-8898-4a69-9780-e7b6e32e2e25,5b91ad6a-6290-4880-97c9-7b9f7cac51ac,35cb3292-2222-4e03-92a9-ef29c5e4fcbc,5d6bde9f-aaea-491f-8e47-1b45b58f9d4c,f89ce6b5-d1c8-44fd-bae2-cdc592b835c6,2e55188a-5fc1-4531-9c9f-eef8e4505dce,35a5da81-ee0c-4dd6-95de-f564fbb477ef,ee389f66-0a42-43be-a444-8f0797b77107,fb5129fd-a141-4ceb-8c6a-f179a496c7d3,bf64f7e4-0c59-4d41-9b3e-cda22417ba9a,d40dc22c-c7c4-4a5b-b421-409cd0d75a60,2cb4e959-974e-47de-9877-fb9755be69f3,f92dd4bf-6d45-4e1f-ac6b-8da0d86a2cb6,e1e27e0a-8d70-4451-be9e-a745f58a2485,f0badafc-49f5-426f-bc73-ff6fe6ccdb50,b7b7fc95-a4cb-4cec-9fc9-592f952db480,b0876e0c-86f7-4112-b21b-601bb785c551,a175256e-b5a8-45a8-8483-7f7f1f2c8a4c,40cc6165-11a2-4a41-ab6c-291d3cba2cc0,353c3974-79f1-4206-bad0-c4e9fbbc789c,72d40120-df32-4470-8bb5-37cf09625bb0,6d80a51b-d0d5-4664-a7cb-c39e06d4fb1e,d4268604-a7b0-49ce-ae7e-e263c8568278,4d3614c8-c971-4bd4-b97f-3433e0acc4ad,411c027e-d90d-43a6-805f-99dbc7155523,e03e46b8-e39a-440a-a44e-dd7e7ac597c9,09e7b745-8b72-413d-a0c6-ef49e6294575,5e7759d6-edd0-4dde-a850-435702b52ab8,8f57ae25-b068-4383-aa0d-ebd393ea7eab,e79b1c56-61cf-4ed1-97fe-3dea37770111,b2211126-b03c-49bc-8504-65198810e193,b89b7f04-386f-40a5-8357-d946a13ceb42,a99d852d-82f7-4e0f-a6f1-1aefbe8a5ca6,939d6b70-5df7-4ec3-9ddd-684c3d6e5655,6e86da59-6f7d-4a8d-9943-8b44f520fc0e,bc0a3590-256b-4d77-bf87-6ed10980b4b8,7b240ba0-a336-47c2-8396-57a5660bbc5d,c0520b95-b0f5-4491-8631-53cfd38b8d28,07d5919f-9979-44b6-be55-44f46c94c166,244c3e06-4161-4e2a-8a46-f23aa3ea78d0,10d0a130-d184-4d1c-a90b-4c3706ffffc0,11976765-0f81-438b-a949-65b2c932a0b0,e482c9c4-b5a9-497a-9764-9b599d9db3d3,83aaeddf-db02-43dc-b27b-3920fb053326,cc8a34c7-8fc7-4804-b3cb-72f2d815bd52,3544ef4b-2abe-42f1-8ca4-a4a4864c697c,c4307807-9c61-4eae-95b6-de5b473973f2,da13814d-2109-43d6-91c1-35fbf7e960c6,bddeded6-e6cc-4398-8998-5346a80bb571,8e31584c-fbf3-47b6-997b-3bec2edaa8f1,9de85728-3438-435a-8014-7bdef84231f8,b526a810-e83d-456a-b338-3a54e70fd9a6,a066fbd1-40bf-47ea-b061-69ffad7223e8,a9965324-3605-4c75-81aa-ff52c06f14d8,13984c62-5b8e-42b3-b899-db6f27a86f93,23fdc3bc-fb9c-41a5-a56e-429b419c28bc"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2020.2.2.0 (20210111 - Build 20817 - WIN64)"
+#!   LAST_SAVE_DATE="2022-03-29T13:14:22"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-1592.9 -1401.92"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="72"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#!   DATASET="$(INSTANCE_PRODUCTION_ORACLE_12_C)"
+#!   KEYWORD="ORACLE_AUTONOMOUS_NONSPATIAL_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="oracle_sql_encoded &quot;&quot; oracle_where_clause_encoded &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_rotation float fme_start_angle float fme_dataset char(50) multi_reader_keyword char(50) fme_feature_type char(50) fme_basename char(50) multi_reader_id integer multi_reader_type char(50) fme_text_size float fme_secondary_axis float fme_db_operation char(8) fme_fill_color char(50) multi_reader_full_id integer fme_color char(50) fme_type char(50) fme_primary_axis float fme_geometry char(50) fme_sweep_angle float oracle_type char(50) fme_text_string char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP oracle_reader_group oracle_where_clause_encoded%oracle_sql_encoded Table&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT_EDIT_SQL_CFG oracle_sql_encoded MODE,SQL;FORMAT,ORACLE_AUTONOMOUS_NONSPATIAL SELECT Statement&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE TEXT_EDIT_SQL_CFG oracle_where_clause_encoded MODE,SQL;FORMAT,ORACLE_AUTONOMOUS_NONSPATIAL WHERE Clause&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="BTree Bitmap PrimaryKey Unique"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="DATABASE"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="20817"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ORACLE_AUTONOMOUS_NONSPATIAL_IN_CHUNK_SIZE ORACLE_AUTONOMOUS_NONSPATIAL_IN_BEGIN_SQL{0} ORACLE_AUTONOMOUS_NONSPATIAL_IN_END_SQL{0} ORACLE_AUTONOMOUS_NONSPATIAL_IN_PERSISTENT_CONNECTION ORACLE_AUTONOMOUS_NONSPATIAL_IN_REMOVE_SCHEMA_QUALIFIER ORACLE_AUTONOMOUS_NONSPATIAL_IN_SHOW_SYSTEM_TABLES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar2(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="raw(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="raw(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="nchar(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="nvarchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="clob"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="nclob"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xmltype"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="binary_double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="binary_float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamptz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamptz(width)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestampltz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestampltz(width)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamp(width)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(10,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(19,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_circle"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_point"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_multipoint"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_line"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_multiline"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_area"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_multipoly"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_arc"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_rectangle"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_collection"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_solid"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_surface"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_multisolid"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_multisurface"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oracle_nil"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ORACLE_AUTONOMOUS_NONSPATIAL"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="V_VALEUR_GESTION_TRAITEMENT_FME"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="G_GESTIONGEO"
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="77"
+#!   FEAT_GEOMTYPE="oracle_nil"
+#!   POSITION="8450.2562024030394 -3384.2514845657192"
+#!   BOUNDING_RECT="8450.2562024030394 -3384.2514845657192 1208.0999999999999 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="ORACLE_AUTONOMOUS_NONSPATIAL_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   READ_SELECT_ATTRS="true"
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="REPERTOIRE" ATTR_TYPE="varchar2(4000)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ETAT_ID_FINAL_RECOL" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ETAT_ID_FINAL_IC" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ETAT_ID_MAJ" ATTR_TYPE="number(38,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_reader_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_sql_encoded" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="oracle_where_clause_encoded" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL RANGE_SLIDER_OR_ATTR NUMERO_DOSSIER &quot;RANGE:[,]&quot; NUMERO DOSSIER:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL LOOKUP_LISTBOX_OR_ATTR TYPE_SUPPRESSION SUPPRESSION&lt;space&gt;COMPLETE&lt;space&gt;DU&lt;space&gt;DOSSIER,1%SUPPRESSION&lt;space&gt;DES&lt;space&gt;ELEMENTS&lt;space&gt;TOPOGRAPHIQUE&lt;space&gt;DU&lt;space&gt;DOSSIER,2 TYPE DE SUPPRESSION:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT INSTANCE_PRODUCTION_ORACLE_12_C INSTANCE PRODUCTION ORACLE 12 C:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR INSTANCE_PRODUCTION_ORACLE_11_G INSTANCE PRODUCTION ORACLE 11 G:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT UTILISATEUR_G_GESTIONGEO_MAJ UTILISATEUR G_GESTIONGEO MAJ:"
+#!   DEFAULT_VALUE="G_GESTIONGEO_MAJ"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT UTILISATEUR_G_GESTIONGEO_LEC UTILISATEUR G_GESTIONGEO_LEC:"
+#!   DEFAULT_VALUE="G_GESTIONGEO_LEC"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT UTILISATEUR_G_GESTIONGEO UTILISATEUR G_GSTIONGEO:"
+#!   DEFAULT_VALUE="G_GESTIONGEO"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT UTILISATEUR_GEO UTILISATEUR GEO:"
+#!   DEFAULT_VALUE="GEO"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO MDP PRODUCTION INSTANCE 11 C SCHEMA GEO:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ MDP PRODUCTION INSTANCE ORACLE 12 C SCHEMA G_GESTIONGEO_MAJ:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCEMA_G_GESTIONGEO_LEC MDP PRODUCTION INSTANCE ORACLE 12 C SCHEMA G_GESTIONGEO_LEC:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR TA_POINT_TOPO_GPS TABLE TA_POINT_TOPO_GPS:"
+#!   DEFAULT_VALUE="TA_POINT_TOPO_GPS"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR TA_LIG_TOPO_GPS TABLE TA_LIG_TOPO_GPS:"
+#!   DEFAULT_VALUE="TA_LIG_TOPO_GPS"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT TA_GG_DOSSIER TABLE TA_GG_DOSSIER:"
+#!   DEFAULT_VALUE="TA_GG_DOSSIER"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR TA_GG_GEO TABLE TA_GG_GEO:"
+#!   DEFAULT_VALUE="TA_GG_GEO"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR TA_GG_FICHIER TABLE TA_GG_FICHIER:"
+#!   DEFAULT_VALUE="TA_GG_FICHIER"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR PTTOPO TABLE DES POINTS PTTOPO:"
+#!   DEFAULT_VALUE="PTTOPO"
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="11"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression du dossier dans TA_GG_GEO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3674.8373819229951 -3775.8525634897219"
+#!   TOP_LEFT="3674.8373819229951 -3775.8525634897219"
+#!   BOTTOM_RIGHT="4460.7746962425372 -3874.6032509965971"
+#!   BOUNDING_RECT="3674.8373819229951 -3775.8525634897219 785.93731431954257 98.750687506875067"
+#!   ORDER="500000000000005"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="2"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="12"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression des elements du dossier dans GEO.TA_POINT_TOPO_GPS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1943.3399815844182 -1220.9810656626078"
+#!   TOP_LEFT="1943.3399815844182 -1220.9810656626078"
+#!   BOTTOM_RIGHT="2763.4727629122312 -1363.482190673858"
+#!   BOUNDING_RECT="1943.3399815844182 -1220.9810656626078 820.13278132781306 142.50112501125011"
+#!   ORDER="500000000000006"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="5"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="13"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression des elements du dossier dans GEO.TEMP_TA_LIG_TOPO_GPS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1943.3399815844182 -1837.3880925456751"
+#!   TOP_LEFT="1943.3399815844182 -1837.3880925456751"
+#!   BOTTOM_RIGHT="2758.4355231648342 -1979.8892175569254"
+#!   BOUNDING_RECT="1943.3399815844182 -1837.3880925456751 815.09554158041578 142.50112501125011"
+#!   ORDER="500000000000007"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="6"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="14"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression des elements du dossier dans GEO.PTTOPO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1955.8401065856679 -2408.6603919091913"
+#!   TOP_LEFT="1955.8401065856679 -2408.6603919091913"
+#!   BOTTOM_RIGHT="2750.9726379109811 -2551.1615169204415"
+#!   BOUNDING_RECT="1955.8401065856679 -2408.6603919091913 795.13253132531327 142.50112501125011"
+#!   ORDER="500000000000008"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="7"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="26"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creation de l&apos;attribut NUMERO_DOSSIER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1403.952565300953 -2307.4083592225388"
+#!   TOP_LEFT="-1403.952565300953 -2307.4083592225388"
+#!   BOTTOM_RIGHT="-949.95256530095298 -2308.4083592225388"
+#!   BOUNDING_RECT="-1403.952565300953 -2307.4083592225388 454 1"
+#!   ORDER="500000000000012"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="44"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression du répertoire du dossier a l&apos;aide d&apos;une commande DOS RMDIR&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="12572.01865048223 -2493.9966560009834"
+#!   TOP_LEFT="12572.01865048223 -2493.9966560009834"
+#!   BOTTOM_RIGHT="13512.852526906101 -2592.7473435078587"
+#!   BOUNDING_RECT="12572.01865048223 -2493.9966560009834 940.83387642387061 98.750687506875067"
+#!   ORDER="500000000000022"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="46"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="34"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression des lignes du dossier de la table TA_GG_FICHIER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="505.45870554617136 -3402.4150306872521"
+#!   TOP_LEFT="505.45870554617136 -3402.4150306872521"
+#!   BOTTOM_RIGHT="1433.1352173112884 -3632.4170307072523"
+#!   BOUNDING_RECT="505.45870554617136 -3402.4150306872521 927.67651176511708 230.0020000200002"
+#!   ORDER="500000000000005"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="33"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="36"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cette jointure permet de recupérer le FID_PERIMETRE d&apos;un dossier pour supprimer sa ligne dans la table TA_GG_GEO.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1613.8933277428798 -3459.3117874624932"
+#!   TOP_LEFT="1613.8933277428798 -3459.3117874624932"
+#!   BOTTOM_RIGHT="2751.0026642683433 -3820.5650999956183"
+#!   BOUNDING_RECT="1613.8933277428798 -3459.3117874624932 1137.1093365254637 361.25331253312532"
+#!   ORDER="500000000000173.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="30"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="37"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creation du chemin du dossier&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="11670.124040557404 -2435.6348683697288"
+#!   TOP_LEFT="11670.124040557404 -2435.6348683697288"
+#!   BOTTOM_RIGHT="12370.630665623656 -2578.135993380979"
+#!   BOUNDING_RECT="11670.124040557404 -2435.6348683697288 700.50662506625167 142.50112501125011"
+#!   ORDER="500000000000016"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="27"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="68"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mise à jour de la liigne du dernier fichier intégré dans la table TA_GG_FICHIER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="13609.978344921241 -3640.8013639038713"
+#!   TOP_LEFT="13609.978344921241 -3640.8013639038713"
+#!   BOTTOM_RIGHT="14537.654856686358 -3870.8033639238715"
+#!   BOUNDING_RECT="13609.978344921241 -3640.8013639038713 927.67651176511708 230.0020000200002"
+#!   ORDER="500000000000005"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="67"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="70"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aiguillage seleon le type de suppression:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1: Suppression compléte du dossier&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2: Suppression des élements topographiques du dossier.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TYPE de suppression = 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-868.48775693236405 -2219.9074842137884"
+#!   TOP_LEFT="-868.48775693236405 -2219.9074842137884"
+#!   BOTTOM_RIGHT="132.70680652011993 -2318.6581717206636"
+#!   BOUNDING_RECT="-868.48775693236405 -2219.9074842137884 1001.194563452484 98.750687506875067"
+#!   ORDER="500000000000407.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="54"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="71"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aiguillage seleon le type de suppression:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1: Suppression compléte du dossier&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2: Mise à 0 de l&apos;attribut du fichier intégré.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7225.0368057642472 -2623.336348861742"
+#!   TOP_LEFT="7225.0368057642472 -2623.336348861742"
+#!   BOTTOM_RIGHT="8294.7252048400187 -2809.5879113773672"
+#!   BOUNDING_RECT="7225.0368057642472 -2623.336348861742 1069.6883990757706 186.25156251562515"
+#!   ORDER="500000000000408.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="60"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="72"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Instruction pour récupérer le chemin du dernier fichier intégré du dossier dans la table TA_GG_FICHIER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="12630.335391442277 -3559.0468765580072"
+#!   TOP_LEFT="12630.335391442277 -3559.0468765580072"
+#!   BOTTOM_RIGHT="13411.837600555751 -3745.2984390736324"
+#!   BOUNDING_RECT="12630.335391442277 -3559.0468765580072 781.50220911347424 186.25156251562515"
+#!   ORDER="500000000000409.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="51"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="65"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;jointure pour recomposer le chemin du dossier à supprimer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="10757.147313319108 -2221.8370001578496"
+#!   TOP_LEFT="10757.147313319108 -2221.8370001578496"
+#!   BOTTOM_RIGHT="11365.501114896908 -2364.3381251690998"
+#!   BOUNDING_RECT="10757.147313319108 -2221.8370001578496 608.35380157779946 142.50112501125011"
+#!   ORDER="500000000000416.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="74"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="83"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mise a jour de l&apos;etat du dossier en attent de levé géomètre.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="14586.504438665133 -3824.4723087829971"
+#!   TOP_LEFT="14586.504438665133 -3824.4723087829971"
+#!   BOTTOM_RIGHT="15456.369547331218 -3966.9734337942473"
+#!   BOUNDING_RECT="14586.504438665133 -3824.4723087829971 869.86510866608478 142.50112501125011"
+#!   ORDER="500000000000422.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="75"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="85"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Suppression du dossier dans TA_GG_DOSSIER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2600.3470745870604 -3690.1216176846888"
+#!   TOP_LEFT="2600.3470745870604 -3690.1216176846888"
+#!   BOTTOM_RIGHT="3528.0235863521775 -3920.123617704689"
+#!   BOUNDING_RECT="2600.3470745870604 -3690.1216176846888 927.67651176511708 230.0020000200002"
+#!   ORDER="500000000000005"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="84"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="93"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;On garde l&apos;atribut REPERTOIRE pour reconstituer le nom du dossier à supprimer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="9936.4276877860593 -2771.7065018665648"
+#!   TOP_LEFT="9936.4276877860593 -2771.7065018665648"
+#!   BOTTOM_RIGHT="10557.538007812513 -2957.9580643821901"
+#!   BOUNDING_RECT="9936.4276877860593 -2771.7065018665648 621.11032002645334 186.25156251562515"
+#!   ORDER="500000000000444.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="78"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="94"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;On garde l&apos;atribut ETAT_ID_MAJ  pour mettre à jour le champ FID_ETAT_AVANCEMENT de la table TA_GG_DOSSIER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="10290.72826989922 -3294.0565977051915"
+#!   TOP_LEFT="10290.72826989922 -3294.0565977051915"
+#!   BOTTOM_RIGHT="11317.248049425676 -3480.3081602208167"
+#!   BOUNDING_RECT="10290.72826989922 -3294.0565977051915 1026.5197795264557 186.25156251562515"
+#!   ORDER="500000000000445.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="90"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="100"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;jointure pour recomposer le chemin du dossier à supprimer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="11720.296501804536 -3466.5397585633859"
+#!   TOP_LEFT="11720.296501804536 -3466.5397585633859"
+#!   BOTTOM_RIGHT="12328.650303382336 -3609.0408835746362"
+#!   BOUNDING_RECT="11720.296501804536 -3466.5397585633859 608.35380157779946 142.50112501125011"
+#!   ORDER="500000000000416.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="96"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="89"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;On garde l&apos;attribut du numero de dossier qui est la seule information utile pour la suite du traitement.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5781.5208261510497 -2504.9658925051963"
+#!   TOP_LEFT="5781.5208261510497 -2504.9658925051963"
+#!   BOTTOM_RIGHT="6471.4188808554754 -2691.2174550208215"
+#!   BOUNDING_RECT="5781.5208261510497 -2504.9658925051963 689.8980547044257 186.25156251562515"
+#!   ORDER="500000000000449.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="63"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="92"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aggrégation de l&apos;attribut pour n&apos;avoir qu&apos;une ligne&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="6626.1291412914143 -2646.1999437345971"
+#!   TOP_LEFT="6626.1291412914143 -2646.1999437345971"
+#!   BOTTOM_RIGHT="7080.1291412914143 -2647.1999437345971"
+#!   BOUNDING_RECT="6626.1291412914143 -2646.1999437345971 454 1"
+#!   ORDER="500000000000450.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="97"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="42"
+#!   NAME="Suppression des éléments du dossier contenus dans le schéma GEO@CUDLT"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="1723.3418741033424 -1103.7135511269973"
+#!   ORDER="500000000000341.13"
+#!   PALETTE_COLOR="Color4"
+#!   BOTTOM_RIGHT="3120.7503855860473 -2961.5627887238497"
+#!   BOUNDING_RECT="1723.3418741033424 -1103.7135511269973 1397.4085114827049 1857.8492375968526"
+#!   STICKY="true"
+#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,1"
+#!   CONTENTS="12 14 5 7 13 6 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="43"
+#!   NAME="Suppression des éléments du dossier contenues dans le schéma G_GESTIONGEO@MULTIT"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="455.45870554617136 -3292.4150306872521"
+#!   ORDER="500000000000342.13"
+#!   PALETTE_COLOR="Color5"
+#!   BOTTOM_RIGHT="4845.1811951747841 -4524.381527001111"
+#!   BOUNDING_RECT="455.45870554617136 -3292.4150306872521 4389.7224896286125 1231.9664963138589"
+#!   STICKY="true"
+#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,1"
+#!   CONTENTS="11 34 87 33 86 85 2 84 30 38 36 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="45"
+#!   NAME="Suppression du repertoire du dossier"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="5659.7788200104214 -1970.624729078341"
+#!   ORDER="500000000000343.13"
+#!   PALETTE_COLOR="Color6"
+#!   BOTTOM_RIGHT="15495.437973247648 -4438.3889784843795"
+#!   BOUNDING_RECT="5659.7788200104214 -1970.624729078341 9835.6591532372258 2467.7642494060383"
+#!   STICKY="true"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,1"
+#!   CONTENTS="60 76 100 75 79 80 74 68 46 65 82 90 88 92 89 72 102 71 94 97 98 99 93 37 78 61 73 51 91 81 67 27 63 83 44 96 77 69 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="3875.5222700052836 -4023.6154754772497"
+#!   BOUNDING_RECT="3875.5222700052836 -4023.6154754772497 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FID_PERIMETRE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="FID_PERIMETRE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;lf&gt;FROM&lt;space&gt;&lt;lf&gt;$(UTILISATEUR_G_GESTIONGEO).$(TA_GG_GEO)&lt;lf&gt;WHERE&lt;lf&gt;OBJECTID&lt;space&gt;=&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;FID_PERIMETRE&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="Creator"
+#!   VERSION="5"
+#!   POSITION="-2050.334409119394 -2441.1590467294141"
+#!   BOUNDING_RECT="-2050.334409119394 -2441.1590467294141 430 71"
+#!   ORDER="500000000000004"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20820"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="5"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="2159.4024259588618 -1465.3968539249686"
+#!   BOUNDING_RECT="2159.4024259588618 -1465.3968539249686 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_11_G)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_GEO)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;lf&gt;FROM&lt;lf&gt;$(UTILISATEUR_GEO).$(TA_POINT_TOPO_GPS)&lt;lf&gt;WHERE&lt;lf&gt;GEO_REF&lt;space&gt;=&lt;space&gt;&lt;apos&gt;REC_$(NUMERO_DOSSIER)&lt;apos&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="2159.4024259588618 -2041.9509470098365"
+#!   BOUNDING_RECT="2159.4024259588618 -2041.9509470098365 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_11_G)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_GEO)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;lf&gt;FROM&lt;lf&gt;$(UTILISATEUR_GEO).$(TA_LIG_TOPO_GPS)&lt;lf&gt;WHERE&lt;lf&gt;GEO_REF&lt;space&gt;=&lt;space&gt;&lt;apos&gt;REC_$(NUMERO_DOSSIER)&lt;apos&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="2159.4024259588618 -2604.6615169204415"
+#!   BOUNDING_RECT="2159.4024259588618 -2604.6615169204415 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_11_G)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_GEO)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;lf&gt;FROM&lt;space&gt;&lt;lf&gt;$(UTILISATEUR_GEO).$(PTTOPO)&lt;lf&gt;WHERE&lt;lf&gt;ID_DOS&lt;space&gt;=&lt;space&gt;$(NUMERO_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_4"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="AttributeCreator"
+#!   VERSION="9"
+#!   POSITION="-1375.3276590518906 -2509.9097342362888"
+#!   BOUNDING_RECT="-1375.3276590518906 -2509.9097342362888 454 71"
+#!   ORDER="500000000000011"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; NUMERO_DOSSIER SET_TO $(NUMERO_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="46"
+#!   TYPE="SystemCaller"
+#!   VERSION="3"
+#!   POSITION="12837.375297296589 -2715.2482185166073"
+#!   BOUNDING_RECT="12837.375297296589 -2715.2482185166073 454 71"
+#!   ORDER="500000000000020"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="chemin_dossier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="REPERTOIRE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CMD" PARM_VALUE="rm&lt;space&gt;-r&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;chemin_dossier&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SystemCaller"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="775.28145314864742 -3719.315802194968"
+#!   BOUNDING_RECT="775.28145314864742 -3719.315802194968 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;lf&gt;FROM&lt;space&gt;&lt;lf&gt;$(UTILISATEUR_G_GESTIONGEO).$(TA_GG_FICHIER)&lt;lf&gt;WHERE&lt;lf&gt;FID_DOSSIER&lt;space&gt;=&lt;space&gt;$(NUMERO_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_5"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="30"
+#!   TYPE="DatabaseJoiner"
+#!   VERSION="6"
+#!   POSITION="1993.711161973958 -3904.6983571025266"
+#!   BOUNDING_RECT="1993.711161973958 -3904.6983571025266 454 71"
+#!   ORDER="500000000000172.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="JOINED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FID_PERIMETRE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNJOINED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ADDED_FIELDS" PARM_VALUE="FID_PERIMETRE"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Joined"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Joined"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_SIZE" PARM_VALUE="5000"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="JOINED_ATTRIBUTE_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOINED_LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="NUMERO_DOSSIER&lt;space&gt;OBJECTID"/>
+#!     <XFORM_PARM PARM_NAME="MATCHED_ATTR_NAME" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MATCH_MULTIPLE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MATCH_RULE_DISPLAY" PARM_VALUE="Must Match Exactly One (1:1)"/>
+#!     <XFORM_PARM PARM_NAME="OPTIMIZE_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PREFETCH_EXHAUSTIVE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="PREFETCH_QUERY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO).$(TA_GG_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_KEY_FIELDS_DISPLAY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DatabaseJoiner"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="54"
+#!   TYPE="Tester"
+#!   VERSION="3"
+#!   POSITION="-582.19760279794582 -2572.7997005997454"
+#!   BOUNDING_RECT="-582.19760279794582 -2572.7997005997454 454 71"
+#!   ORDER="500000000000401.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#!   OUTPUT_FT_ORDER="FAILED%PASSED"
+#! >
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST $(TYPE_SUPPRESSION) = 1"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="60"
+#!   TYPE="Tester"
+#!   VERSION="3"
+#!   POSITION="7549.8547424367634 -2924.0407607003813"
+#!   BOUNDING_RECT="7549.8547424367634 -2924.0407607003813 454 71"
+#!   ORDER="500000000000402.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST $(TYPE_SUPPRESSION) = 1"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="51"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="12837.375297296589 -3823.0281334253705"
+#!   BOUNDING_RECT="12837.375297296589 -3823.0281334253705 430 71"
+#!   ORDER="500000000000403.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="OBJECTID"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_AUTONOMOUS_NONSPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_AUTONOMOUS_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;,ORACLE_AUTONOMOUS_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_AUTONOMOUS_NONSPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_AUTONOMOUS_NONSPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_AUTONOMOUS_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;,ORACLE_AUTONOMOUS_NONSPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_AUTONOMOUS_NONSPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;,ORACLE_AUTONOMOUS_NONSPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;,ORACLE_AUTONOMOUS_NONSPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_AUTONOMOUS_NONSPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCEMA_G_GESTIONGEO_LEC)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_LEC)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_AUTONOMOUS_NONSPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="SELECT&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;OBJECTID&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FICHIER&lt;space&gt;&lt;lf&gt;FROM&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;$(UTILISATEUR_G_GESTIONGEO).$(TA_GG_FICHIER)&lt;space&gt;&lt;lf&gt;WHERE&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FID_DOSSIER&lt;space&gt;=&lt;space&gt;$(NUMERO_DOSSIER)&lt;space&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;INTEGRATION&lt;space&gt;=&lt;space&gt;1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_6"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="AttributeCreator"
+#!   VERSION="9"
+#!   POSITION="11810.355299147164 -2649.1417882215355"
+#!   BOUNDING_RECT="11810.355299147164 -2649.1417882215355 454 71"
+#!   ORDER="500000000000013"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="chemin_dossier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="REPERTOIRE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; chemin_dossier SET_TO &lt;at&gt;Value&lt;openparen&gt;REPERTOIRE&lt;closeparen&gt;&lt;solidus&gt;$(NUMERO_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="63"
+#!   TYPE="AttributeKeeper"
+#!   VERSION="3"
+#!   POSITION="5910.6675709518304 -2801.044592181082"
+#!   BOUNDING_RECT="5910.6675709518304 -2801.044592181082 454 71"
+#!   ORDER="500000000000405.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CREATE_BULK_MODE_FEATURES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="NUMERO_DOSSIER"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_ON_ATTRIBUTE_CHANGE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="67"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="13893.793769763921 -3873.5179381281796"
+#!   BOUNDING_RECT="13893.793769763921 -3873.5179381281796 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="UPDATE&lt;space&gt;&lt;lf&gt;$(UTILISATEUR_G_GESTIONGEO).$(TA_GG_FICHIER)&lt;lf&gt;SET&lt;space&gt;INTEGRATION&lt;space&gt;=&lt;space&gt;0&lt;space&gt;&lt;lf&gt;WHERE&lt;space&gt;OBJECTID&lt;space&gt;=&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;OBJECTID&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_7"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="74"
+#!   TYPE="FeatureMerger"
+#!   VERSION="18"
+#!   POSITION="10834.202878395305 -2466.9580643821901"
+#!   BOUNDING_RECT="10834.202878395305 -2466.9580643821901 483 71"
+#!   ORDER="500000000000415.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#!   INPUT_FT_ORDER="SUPPLIER%REQUESTOR"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="REPERTOIRE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="REPERTOIRE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="REPERTOIRE" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="1 1 AUTO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="78"
+#!   TYPE="AttributeKeeper"
+#!   VERSION="3"
+#!   POSITION="10041.995931036057 -3055.693829122732"
+#!   BOUNDING_RECT="10041.995931036057 -3055.693829122732 454 71"
+#!   ORDER="500000000000410.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="REPERTOIRE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CREATE_BULK_MODE_FEATURES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="REPERTOIRE"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_ON_ATTRIBUTE_CHANGE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="75"
+#!   TYPE="DatabaseUpdater"
+#!   VERSION="0"
+#!   POSITION="14799.836924690129 -4063.02813342537"
+#!   BOUNDING_RECT="14799.836924690129 -4063.02813342537 454 71"
+#!   ORDER="500000000000419.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <XFORM_PARM PARM_NAME="COLUMN_MAP" PARM_VALUE="FID_ETAT_AVANCEMENT;ETAT_ID_MAJ"/>
+#!     <XFORM_PARM PARM_NAME="COLUMN_MAP_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONDITION" PARM_VALUE="Match Column(s)"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_COLUMNS" PARM_VALUE="OBJECTID,FID_ETAT_AVANCEMENT,FID_FAMILLE,FID_PERIMETRE,FID_PNOM_CREATION,FID_PNOM_MODIFICATION,DATE_SAISIE,DATE_MODIFICATION,DATE_CLOTURE,DATE_DEBUT_LEVE,DATE_FIN_LEVE,DATE_DEBUT_TRAVAUX,DATE_FIN_TRAVAUX,DATE_COMMANDE_DOSSIER,MAITRE_OUVRAGE,RESPONSABLE_LEVE,ENTREPRISE_TRAVAUX,REMARQUE_GEOMETRE,REMARQUE_PHOTO_INTERPRETE"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_NONSPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_NONSPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_NONSPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_NONSPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_NONSPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_NONSPATIAL_SERVER_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ORACLE_NONSPATIAL&lt;space&gt;,ORACLE_NONSPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_NONSPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="MATCH_COLUMNS" PARM_VALUE="OBJECTID;$(NUMERO_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_NONSPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE" PARM_VALUE="G_GESTIONGEO.TA_GG_DOSSIER"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WHERE_CLAUSE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DatabaseUpdater"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="84"
+#!   TYPE="SQLExecutor"
+#!   VERSION="9"
+#!   POSITION="2870.1698221895376 -3904.6983571025266"
+#!   BOUNDING_RECT="2870.1698221895376 -3904.6983571025266 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FID_PERIMETRE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="FID_PERIMETRE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(INSTANCE_PRODUCTION_ORACLE_12_C)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ORACLE_SPATIAL"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Supprimer&lt;space&gt;le&lt;space&gt;pr&lt;u00e9&gt;fixe&lt;space&gt;du&lt;space&gt;nom&lt;space&gt;de&lt;space&gt;sch&lt;u00e9&gt;ma,ORACLE_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Connexion&lt;space&gt;permanente,ORACLE_SPATIAL_SHOW_SYSTEM_TABLES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,ORACLE_SPATIAL&lt;space&gt;Inclure&lt;space&gt;les&lt;space&gt;tables&lt;space&gt;syst&lt;u00e8&gt;me,ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Mot&lt;space&gt;de&lt;space&gt;passe&lt;space&gt;:,ORACLE_SPATIAL_SERVER_TYPE,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS,&quot;IGNORE TEXT&quot;,ORACLE_SPATIAL&lt;space&gt;,ORACLE_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT_ENCODED&quot;,ORACLE_SPATIAL&lt;space&gt;Nom&lt;space&gt;d&lt;apos&gt;utilisateur&lt;space&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PASSWORD" PARM_VALUE="$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_REMOVE_SCHEMA_QUALIFIER" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SERVER_TYPE" PARM_VALUE="ORACLE8i"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_SHOW_SYSTEM_TABLES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USER_NAME" PARM_VALUE="$(UTILISATEUR_G_GESTIONGEO_MAJ)"/>
+#!     <XFORM_PARM PARM_NAME="ORACLE_SPATIAL_USE_UNIFIED_DATE_ATTRS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;lf&gt;FROM&lt;space&gt;&lt;lf&gt;$(UTILISATEUR_G_GESTIONGEO).$(TA_GG_DOSSIER)&lt;lf&gt;WHERE&lt;lf&gt;OBJECTID&lt;space&gt;=&lt;space&gt;$(NUMERO_DOSSIER)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_8"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="90"
+#!   TYPE="AttributeKeeper"
+#!   VERSION="3"
+#!   POSITION="10582.302838439653 -3574.7986441256471"
+#!   BOUNDING_RECT="10582.302838439653 -3574.7986441256471 454 71"
+#!   ORDER="500000000000410.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CREATE_BULK_MODE_FEATURES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="ETAT_ID_MAJ"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_ON_ATTRIBUTE_CHANGE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_4"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="97"
+#!   TYPE="Aggregator"
+#!   VERSION="15"
+#!   POSITION="6664.1291412914143 -2867.4515062502223"
+#!   BOUNDING_RECT="6664.1291412914143 -2867.4515062502223 454 71"
+#!   ORDER="500000000000448.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#! >
+#!     <OUTPUT_FEAT NAME="AGGREGATE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Merge Incoming Attributes"/>
+#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CYCLE_ID_ERROR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="96"
+#!   TYPE="FeatureMerger"
+#!   VERSION="18"
+#!   POSITION="11797.352066880732 -3711.6608227877264"
+#!   BOUNDING_RECT="11797.352066880732 -3711.6608227877264 483 71"
+#!   ORDER="500000000000415.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20817"
+#!   INPUT_FT_ORDER="SUPPLIER%REQUESTOR"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="NUMERO_DOSSIER" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="ETAT_ID_MAJ" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="1 1 AUTO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_2"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="88"
+#!   SOURCE_NODE="77"
+#!   TARGET_NODE="78"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="91"
+#!   SOURCE_NODE="77"
+#!   TARGET_NODE="90"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="55"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="54"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="73"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="46"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="86"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="84"
+#!   SOURCE_PORT_DESC="fo 0 JOINED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="69"
+#!   SOURCE_NODE="51"
+#!   TARGET_NODE="67"
+#!   SOURCE_PORT_DESC="fo 0 RESULT"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="56"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="fo 1 PASSED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 1 PASSED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 1 PASSED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="39"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 1 PASSED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="3"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="61"
+#!   SOURCE_NODE="60"
+#!   TARGET_NODE="74"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="98"
+#!   SOURCE_NODE="63"
+#!   TARGET_NODE="97"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="76"
+#!   SOURCE_NODE="74"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="81"
+#!   SOURCE_NODE="78"
+#!   TARGET_NODE="74"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 1 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="79"
+#!   SOURCE_NODE="90"
+#!   TARGET_NODE="96"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="80"
+#!   SOURCE_NODE="96"
+#!   TARGET_NODE="51"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="99"
+#!   SOURCE_NODE="97"
+#!   TARGET_NODE="60"
+#!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="17"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="18"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="57"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 0 FAILED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="58"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 0 FAILED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="59"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 0 FAILED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="102"
+#!   SOURCE_NODE="60"
+#!   TARGET_NODE="96"
+#!   SOURCE_PORT_DESC="fo 1 FAILED"
+#!   TARGET_PORT_DESC="fi 1 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS="8589 -3858"
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="82"
+#!   SOURCE_NODE="67"
+#!   TARGET_NODE="75"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="87"
+#!   SOURCE_NODE="84"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 37
+GUI IGNORE SourceDataset_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_FME_CONNECTION_GROUP_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_USER_NAME_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_PASSWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_PERSISTENT_CONNECTION_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_SHOW_SYSTEM_TABLES_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_FME_GROUP_NAMED1_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_REMOVE_SCHEMA_QUALIFIER_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_WHERE_CLAUSE_WWJD_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_ORACLENONSPATIAL_RDR_ADV_PARA_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_CHUNK_SIZE_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_BEGIN_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_END_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1,ORACLE_AUTONOMOUS_NONSPATIAL_IN_WORKSPACE_ORACLE_AUTONOMOUS_NONSPATIAL_1
+DEFAULT_MACRO NUMERO_DOSSIER 
+GUI OPTIONAL RANGE_SLIDER NUMERO_DOSSIER "RANGE:[,]" NUMERO DOSSIER:
+DEFAULT_MACRO TYPE_SUPPRESSION 
+GUI OPTIONAL LOOKUP_LISTBOX TYPE_SUPPRESSION SUPPRESSION<space>COMPLETE<space>DU<space>DOSSIER,1%SUPPRESSION<space>DES<space>ELEMENTS<space>TOPOGRAPHIQUE<space>DU<space>DOSSIER,2 TYPE DE SUPPRESSION:
+DEFAULT_MACRO INSTANCE_PRODUCTION_ORACLE_12_C 
+GUI IGNORE OPTIONAL TEXT INSTANCE_PRODUCTION_ORACLE_12_C INSTANCE PRODUCTION ORACLE 12 C:
+DEFAULT_MACRO INSTANCE_PRODUCTION_ORACLE_11_G 
+GUI IGNORE OPTIONAL TEXT INSTANCE_PRODUCTION_ORACLE_11_G INSTANCE PRODUCTION ORACLE 11 G:
+DEFAULT_MACRO UTILISATEUR_G_GESTIONGEO_MAJ G_GESTIONGEO_MAJ
+GUI IGNORE OPTIONAL TEXT UTILISATEUR_G_GESTIONGEO_MAJ UTILISATEUR G_GESTIONGEO MAJ:
+DEFAULT_MACRO UTILISATEUR_G_GESTIONGEO_LEC G_GESTIONGEO_LEC
+GUI IGNORE OPTIONAL TEXT UTILISATEUR_G_GESTIONGEO_LEC UTILISATEUR G_GESTIONGEO_LEC:
+DEFAULT_MACRO UTILISATEUR_G_GESTIONGEO G_GESTIONGEO
+GUI IGNORE OPTIONAL TEXT UTILISATEUR_G_GESTIONGEO UTILISATEUR G_GSTIONGEO:
+DEFAULT_MACRO UTILISATEUR_GEO GEO
+GUI IGNORE OPTIONAL TEXT UTILISATEUR_GEO UTILISATEUR GEO:
+DEFAULT_MACRO MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO 
+GUI IGNORE OPTIONAL TEXT MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO MDP PRODUCTION INSTANCE 11 C SCHEMA GEO:
+DEFAULT_MACRO MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ 
+GUI IGNORE OPTIONAL TEXT MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ MDP PRODUCTION INSTANCE ORACLE 12 C SCHEMA G_GESTIONGEO_MAJ:
+DEFAULT_MACRO MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCEMA_G_GESTIONGEO_LEC 
+GUI IGNORE OPTIONAL TEXT MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCEMA_G_GESTIONGEO_LEC MDP PRODUCTION INSTANCE ORACLE 12 C SCHEMA G_GESTIONGEO_LEC:
+DEFAULT_MACRO TA_POINT_TOPO_GPS TA_POINT_TOPO_GPS
+GUI IGNORE OPTIONAL TEXT TA_POINT_TOPO_GPS TABLE TA_POINT_TOPO_GPS:
+DEFAULT_MACRO TA_LIG_TOPO_GPS TA_LIG_TOPO_GPS
+GUI IGNORE OPTIONAL TEXT TA_LIG_TOPO_GPS TABLE TA_LIG_TOPO_GPS:
+DEFAULT_MACRO TA_GG_DOSSIER TA_GG_DOSSIER
+GUI IGNORE OPTIONAL TEXT TA_GG_DOSSIER TABLE TA_GG_DOSSIER:
+DEFAULT_MACRO TA_GG_GEO TA_GG_GEO
+GUI IGNORE OPTIONAL TEXT TA_GG_GEO TABLE TA_GG_GEO:
+DEFAULT_MACRO TA_GG_FICHIER TA_GG_FICHIER
+GUI IGNORE OPTIONAL TEXT TA_GG_FICHIER TABLE TA_GG_FICHIER:
+DEFAULT_MACRO PTTOPO PTTOPO
+GUI IGNORE OPTIONAL TEXT PTTOPO TABLE DES POINTS PTTOPO:
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} ORACLE_AUTONOMOUS_NONSPATIAL
+MULTI_READER_KEYWORD{0} ORACLE_AUTONOMOUS_NONSPATIAL_1
+MULTI_READER_GEN_DIRECTIVES{0} CREATE_FEATURE_TABLES_FROM_DATA,Yes,WORKSPACE,,END_SQL<opencurly>0<closecurly>,,EXPOSE_ATTRS_GROUP,,ORACLENONSPATIAL_RDR_ADV_PARA,,PERSISTENT_CONNECTION,YES,REMOVE_SCHEMA_QUALIFIER,NO,TABLELIST,G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME,SHOW_SYSTEM_TABLES,NO,USE_UNIFIED_DATE_ATTRS,YES,SERVER_TYPE,ORACLE8i,ORACLE_AUTONOMOUS_NONSPATIAL_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,WHERE_CLAUSE_WWJD,,CHUNK_SIZE,200,USER_NAME,G_GESTIONGEO_LEC,BEGIN_SQL<opencurly>0<closecurly>,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ORACLE_AUTONOMOUS_NONSPATIAL_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ORACLE_AUTONOMOUS_NONSPATIAL ORACLE_AUTONOMOUS_NONSPATIAL_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_ORACLE_AUTONOMOUS_NONSPATIAL_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ORACLE_AUTONOMOUS_NONSPATIAL ORACLE_AUTONOMOUS_NONSPATIAL_1
+DEFAULT_MACRO SourceDataset_ORACLE_AUTONOMOUS_NONSPATIAL_1 $(INSTANCE_PRODUCTION_ORACLE_12_C)
+GUI TEXT SourceDataset_ORACLE_AUTONOMOUS_NONSPATIAL_1 Service Name or Easy Connect:
+ORACLE_AUTONOMOUS_NONSPATIAL_1_SERVER_TYPE ORACLE8i
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_ORACLE_AUTONOMOUS_NONSPATIAL_1 Yes
+ORACLE_AUTONOMOUS_NONSPATIAL_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+# ===========================================================================
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_FME_CONNECTION_GROUP_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_AUTONOMOUS_NONSPATIAL_IN_FME_CONNECTION_GROUP_ORACLE_AUTONOMOUS_NONSPATIAL_1 ORACLE_AUTONOMOUS_NONSPATIAL_IN_NAMED_CONNECTION%ORACLE_AUTONOMOUS_NONSPATIAL_IN_WORKSPACE_ORACLE_AUTONOMOUS_NONSPATIAL_1%ORACLE_AUTONOMOUS_NONSPATIAL_IN_PERSISTENT_CONNECTION_ORACLE_AUTONOMOUS_NONSPATIAL_1%ORACLE_AUTONOMOUS_NONSPATIAL_IN_SHOW_SYSTEM_TABLES_ORACLE_AUTONOMOUS_NONSPATIAL_1 Database Connection
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_USER_NAME_ORACLE_AUTONOMOUS_NONSPATIAL_1 $(UTILISATEUR_G_GESTIONGEO_LEC)
+ORACLE_AUTONOMOUS_NONSPATIAL_1_USER_NAME "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_USER_NAME_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL TEXT_ENCODED ORACLE_AUTONOMOUS_NONSPATIAL_IN_USER_NAME_ORACLE_AUTONOMOUS_NONSPATIAL_1 Username:
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_PASSWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1 $(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCEMA_G_GESTIONGEO_LEC)
+ORACLE_AUTONOMOUS_NONSPATIAL_1_PASSWORD "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_PASSWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL PASSWORD_ENCODED ORACLE_AUTONOMOUS_NONSPATIAL_IN_PASSWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1 Password:
+# ==============================================================================
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_WORKSPACE_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+ORACLE_AUTONOMOUS_NONSPATIAL_1_WORKSPACE "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_WORKSPACE_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_PERSISTENT_CONNECTION_ORACLE_AUTONOMOUS_NONSPATIAL_1 YES
+ORACLE_AUTONOMOUS_NONSPATIAL_1_PERSISTENT_CONNECTION "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_PERSISTENT_CONNECTION_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL CHECKBOX ORACLE_AUTONOMOUS_NONSPATIAL_IN_PERSISTENT_CONNECTION_ORACLE_AUTONOMOUS_NONSPATIAL_1 YES%NO Persistent Connection
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_SHOW_SYSTEM_TABLES_ORACLE_AUTONOMOUS_NONSPATIAL_1 NO
+ORACLE_AUTONOMOUS_NONSPATIAL_1_SHOW_SYSTEM_TABLES "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_SHOW_SYSTEM_TABLES_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL CHECKBOX ORACLE_AUTONOMOUS_NONSPATIAL_IN_SHOW_SYSTEM_TABLES_ORACLE_AUTONOMOUS_NONSPATIAL_1 YES%NO Include System Tables
+# ===========================================================================
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_FME_GROUP_NAMED1_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_AUTONOMOUS_NONSPATIAL_IN_FME_GROUP_NAMED1_ORACLE_AUTONOMOUS_NONSPATIAL_1 ORACLE_AUTONOMOUS_NONSPATIAL_IN_REMOVE_SCHEMA_QUALIFIER_ORACLE_AUTONOMOUS_NONSPATIAL_1%ORACLE_AUTONOMOUS_NONSPATIAL_IN_TABLELIST%ORACLE_AUTONOMOUS_NONSPATIAL_IN_WHERE_CLAUSE_WWJD_ORACLE_AUTONOMOUS_NONSPATIAL_1 Constraints
+# ===========================================================================
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_REMOVE_SCHEMA_QUALIFIER_ORACLE_AUTONOMOUS_NONSPATIAL_1 NO
+ORACLE_AUTONOMOUS_NONSPATIAL_1_REMOVE_SCHEMA_QUALIFIER "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_REMOVE_SCHEMA_QUALIFIER_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL CHECKBOX ORACLE_AUTONOMOUS_NONSPATIAL_IN_REMOVE_SCHEMA_QUALIFIER_ORACLE_AUTONOMOUS_NONSPATIAL_1 YES%NO Remove Table Qualifier
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_WHERE_CLAUSE_WWJD_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+ORACLE_AUTONOMOUS_NONSPATIAL_1_WHERE_CLAUSE_WWJD "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_WHERE_CLAUSE_WWJD_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_AUTONOMOUS_NONSPATIAL_IN_WHERE_CLAUSE_WWJD_ORACLE_AUTONOMOUS_NONSPATIAL_1 MODE,WHERE;FORMAT,ORACLE_AUTONOMOUS_NONSPATIAL WHERE Clause:
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_EXPOSE_ATTRS_GROUP_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+ORACLE_AUTONOMOUS_NONSPATIAL_1_EXPOSE_ATTRS_GROUP "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_EXPOSE_ATTRS_GROUP_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_ORACLENONSPATIAL_RDR_ADV_PARA_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+GUI OPTIONAL DISCLOSUREGROUP ORACLE_AUTONOMOUS_NONSPATIAL_IN_ORACLENONSPATIAL_RDR_ADV_PARA_ORACLE_AUTONOMOUS_NONSPATIAL_1 ORACLE_AUTONOMOUS_NONSPATIAL_IN_CHUNK_SIZE_ORACLE_AUTONOMOUS_NONSPATIAL_1%ORACLE_AUTONOMOUS_NONSPATIAL_IN_BEGIN_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1%ORACLE_AUTONOMOUS_NONSPATIAL_IN_END_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1 Advanced
+# ========================================================================
+# The following defines how many rows of data are read from the database
+# at a time. You could prompt for it by uncommenting the relevant GUI
+# lines.
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_CHUNK_SIZE_ORACLE_AUTONOMOUS_NONSPATIAL_1 200
+ORACLE_AUTONOMOUS_NONSPATIAL_1_CHUNK_SIZE "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_CHUNK_SIZE_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI INTEGER ORACLE_AUTONOMOUS_NONSPATIAL_IN_CHUNK_SIZE_ORACLE_AUTONOMOUS_NONSPATIAL_1 Bulk Read Size:
+# ============================================================================
+# The following specifies an SQL command to execute before opening the first
+# ORACLE table.
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_BEGIN_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+ORACLE_AUTONOMOUS_NONSPATIAL_1_BEGIN_SQL{0} "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_BEGIN_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_AUTONOMOUS_NONSPATIAL_IN_BEGIN_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1 MODE,SQL;FORMAT,ORACLE_AUTONOMOUS_NONSPATIAL SQL To Run Before Read
+# ============================================================================
+# The following specifies an SQL command to execute after closing all the
+# ORACLE tables.
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_END_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1 
+ORACLE_AUTONOMOUS_NONSPATIAL_1_END_SQL{0} "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_END_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG ORACLE_AUTONOMOUS_NONSPATIAL_IN_END_SQL{0}_ORACLE_AUTONOMOUS_NONSPATIAL_1 MODE,SQL;FORMAT,ORACLE_AUTONOMOUS_NONSPATIAL SQL To Run After Read
+# ========================================================================
+# The following specifies whether we want to use unified date attributes,
+# where the date and time are read into one attribute, or whether we want
+# to use split date attributes, where two attributes are produced, one with
+# only the date, and another with both the date and time.
+#
+# The default value of yes should not be changed.
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_USE_UNIFIED_DATE_ATTRS_ORACLE_AUTONOMOUS_NONSPATIAL_1 YES
+ORACLE_AUTONOMOUS_NONSPATIAL_1_USE_UNIFIED_DATE_ATTRS "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_USE_UNIFIED_DATE_ATTRS_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_CREATE_FEATURE_TABLES_FROM_DATA_ORACLE_AUTONOMOUS_NONSPATIAL_1 Yes
+ORACLE_AUTONOMOUS_NONSPATIAL_1_CREATE_FEATURE_TABLES_FROM_DATA "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_CREATE_FEATURE_TABLES_FROM_DATA_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+# ============================================================================ 
+DEFAULT_MACRO ORACLE_AUTONOMOUS_NONSPATIAL_IN_ATTRIBUTE_READING_ORACLE_AUTONOMOUS_NONSPATIAL_1 DEFLINE_ATTRS
+ORACLE_AUTONOMOUS_NONSPATIAL_1_ATTRIBUTE_READING "$(ORACLE_AUTONOMOUS_NONSPATIAL_IN_ATTRIBUTE_READING_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+# ============================================================================ 
+ORACLE_AUTONOMOUS_NONSPATIAL_1_GENERATE_FME_BUILD_NUM 20817
+# ==============================================================================
+# The following specifies the name of the Oracle Workspace that we should go
+# to when reading tables. Redefining just the GUI line as we can't bring up the
+# Oracle workspace picker in non-Settings box contexts.
+GUI OPTIONAL TEXT ORACLE_AUTONOMOUS_NONSPATIAL_IN_WORKSPACE_ORACLE_AUTONOMOUS_NONSPATIAL_1 Oracle Workspace:
+ORACLE_AUTONOMOUS_NONSPATIAL_1_DATASET "$(SourceDataset_ORACLE_AUTONOMOUS_NONSPATIAL_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)gestion_fme2020_suppression_recol_ic.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+DEFAULT_MACRO DATASET_KEYWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1 ORACLE_AUTONOMOUS_NONSPATIAL_1
+# -------------------------------------------------------------------------
+
+ORACLE_AUTONOMOUS_NONSPATIAL_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME gestion_fme2020_suppression_recol_ic
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1)   INPUT FEATURE_TYPE *    ROUTE ORACLE_AUTONOMOUS_NONSPATIAL ORACLE_AUTONOMOUS_NONSPATIAL_1::G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME multi_reader_keyword,$(DATASET_KEYWORD_ORACLE_AUTONOMOUS_NONSPATIAL_1) TO FME_GENERIC ::G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+ORACLE_AUTONOMOUS_NONSPATIAL_1_MERGE_DEF ORACLE_AUTONOMOUS_NONSPATIAL_1::G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME EXACT G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME DEFLINE REPERTOIRE,varchar2<openparen>4000<closeparen>,ETAT_ID_FINAL_RECOL,number<openparen>38<comma>0<closeparen>,ETAT_ID_FINAL_IC,number<openparen>38<comma>0<closeparen>,ETAT_ID_MAJ,number<openparen>38<comma>0<closeparen>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME_ORACLE_AUTONOMOUS_NONSPATIAL_1 Splitter"    INPUT FEATURE_TYPE G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME    OUTPUT FEATURE_TYPE G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME_ORACLE_AUTONOMOUS_NONSPATIAL_1_0_AmoDj4gzGNE=    OUTPUT FEATURE_TYPE G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME_ORACLE_AUTONOMOUS_NONSPATIAL_1_1_aUlkYb+UXjM=
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_CLASSIC NOT_ACTIVATED
+MACRO Creator_2D3D    2D_GEOMETRY
+MACRO Creator_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
+FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
+FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        fme_feature_type Creator
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 24"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Creator_CREATED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "NUMERO_DOSSIER" "SET_TO" "$(NUMERO_DOSSIER$encode)" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    TEST "@EvaluateExpression(FDIV,STRING_ENCODED,$(TYPE_SUPPRESSION$encode),Tester)" = 1 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester FAILED Splitter"   INPUT FEATURE_TYPE Tester_FAILED   OUTPUT FEATURE_TYPE Tester_FAILED_0_a8XdYLrAMhE=   OUTPUT FEATURE_TYPE Tester_FAILED_1_MnRsDOa3vaM=   OUTPUT FEATURE_TYPE Tester_FAILED_2_T48pZO4ig3g=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester PASSED Splitter"   INPUT FEATURE_TYPE Tester_PASSED   OUTPUT FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=   OUTPUT FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=   OUTPUT FEATURE_TYPE Tester_PASSED_2_EXStyIAekEM=   OUTPUT FEATURE_TYPE Tester_PASSED_3_gh4Am8DbgQI=
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_5_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_5    INPUT  FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<space><lf>$(UTILISATEUR_G_GESTIONGEO$encode).$(TA_GG_FICHIER$encode)<lf>WHERE<lf>FID_DOSSIER<space>=<space>$(NUMERO_DOSSIER$encode),SQLExecutor_5)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_12_C$encode),SQLExecutor_5)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_5_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_5_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_5)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_5_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_5_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_5 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_5_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_5_<Rejected> INPUT FEATURE_TYPE SQLExecutor_5_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_5<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO DatabaseJoiner_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)"
+INCLUDE [    if { {MUST_MATCH_ONE} == {MATCH_ALL} } {       puts {MACRO DatabaseJoiner_ONE_FEATURE_PER_JOIN <Unused>};    } else {       puts {MACRO DatabaseJoiner_ONE_FEATURE_PER_JOIN YES};    } ]
+FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner    INPUT  FEATURE_TYPE SQLExecutor_5_INITIATOR    READER_TYPE             ORACLE_SPATIAL    READER_DATASET          "$(INSTANCE_PRODUCTION_ORACLE_12_C$encode)"    TABLE_ID                "$(UTILISATEUR_G_GESTIONGEO$encode).$(TA_GG_DOSSIER$encode)"    READER_PARAMS           $(DatabaseJoiner_DIRECTIVES)    JOIN_KEYS               NUMERO_DOSSIER<space>OBJECTID    ADDED_FIELDS            FID_PERIMETRE    COMBINE_ATTRIBUTES      PREFER_JOINED    MATCH_RULE              MUST_MATCH_ONE    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT JOINED FEATURE_TYPE DatabaseJoiner_JOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_8_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_8    INPUT  FEATURE_TYPE DatabaseJoiner_JOINED    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<space><lf>$(UTILISATEUR_G_GESTIONGEO$encode).$(TA_GG_DOSSIER$encode)<lf>WHERE<lf>OBJECTID<space>=<space>$(NUMERO_DOSSIER$encode),SQLExecutor_8)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_12_C$encode),SQLExecutor_8)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_8_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_8_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_8)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_8_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_8_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_8 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_8_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_8_<Rejected> INPUT FEATURE_TYPE SQLExecutor_8_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_8<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE SQLExecutor_8_INITIATOR    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<space><lf>$(UTILISATEUR_G_GESTIONGEO$encode).$(TA_GG_GEO$encode)<lf>WHERE<lf>OBJECTID<space>=<space><at>Value<openparen>FID_PERIMETRE<closeparen>,SQLExecutor)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_12_C$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_4_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_GEO)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_4    INPUT  FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=    INPUT  FEATURE_TYPE Tester_FAILED_2_T48pZO4ig3g=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<space><lf>$(UTILISATEUR_GEO$encode).$(PTTOPO$encode)<lf>WHERE<lf>ID_DOS<space>=<space>$(NUMERO_DOSSIER$encode),SQLExecutor_4)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_11_G$encode),SQLExecutor_4)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_4_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_4_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_4)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_4_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_4_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_4 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_4_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_4_<Rejected> INPUT FEATURE_TYPE SQLExecutor_4_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_4<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_3_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_GEO)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_3    INPUT  FEATURE_TYPE Tester_PASSED_2_EXStyIAekEM=    INPUT  FEATURE_TYPE Tester_FAILED_1_MnRsDOa3vaM=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<lf>$(UTILISATEUR_GEO$encode).$(TA_LIG_TOPO_GPS$encode)<lf>WHERE<lf>GEO_REF<space>=<space><apos>REC_$(NUMERO_DOSSIER$encode)<apos>,SQLExecutor_3)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_11_G$encode),SQLExecutor_3)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_3_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_3_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_3)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_3_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_3_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_2_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACKE_11_C_SCHEMA_GEO)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_GEO)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE Tester_PASSED_3_gh4Am8DbgQI=    INPUT  FEATURE_TYPE Tester_FAILED_0_a8XdYLrAMhE=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<lf>FROM<lf>$(UTILISATEUR_GEO$encode).$(TA_POINT_TOPO_GPS$encode)<lf>WHERE<lf>GEO_REF<space>=<space><apos>REC_$(NUMERO_DOSSIER$encode)<apos>,SQLExecutor_2)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_11_G$encode),SQLExecutor_2)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_2_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_2)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_2_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_2_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_2_<Rejected> INPUT FEATURE_TYPE SQLExecutor_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_2<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE SQLExecutor_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_2_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_3_INITIATOR    INPUT  FEATURE_TYPE SQLExecutor_4_INITIATOR    KEEP_ATTRS { NUMERO_DOSSIER }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT        }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE AttributeKeeper_2_OUTPUT    MODE ONE_LEVEL    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES All    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
+# -------------------------------------------------------------------------
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    TEST "@EvaluateExpression(FDIV,STRING_ENCODED,$(TYPE_SUPPRESSION$encode),Tester_2)" = 1 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_2_FAILED
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME AttributeKeeper_4    INPUT  FEATURE_TYPE G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME_ORACLE_AUTONOMOUS_NONSPATIAL_1_1_aUlkYb+UXjM=    KEEP_ATTRS { ETAT_ID_MAJ }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_4_OUTPUT        }
+# -------------------------------------------------------------------------
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_2    FLUSH_WHEN_GROUPS_CHANGE No    INPUT REFERENCER FEATURE_TYPE Tester_2_FAILED    INPUT REFERENCEE FEATURE_TYPE AttributeKeeper_4_OUTPUT    REFERENCE_INFO $(FeatureMerger_2_REFERENCE_INFO)    REFERENCE_TABLE 1 1 AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES NO    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE <Unused>    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_2_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_2_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_2_<Rejected> INPUT FEATURE_TYPE FeatureMerger_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger_2<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_6_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCEMA_G_GESTIONGEO_LEC)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_LEC)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_6    INPUT  FEATURE_TYPE FeatureMerger_2_MERGED    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,SELECT<space><lf><space><space><space><space>OBJECTID<comma><space><lf><space><space><space><space>FICHIER<space><lf>FROM<lf><space><space><space><space>$(UTILISATEUR_G_GESTIONGEO$encode).$(TA_GG_FICHIER$encode)<space><lf>WHERE<lf><space><space><space><space>FID_DOSSIER<space>=<space>$(NUMERO_DOSSIER$encode)<space><lf>AND<lf><space><space><space><space>INTEGRATION<space>=<space>1,SQLExecutor_6)"    READER_TYPE          ORACLE_AUTONOMOUS_NONSPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_12_C$encode),SQLExecutor_6)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_6_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_6_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_6)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_6_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_6_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_6 INITIATOR Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_6_INITIATOR
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_6_<Rejected> INPUT FEATURE_TYPE SQLExecutor_6_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_6<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_7_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA Yes REMOVE_SCHEMA_QUALIFIER NO PERSISTENT_CONNECTION YES SHOW_SYSTEM_TABLES NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ)" SERVER_TYPE ORACLE8i USE_UNIFIED_DATE_ATTRS YES USER_NAME "$(UTILISATEUR_G_GESTIONGEO_MAJ)"
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_7    INPUT  FEATURE_TYPE SQLExecutor_6_RESULT    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,UPDATE<space><lf>$(UTILISATEUR_G_GESTIONGEO$encode).$(TA_GG_FICHIER$encode)<lf>SET<space>INTEGRATION<space>=<space>0<space><lf>WHERE<space>OBJECTID<space>=<space><at>Value<openparen>OBJECTID<closeparen>,SQLExecutor_7)"    READER_TYPE          ORACLE_SPATIAL    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(INSTANCE_PRODUCTION_ORACLE_12_C$encode),SQLExecutor_7)"    COMBINE_ATTRIBUTES   RESULT_ONLY    IGNORE_NULLS         <Unused>    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_7_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_7_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_7)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_7_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_7_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_7 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_7_RESULT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_7_<Rejected> INPUT FEATURE_TYPE SQLExecutor_7_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_7<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+MACRO DatabaseUpdater_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA,Yes,REMOVE_SCHEMA_QUALIFIER,NO,PERSISTENT_CONNECTION,YES,SHOW_SYSTEM_TABLES,NO,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,PASSWORD,$(MDP_PRODUCTION_INSTANCE_ORACLE_12_C_SCHEMA_G_GESTIONGEO_MAJ$encode),SERVER_TYPE,ORACLE8i,USE_UNIFIED_DATE_ATTRS,YES,USER_NAME,$(UTILISATEUR_G_GESTIONGEO_MAJ$encode)
+DEFAULT_MACRO DatabaseUpdater_KEY_COLUMNS
+DEFAULT_MACRO DatabaseUpdater_UPDATE_COLUMNS
+DEFAULT_MACRO DatabaseUpdater_ATTRS_TO_EVALUATE
+INCLUDE [    set keyColumns {};    set toEvaluate {};    set updateColumns {};    if { {KEYS} eq {KEYS} } {       foreach {columnName attr} [split {OBJECTID;@EvaluateExpression(FDIV,STRING_ENCODED,$(NUMERO_DOSSIER$encode),DatabaseUpdater)} {;}] {          set attrExp $attr;          if [regexp {@EvaluateExpression\([^)]*STRING_ENCODED,(.*),.+\)} $attrExp -> unwrapped] {             lappend toEvaluate ATTR $columnName $unwrapped;          } else {             lappend toEvaluate ATTR $columnName $attr;          };          lappend keyColumns $columnName;       };    };    foreach {columnName attr} [split {FID_ETAT_AVANCEMENT;ETAT_ID_MAJ} {;}] {       if { [lsearch $keyColumns $columnName] < 0 } {          set attrExp $attr;          if [regexp {@EvaluateExpression\([^)]*STRING_ENCODED,(.*),.+\)} $attrExp -> unwrapped] {             lappend toEvaluate ATTR $columnName $unwrapped;          } else {             lappend toEvaluate ATTR $columnName $attr;          };          lappend updateColumns $columnName;       };    };    puts "MACRO DatabaseUpdater_KEY_COLUMNS [join $keyColumns {,}]";    puts "MACRO DatabaseUpdater_UPDATE_COLUMNS [join $updateColumns {,}]";    puts "MACRO DatabaseUpdater_ATTRS_TO_EVALUATE [join $toEvaluate { }]"; ]
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME DatabaseUpdater_AttributeEvaluator    INPUT  FEATURE_TYPE SQLExecutor_7_INITIATOR    ATTRSET_PROPAGATE_MISSING YES    $(DatabaseUpdater_ATTRS_TO_EVALUATE)    OUTPUT OUTPUT FEATURE_TYPE "DatabaseUpdater_UPDATE_FEATURES"
+FACTORY_DEF * DatabaseUpdaterFactory    FACTORY_NAME DatabaseUpdater    INPUT UPDATE FEATURE_TYPE "DatabaseUpdater_UPDATE_FEATURES"    DBUPDATER_FORMAT_SHORT_NAME    ORACLE_NONSPATIAL    DBUPDATER_DATASET              "$(INSTANCE_PRODUCTION_ORACLE_12_C$encode)"    DBUPDATER_CONNECTION_PARAMS    $(DatabaseUpdater_DIRECTIVES)    DBUPDATER_TABLE                "G_GESTIONGEO.TA_GG_DOSSIER"    DBUPDATER_KEY_COLUMNS          $(DatabaseUpdater_KEY_COLUMNS)    DBUPDATER_UPDATE_COLUMNS       $(DatabaseUpdater_UPDATE_COLUMNS)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE G_GESTIONGEO.V_VALEUR_GESTION_TRAITEMENT_FME_ORACLE_AUTONOMOUS_NONSPATIAL_1_0_AmoDj4gzGNE=    KEEP_ATTRS { REPERTOIRE }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        }
+# -------------------------------------------------------------------------
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    FLUSH_WHEN_GROUPS_CHANGE No    INPUT REFERENCER FEATURE_TYPE AttributeKeeper_3_OUTPUT    INPUT REFERENCEE FEATURE_TYPE Tester_2_PASSED    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE 1 1 AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES NO    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE <Unused>    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_<Rejected> INPUT FEATURE_TYPE FeatureMerger_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger<space>g<u00e9>n<u00e8>re<space>une<space>entit<u00e9><space><lt>Rejected<gt>.<space>Pour<space>continuer<space>le<space>traitement<space>quand<space>les<space>entit<u00e9>s<space>sont<space>rejet<u00e9>es<comma><space>changer<space><apos>Param<u00e8>tres<space>du<space>projet<apos><space><gt><space><apos>Traitement<apos><space><gt><space><apos>Gestion<space>des<space>entit<u00e9>s<space>rejet<u00e9>es<apos><space><space>en<space><apos>Continuer<space>le<space>traitement<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_MERGED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "chemin_dossier" "SET_TO" "<at>Value<openparen>REPERTOIRE<closeparen><solidus>$(NUMERO_DOSSIER$encode)" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME SystemCaller    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE SystemCaller_OUTPUT         @System(LOG_PREFIX,SystemCaller,ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,rm<space>-r<space><at>Value<openparen>chemin_dossier<closeparen>,SystemCaller)")
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SystemCaller OUTPUT Transformer Output Nuker"   INPUT FEATURE_TYPE SystemCaller_OUTPUT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
